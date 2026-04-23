@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.12",
+    "lastTouchedAt": "2026-04-14T01:28:34.215Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-13T20:02:32.357Z",
+    "lastRunVersion": "2026.4.12",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "local_llama": {
+        "api": "openai-completions",
+        "baseUrl": "http://172.28.224.1:8084/v1",
+        "apiKey": "sk-local",
+        "models": [
+          {
+            "id": "Qwen3.5-9B-Q4_K_M.gguf",
+            "name": "Local Qwen3.5 9B (llama.cpp)",
+            "contextWindow": 131072,
+            "maxTokens": 8192,
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "local_llama/Qwen3.5-9B-Q4_K_M.gguf"
+      },
+      "models": {
+        "local_llama/Qwen3.5-9B-Q4_K_M.gguf": {}
+      },
+      "workspace": "/home/danox/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "subagents": {
+        "maxConcurrent": 2,
+        "model": "local_llama/Qwen3.5-9B-Q4_K_M.gguf"
+      },
+      "heartbeat": {
+        "every": "0m",
+        "model": "local_llama/Qwen3.5-9B-Q4_K_M.gguf",
+        "prompt": "",
+        "target": "last"
+      },
+      "sandbox": {
+        "browser": {
+          "allowHostControl": true
+        }
+      }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "spec",
+        "name": "spec",
+        "workspace": "/home/danox/.openclaw/workspace-spec",
+        "agentDir": "/home/danox/.openclaw/agents/spec/agent"
+      },
+      {
+        "id": "implementer",
+        "name": "implementer",
+        "workspace": "/home/danox/.openclaw/workspace-implementer",
+        "agentDir": "/home/danox/.openclaw/agents/implementer/agent"
+      },
+      {
+        "id": "project-manager",
+        "name": "Project Manager",
+        "workspace": "/home/danox/.openclaw/workspace-project-manager,",
+        "agentDir": "/home/danox/.openclaw/agents/project-manager/agent"
+      }
+      ,
+      {
+        "id": "qa",
+        "name": "Quality Assurance",
+        "workspace": "/home/danox/.openclaw/workspace-qa,",
+        "agentDir": "/home/danox/.openclaw/agents/qa/agent"
+      },
+      {
+        "id": "project-owner",
+        "name": "Project Owner",
+        "workspace": "/home/danox/.openclaw/workspace-project-owner,",
+        "agentDir": "/home/danox/.openclaw/agents/project-owner/agent"
+      }
+    ]
+  },
+  "acp": {
+    "enabled": true,
+    "dispatch": {
+      "enabled": true
+    },
+    "backend": "acpx",
+    "defaultAgent": "codex",
+    "allowedAgents": [
+      "codex"
+    ]
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "${OPENCLAW_GATEWAY_TOKEN}"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        },
+        "responses": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true
+      },
+      "acpx": {
+        "enabled": true
+      },
+      "browser": {
+        "enabled": true
+      }
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "selfChatMode": true,
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "+573006211340"
+      ],
+      "enabled": false
+    }
+  },
+  "tools": {
+    "elevated": {
+      "enabled": true,
+      "allowFrom": {
+        "webchat": [
+          "*"
+        ]
+      }
+    },
+    "exec": {
+      "host": "gateway",
+      "security": "full",
+      "ask": "off"
+    },
+    "web": {
+      "search": {
+        "openaiCodex": {}
+      },
+      "fetch": {
+        "enabled": true
+      }
+    }
+  },
+  "browser": {
+    "enabled": true,
+    "defaultProfile": "manual",
+    "ssrfPolicy": {
+      "dangerouslyAllowPrivateNetwork": true
+    },
+    "profiles": {
+      "manual": {
+        "cdpUrl": "http://172.28.228.83:18801",
+        "attachOnly": true,
+        "color": "#00AA00"
+      }
+    }
+  }
+}

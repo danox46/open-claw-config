@@ -1,0 +1,56 @@
+# Ignore everything by default
+*
+
+# Keep the gitignore itself
+!.gitignore
+
+# Keep main OpenClaw config
+!openclaw.json
+
+# Keep custom shared assets you maintain
+!skills/
+!skills/**
+!scripts/
+!scripts/**
+!docs/
+!docs/**
+!templates/
+!templates/**
+
+# Keep agent workspaces like:
+# /home/danox/.openclaw/workspace-project-manager/
+# /home/danox/.openclaw/workspace-project-owner/
+# /home/danox/.openclaw/workspace-qa/
+!workspace-*/
+
+# Re-ignore contents inside each workspace by default
+workspace-*/*
+
+# Keep agent workspace config files
+!workspace-*/AGENTS.md
+!workspace-*/SOUL.md
+!workspace-*/USER.md
+!workspace-*/IDENTITY.md
+!workspace-*/TOOLS.md
+!workspace-*/HEARTBEAT.md
+
+# Keep agent memory folders
+!workspace-*/memory/
+!workspace-*/memory/**
+
+# Optional: keep other stable agent docs/config if you use them
+!workspace-*/README.md
+!workspace-*/notes/
+!workspace-*/notes/**
+
+# Always ignore secrets/runtime/state
+.env
+.env.*
+*.log
+logs/
+tmp/
+cache/
+sessions/
+auth/
+profiles/
+sandboxes/
