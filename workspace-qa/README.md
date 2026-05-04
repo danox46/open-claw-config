@@ -1,221 +1,276 @@
-# QA Project
+# Test Internal App
 
-Comprehensive QA automation and testing framework for internal applications.
+## Project Overview
 
-## Overview
+The Test Internal App is a comprehensive testing application designed to validate internal system components, perform quality assurance checks, and provide a centralized platform for testing various functionalities. This application serves as the primary tool for ensuring system reliability and performance.
 
-This project provides a complete QA solution including automated testing, continuous integration support, and deployment pipelines for the test-internal-app.
+## Key Features
 
-## Project Structure
-
-```
-qa/
-├── README.md              # This file
-├── .env.example           # Environment template
-├── docker-compose.yml     # Docker orchestration
-├── .dockerignore          # Docker ignore rules
-├── src/                   # Source code
-│   ├── components/        # Test components
-│   ├── utils/             # Helper functions
-│   └── config/            # Configuration files
-├── tests/                 # Test suites
-│   ├── e2e/              # End-to-end tests
-│   ├── unit/             # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                  # Documentation
-└── scripts/               # Utility scripts
-```
-
-## Prerequisites
-
-- Node.js 18.x or higher
-- Docker 20.x or higher
-- Docker Compose 2.x or higher
+- **Automated Testing Suite**: Pre-configured test scenarios for rapid validation
+- **Quality Assurance Dashboard**: Real-time monitoring of test results and metrics
+- **Integration Testing**: End-to-end testing capabilities for system components
+- **Regression Testing**: Automated checks to prevent unintended changes
+- **Performance Monitoring**: Resource usage tracking and optimization insights
 
 ## Installation
 
-### Quick Start (Docker)
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Git for version control
+
+### Setup Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd workspace-qa
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment**
+   - Copy the example environment file:
+     ```bash
+     cp .env.example .env
+     ```
+   - Update the `.env` file with your configuration
+
+4. **Start the Application**
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+### Running Tests
+
+#### All Tests
+```bash
+npm test
+```
+
+#### Specific Test Suite
+```bash
+npm test -- --testNamePattern="your-test-name"
+```
+
+#### Watch Mode (Development)
+```bash
+npm test -- --watch
+```
+
+### Test Categories
+
+1. **Unit Tests**: Individual component validation
+2. **Integration Tests**: Component interaction verification
+3. **E2E Tests**: End-to-end user journey validation
+4. **Performance Tests**: Load and stress testing
+
+### Running a Specific Category
 
 ```bash
-# Clone the repository
-git clone <repository-url>
+# Unit tests
+npm test -- unit
 
-# Copy environment template
-cp .env.example .env
+# Integration tests
+npm test -- integration
 
-# Start with Docker Compose
-docker-compose up -d
+# E2E tests
+npm test -- e2e
 ```
 
-### Manual Setup
+## Configuration
 
-```bash
-# Install dependencies
-npm install
+### Test Environment Variables
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your configuration
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `TEST_ENV` | Environment mode (dev/test/prod) | `dev` |
+| `TEST_TIMEOUT` | Maximum test execution time (ms) | `30000` |
+| `RETRY_COUNT` | Number of test retries | `2` |
+| `MOCHA_REPORTER` | Test reporter format | `spec` |
 
-# Run initial setup
-npm run setup
+### Custom Configuration
+
+Create a `test.config.js` file for custom settings:
+
+```javascript
+module.exports = {
+  testEnvironment: 'node',
+  testMatch: ['**/__tests__/**/*.test.js'],
+  testTimeout: 30000,
+  retries: 2,
+  setupFilesAfterEnv: ['./setup.js'],
+}
 ```
 
-## Environment Configuration
+## Testing Workflow
 
-Create a `.env` file in the root directory:
+### 1. Write Tests
 
-```env
-# Docker settings
-DOCKER_HOST=localhost
-DOCKER_PORT=2375
+- Create test files in the `__tests__/` directory
+- Follow Jest/Mocha naming conventions (`*.test.js` or `*.spec.js`)
+- Use descriptive test names for clarity
 
-# Database settings
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=test_db
-DB_USER=test_user
-DB_PASSWORD=test_password
-
-# API settings
-API_URL=http://localhost:3000
-API_KEY=your-api-key-here
-
-# Test settings
-TEST_MODE=development
-COVERAGE=true
-```
-
-## Docker Compose Usage
-
-### Start All Services
-
-```bash
-docker-compose up -d
-```
-
-### Start Specific Services
-
-```bash
-# Only database
-docker-compose up -d db
-
-# Only application
-docker-compose up -d app
-
-# All services with logs
-docker-compose up
-```
-
-### Stop Services
-
-```bash
-# Stop all services
-docker-compose down
-
-# Stop with data volume preservation
-docker-compose down -v
-```
-
-### View Logs
-
-```bash
-# All logs
-docker-compose logs -f
-
-# Specific service logs
-docker-compose logs -f app
-docker-compose logs -f db
-```
-
-### Exec into Containers
-
-```bash
-# Enter app container
-docker-compose exec app bash
-
-# Run npm commands in app
-docker-compose exec app npm test
-```
-
-## Available Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install dependencies |
-| `npm test` | Run tests with coverage |
-| `npm run lint` | Lint source code |
-| `npm run dev` | Run development server |
-| `npm run build` | Run lint and tests |
-| `npm run setup` | Initial project setup |
-
-## Development Workflow
-
-1. Clone the repository
-2. Copy `.env.example` to `.env`
-3. Configure environment variables
-4. Run `npm install` to install dependencies
-5. Start development server with `npm run dev`
-
-## Testing
-
-### Run All Tests
+### 2. Run Tests Locally
 
 ```bash
 npm test
 ```
 
-### Run with Coverage
+### 3. Review Results
+
+- Check console output for test results
+- Review coverage reports (if enabled)
+- Address any failing tests
+
+### 4. Commit Changes
 
 ```bash
-npm run test:coverage
+git add __tests__/
+git commit -m "Add new test suite"
 ```
 
-### Run Specific Test Suite
+## Project Structure
+
+```
+workspace-qa/
+├── README.md                    # This file
+├── package.json                 # Project dependencies and scripts
+├── .env.example                 # Environment configuration template
+├── .gitignore                   # Git ignore rules
+├── src/                         # Source code
+│   ├── components/             # Reusable components
+│   ├── services/               # External service integrations
+│   ├── utils/                  # Helper functions
+│   └── index.js                # Application entry point
+├── __tests__/                  # Test files
+│   ├── unit/                   # Unit tests
+│   ├── integration/            # Integration tests
+│   └── e2e/                    # End-to-end tests
+├── coverage/                    # Test coverage reports
+└── docs/                        # Additional documentation
+```
+
+## Test Coverage
+
+### Generating Coverage Reports
 
 ```bash
-npm run test:e2e
-npm run test:unit
-npm run test:integration
+# Generate coverage
+npm test -- --coverage
+
+# Open coverage report
+open coverage/lcov-report/index.html
+```
+
+### Coverage Thresholds
+
+- **Lines**: 80%
+- **Functions**: 75%
+- **Branches**: 70%
+- **Statements**: 80%
+
+## Continuous Integration
+
+### GitHub Actions
+
+Tests are automatically run on:
+- Pull request creation
+- Push to main branch
+- Scheduled nightly runs
+
+### CI Configuration
+
+Located in `.github/workflows/ci.yml`
+
+```yaml
+name: CI Pipeline
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm ci
+      - run: npm test
 ```
 
 ## Troubleshooting
 
-### Docker Issues
+### Common Issues
 
-```bash
-# Check container status
-docker-compose ps
+1. **Tests Hanging**
+   - Increase timeout: `npm test -- --testTimeout=60000`
+   - Check for infinite loops in tests
 
-# View logs for specific service
-docker-compose logs -f <service-name>
+2. **Environment Configuration Errors**
+   - Verify `.env` file exists and is correctly formatted
+   - Check environment variable values
 
-# Restart service
-docker-compose restart <service-name>
+3. **Dependency Conflicts**
+   - Clear node_modules: `rm -rf node_modules && npm install`
+   - Check for version mismatches in `package.json`
 
-# Rebuild and restart
-docker-compose up --build -d
-```
-
-### Node Issues
-
-```bash
-# Clear node_modules and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
+4. **Port Already in Use**
+   - Find and kill process: `lsof -i :<port>`
+   - Or update port configuration in `.env`
 
 ## Contributing
 
-1. Create a feature branch
-2. Make changes
-3. Run tests
-4. Submit a pull request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Code Style
+
+- Follow ESLint rules
+- Use Prettier for formatting
+- Write meaningful commit messages
+- Include tests for new features
 
 ## License
 
-MIT License
+[Add your license information here]
 
 ## Support
 
-For issues and questions, contact the QA team.
+For issues and questions:
+- **GitHub Issues**: [Link to issues]
+- **Documentation**: [Link to docs]
+- **Email**: support@example.com
+
+## Version History
+
+### v1.0.0 (Current)
+- Initial release
+- Core testing functionality
+- Basic CI/CD integration
+
+### v1.1.0 (Planned)
+- Enhanced coverage reporting
+- Additional test categories
+- Performance optimization
+
+## Acknowledgments
+
+- Contributors to the testing framework
+- Open-source libraries used
+- Community feedback
+
+---
+
+**Last Updated**: [Current Date]
+**Maintained by**: QA Team

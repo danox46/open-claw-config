@@ -11,7 +11,7 @@ For project work:
 - Before making changes, verify the target with an `exec` call using the project root as `workdir`.
 
 Project Root:
-/home/danox/.openclaw/workspace-shared/projects/test-internal-app
+/home/danox/.openclaw/workspace-shared/
 
 Tool contract:
 - For every shell command, call `exec` with `workdir` set to the Project Root above.

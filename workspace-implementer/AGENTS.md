@@ -13,7 +13,7 @@ For project work:
 - Before making changes, verify the target with an `exec` call using the project root as `workdir`.
 
 Project Root:
-/home/danox/.openclaw/workspace-shared/projects/test-internal-app
+/home/danox/.openclaw/workspace-shared/
 
 Tool contract:
 - For every shell command, call `exec` with `workdir` set to the Project Root above.
@@ -21,10 +21,6 @@ Tool contract:
 - Do not use workspace-relative paths for project files.
 - Do not treat /home/danox/.openclaw/workspace-shared as the app directory.
 - First, verify the directory with an exec call that prints pwd and lists the top-level files.
-
-## First Run
-
-If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
 
 ## Session Startup
 

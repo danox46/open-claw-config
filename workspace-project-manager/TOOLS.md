@@ -3,7 +3,7 @@
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
 Project Root:
-/home/danox/.openclaw/workspace-shared/projects/test-internal-app
+/home/danox/.openclaw/workspace-shared/
 
 Tool contract:
 - For every shell command, call `exec` with `workdir` set to the Project Root above.
