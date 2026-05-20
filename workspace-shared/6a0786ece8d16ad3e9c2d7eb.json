@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "LinkedIn Carousel Post: The Real Cost of Manual Operations",
+    "description": "Create a 5-6 slide LinkedIn carousel addressing 'The Real Cost of Manual Operations: How AI can cut repetitive tasks.' Slide 1: Hook about AI tool overload. Slide 2: Story/example of time savings without specific numbers. Slide 3-4: Bullet points on what's holding them back (exception handling, data quality, edge cases). Slide 5: Clear CTA for consultation. Align with Phase 1 Awareness positioning.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Single-Image Post: AI Automation vs Complexity",
+    "description": "Design a single-image LinkedIn post graphic showing 'AI Automation Should Reduce Manual Work, Not Add Complexity.' Visual: Split comparison - left side chaotic manual process (spreadsheets, email chains), right side clean automated system. Headline: 'Stop Losing Time to Manual Operations.' Subtext: 'ROI-first AI automation for operators. DM us for a free workflow audit.' No specific metrics.",
+    "type": "image"
+  },
+  {
+    "asset": "LinkedIn Post: 5 Signs Your Automation is Holding You Back",
+    "description": "Draft a LinkedIn post for problem-identification content: '5 Signs Your Current Automation is Holding You Back.' Include: Hook about unclear ROI from current AI tools. Brief examples of holding back factors (exception handling, data quality, edge cases). Clear CTA for consultation. Align with Phase 1 Awareness positioning. Length: 300-400 characters for optimal engagement.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Carousel Draft: From Pilot to Scale - Why AI Projects Fail",
+    "description": "Create a 6-7 slide LinkedIn carousel post for content theme: 'From Pilot to Scale: Why Most AI Projects Fail and How to Prevent It.' Slide 1: Hook about AI project failure rates. Slide 2-4: Common failure patterns without specific numbers. Slide 5: Prevention framework aligned with practical, ROI-first positioning. Slide 6: CTA for consultation. Stage as carousel draft in dashboard for review.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn In-Feed Message: Connection Request with Value Hook",
+    "description": "Write a LinkedIn in-feed connection message (under 200 characters) that references the recipient's recent post about AI automation challenges. Include: Brief value proposition aligned with key message 'AI automation should reduce manual work, not add complexity.' Clear CTA for brief chat. Tone: practical, ROI-focused, no jargon. No specific metrics.",
+    "type": "text"
+  }
+]

@@ -1,0 +1,351 @@
+{
+  "campaign": {
+    "name": "AI Made Simple",
+    "objective": "Generate 50 qualified demo requests from medium businesses struggling with AI implementation within 6 months",
+    "targetAudience": "Medium businesses (50-500 employees, $10M-$100M revenue) facing AI implementation complexity, poor ROI visibility, or integration challenges",
+    "positioning": "Implementation Over Installation - we deliver working AI solutions, not just software",
+    "keyMessages": [
+      "Stop wrestling with AI; start using it to solve real business problems",
+      "Enterprise AI power without enterprise complexity or overhead",
+      "See your ROI within 90 days or we keep working until you do"
+    ],
+    "primaryChannel": "LinkedIn (decision-makers + SEO blog distribution)",
+    "timeline": "6 months starting June 2026: Month 1-2 awareness, Month 3-4 consideration, Month 5-6 conversion"
+  },
+  "contentPlan": [
+    {
+      "type": "Blog Post",
+      "title": "Why 62% of Medium Businesses Fail at AI (And How to Succeed)",
+      "purpose": "SEO visibility + awareness for struggling SMBs",
+      "targetKeywords": [
+        "AI implementation for SMBs",
+        "AI for medium businesses",
+        "AI adoption challenges"
+      ],
+      "channel": "Company blog",
+      "callToAction": "Download our AI Implementation Checklist"
+    },
+    {
+      "type": "Blog Post",
+      "title": "AI ROI Calculator: How Much Time Will Your AI Solution Save?",
+      "purpose": "Lead magnet for ROI-focused decision-makers",
+      "targetKeywords": [
+        "AI ROI calculator",
+        "AI business value",
+        "AI cost benefit analysis"
+      ],
+      "channel": "Company blog",
+      "callToAction": "Get Your Free ROI Estimate"
+    },
+    {
+      "type": "Case Study",
+      "title": "How a $45M Manufacturing Company Saved 200 Hours Weekly with AI",
+      "purpose": "Social proof for implementation success stories",
+      "targetKeywords": [
+        "AI case study manufacturing",
+        "AI time savings",
+        "AI implementation success"
+      ],
+      "channel": "LinkedIn + Company blog",
+      "callToAction": "See What AI Can Do for Your Business"
+    },
+    {
+      "type": "Webinar",
+      "title": "AI Without the Hype: Real Implementation for Medium Businesses",
+      "purpose": "Nurture consideration-stage prospects with practical guidance",
+      "targetKeywords": [
+        "AI implementation webinar",
+        "AI for business",
+        "AI workshop SMB"
+      ],
+      "channel": "LinkedIn Events + Email",
+      "callToAction": "Register for Free"
+    },
+    {
+      "type": "Lead Magnet",
+      "title": "The 12-Step AI Implementation Checklist for Medium Businesses",
+      "purpose": "Top-funnel capture + education",
+      "targetKeywords": [
+        "AI checklist",
+        "AI implementation guide",
+        "AI roadmap SMB"
+      ],
+      "channel": "LinkedIn + Blog sidebar",
+      "callToAction": "Download Free Checklist"
+    }
+  ],
+  "landingPages": [
+    {
+      "slug": "ai-made-simple",
+      "headline": "Enterprise AI Power Without Enterprise Complexity",
+      "subheadline": "Working AI solutions deployed in 30 days or less - no PhD required",
+      "valueProposition": "AI First Solutions delivers proven AI implementations that actually solve business problems, with measurable ROI within 90 days.",
+      "cta": "Get Your Free Implementation Plan",
+      "formId": "demo-request-form"
+    },
+    {
+      "slug": "roi-calculator",
+      "headline": "See Exactly How Much AI Will Save Your Business",
+      "subheadline": "Interactive ROI calculator + personalized implementation recommendations",
+      "valueProposition": "Understand the real time and cost savings your AI solution will deliver before making a commitment.",
+      "cta": "Start Your Free ROI Analysis",
+      "formId": "roi-analysis-form"
+    },
+    {
+      "slug": "ai-implementation-checklist",
+      "headline": "Is Your Business Ready for AI?",
+      "subheadline": "12-step checklist to assess readiness and avoid common implementation pitfalls",
+      "valueProposition": "Most businesses fail at AI because of poor planning. Our checklist ensures you don't make those mistakes.",
+      "cta": "Download Free Checklist",
+      "formId": "checklist-download-form"
+    }
+  ],
+  "forms": [
+    {
+      "id": "demo-request-form",
+      "name": "Implementation Consultation",
+      "purpose": "demo request",
+      "fields": [
+        "first_name",
+        "email",
+        "company_size"
+      ],
+      "successAction": "trigger:demo-nurture-sequence"
+    },
+    {
+      "id": "roi-analysis-form",
+      "name": "ROI Calculator Access",
+      "purpose": "content download",
+      "fields": [
+        "email",
+        "company_name"
+      ],
+      "successAction": "redirect:/roi-calculator"
+    },
+    {
+      "id": "checklist-download-form",
+      "name": "AI Readiness Checklist",
+      "purpose": "content download",
+      "fields": [
+        "first_name",
+        "email"
+      ],
+      "successAction": "redirect:/ai-checklist"
+    },
+    {
+      "id": "webinar-registration-form",
+      "name": "AI Implementation Webinar",
+      "purpose": "webinar registration",
+      "fields": [
+        "first_name",
+        "email",
+        "company_size",
+        "industry"
+      ],
+      "successAction": "trigger:webinar-nurture-sequence"
+    }
+  ],
+  "emailSequences": [
+    {
+      "name": "Top-Funnel Checklist Download",
+      "trigger": "form:checklist-download-form",
+      "steps": [
+        {
+          "delay": "immediate",
+          "subject": "Your AI Implementation Checklist (inside)",
+          "purpose": "Deliver value + position as experts"
+        },
+        {
+          "delay": "3 days",
+          "subject": "Most businesses skip step 4 - are you doing it?",
+          "purpose": "Educate on common pitfalls"
+        },
+        {
+          "delay": "5 days",
+          "subject": "See how [Company] avoided the #1 AI mistake",
+          "purpose": "Social proof"
+        },
+        {
+          "delay": "7 days",
+          "subject": "Quick question about your AI plans",
+          "purpose": "Engagement + nurture"
+        },
+        {
+          "delay": "10 days",
+          "subject": "Last reminder: Your checklist + bonus guide inside",
+          "purpose": "Close with urgency"
+        }
+      ]
+    },
+    {
+      "name": "Demo Request Nurture",
+      "trigger": "form:demo-request-form",
+      "steps": [
+        {
+          "delay": "immediate",
+          "subject": "Thanks for requesting a consultation - here's what to expect",
+          "purpose": "Set expectations + reduce friction"
+        },
+        {
+          "delay": "2 days",
+          "subject": "Most demos take 30+ minutes. Ours is different.",
+          "purpose": "Differentiate offering"
+        },
+        {
+          "delay": "4 days",
+          "subject": "Real question: What problem are you trying to solve?",
+          "purpose": "Qualify + engage"
+        },
+        {
+          "delay": "6 days",
+          "subject": "Case study: $45M company saved 200 hours/week",
+          "purpose": "Social proof"
+        },
+        {
+          "delay": "9 days",
+          "subject": "Are you still looking at AI solutions?",
+          "purpose": "Nurture + re-engage"
+        }
+      ]
+    },
+    {
+      "name": "Webinar Attendee Nurture",
+      "trigger": "event:webinar-attended",
+      "steps": [
+        {
+          "delay": "immediate",
+          "subject": "Thanks for attending - here's your recording",
+          "purpose": "Deliver commitment"
+        },
+        {
+          "delay": "1 day",
+          "subject": "3 key takeaways from the webinar (you missed)",
+          "purpose": "Reinforce value"
+        },
+        {
+          "delay": "3 days",
+          "subject": "See how [Attendee Company] applied these concepts",
+          "purpose": "Personalized social proof"
+        },
+        {
+          "delay": "5 days",
+          "subject": "Free 30-min implementation strategy session",
+          "purpose": "Convert to demo"
+        },
+        {
+          "delay": "7 days",
+          "subject": "Are you still implementing AI?",
+          "purpose": "Nurture + re-engage"
+        }
+      ]
+    },
+    {
+      "name": "ROI Calculator Users",
+      "trigger": "form:roi-analysis-form",
+      "steps": [
+        {
+          "delay": "immediate",
+          "subject": "Your ROI analysis is ready - review inside",
+          "purpose": "Deliver value"
+        },
+        {
+          "delay": "2 days",
+          "subject": "Your projected savings: $[X]/year - can we help?",
+          "purpose": "Personalize + convert"
+        },
+        {
+          "delay": "4 days",
+          "subject": "How other businesses like yours achieved these results",
+          "purpose": "Social proof"
+        },
+        {
+          "delay": "7 days",
+          "subject": "Questions about your ROI projection?",
+          "purpose": "Support + nurture"
+        },
+        {
+          "delay": "10 days",
+          "subject": "Last chance: Get your implementation plan free",
+          "purpose": "Close"
+        }
+      ]
+    }
+  ],
+  "leadRules": {
+    "scoringCriteria": [
+      {
+        "action": "Visited pricing page",
+        "points": 10
+      },
+      {
+        "action": "Opened email",
+        "points": 2
+      },
+      {
+        "action": "Clicked email link",
+        "points": 3
+      },
+      {
+        "action": "Downloaded checklist",
+        "points": 8
+      },
+      {
+        "action": "Used ROI calculator",
+        "points": 12
+      },
+      {
+        "action": "Registered for webinar",
+        "points": 10
+      },
+      {
+        "action": "Attended webinar",
+        "points": 15
+      },
+      {
+        "action": "Requested demo",
+        "points": 30
+      },
+      {
+        "action": "Company size 100+ employees",
+        "points": 5
+      },
+      {
+        "action": "Industry fit (manufacturing, retail, logistics)",
+        "points": 3
+      }
+    ],
+    "routingRules": [
+      {
+        "condition": "score >= 70 AND demo_booked == true",
+        "action": "assign to AE immediately"
+      },
+      {
+        "condition": "score >= 50 AND webinar_attended == true",
+        "action": "trigger:high-intent-nurture-sequence"
+      },
+      {
+        "condition": "score >= 30",
+        "action": "add tag:marketing-qualified-lead"
+      },
+      {
+        "condition": "score >= 15 AND score < 30",
+        "action": "add tag:content-downloader"
+      }
+    ]
+  },
+  "salesQualifiedHandoff": {
+    "sqaThreshold": "score >= 60 AND demo_booked == true AND company_size >= 50",
+    "handoffProcess": "1. Lead score calculated in real-time by marketing automation. 2. When SQA threshold met, Slack notification sent to #sales-alerts channel. 3. Lead details (company, use case, budget range, timeline, source) pushed to CRM. 4. AE receives Slack DM with lead + must respond within 1 hour or escalation to sales manager. 5. CRM creates opportunity with 48-hour SLA.",
+    "notificationChannel": "Slack #sales-alerts",
+    "requiredData": [
+      "company_name",
+      "industry",
+      "company_size",
+      "use_case",
+      "budget_range",
+      "timeline",
+      "pain_points",
+      "decision_maker"
+    ]
+  }
+}

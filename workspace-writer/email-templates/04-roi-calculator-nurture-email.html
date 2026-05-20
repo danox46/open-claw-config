@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last chance: Your ROI Calculator expires soon</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+    .email-container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px 20px; text-align: center; }
+    .header h1 { color: #ffffff; font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+    .header p { color: rgba(255,255,255,0.9); font-size: 16px; }
+    .content { padding: 30px 20px; }
+    .cta-button { display: inline-block; background: #667eea; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; margin: 20px 0; text-align: center; }
+    .cta-button:hover { background: #5a6fd6; }
+    .cta-button.urgent { background: #e74c3c; }
+    .cta-button.urgent:hover { background: #c0392b; }
+    .social-proof { background: #f8f9fa; padding: 20px; margin: 25px 0; border-radius: 8px; }
+    .social-proof h3 { color: #333; font-size: 14px; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+    .logo-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center; }
+    .logo-placeholder { width: 80px; height: 40px; background: #e0e0e0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #999; }
+    .trust-badges { display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap; }
+    .trust-badge { background: #e8f4fd; border: 1px solid #b3d9f2; padding: 8px 12px; border-radius: 4px; font-size: 12px; color: #0d6efd; font-weight: 500; }
+    .urgency-banner { background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 25px; text-align: center; border-radius: 8px; margin: 20px 0; }
+    .urgency-banner h2 { font-size: 24px; font-weight: 700; margin-bottom: 10px; }
+    .urgency-banner p { font-size: 16px; opacity: 0.95; }
+    .urgency-banner .timer { font-size: 36px; font-weight: 700; margin-top: 15px; }
+    .roi-summary { background: #fafbfc; border: 2px solid #667eea; border-radius: 8px; padding: 25px; margin: 20px 0; }
+    .roi-summary h3 { color: #667eea; font-size: 18px; margin-bottom: 15px; }
+    .roi-summary .roi-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #e0e0e0; }
+    .roi-summary .roi-item:last-child { border-bottom: none; }
+    .roi-summary .roi-label { color: #333; font-weight: 500; }
+    .roi-summary .roi-value { color: #27ae60; font-weight: 700; }
+    .faq-box { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    .faq-box h4 { color: #333; font-size: 16px; margin-bottom: 8px; }
+    .faq-box p { color: #666; font-size: 14px; margin: 0; }
+    .footer { background: #1a1a2e; color: #a0a0a0; padding: 30px 20px; text-align: center; font-size: 12px; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer-links { margin-bottom: 15px; }
+    .footer-links a { margin: 0 10px; }
+    .mobile-responsive { width: 100% !important; max-width: 100% !important; height: auto !important; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>Last Chance</h1>
+      <p>Your ROI Calculator expires soon</p>
+    </div>
+    
+    <div class="content">
+      <div class="urgency-banner">
+        <h2>⏰ Your ROI Calculator Expires in 48 Hours</h2>
+        <p>Don't miss your chance to calculate the financial impact of flaky tests in your CI/CD pipeline.</p>
+        <div class="timer">48:00:00</div>
+      </div>
+      
+      <p>Hi there,</p>
+      
+      <p>This is your final reminder about the ROI Calculator you downloaded 14 days ago. It expires in 48 hours.</p>
+      
+      <div class="roi-summary">
+        <h3>What You'll Calculate:</h3>
+        <div class="roi-item">
+          <span class="roi-label">False Positives Per Week</span>
+          <span class="roi-value">[Your custom input]</span>
+        </div>
+        <div class="roi-item">
+          <span class="roi-label">Hours Wasted Investigating</span>
+          <span class="roi-value">[Your custom input]</span>
+        </div>
+        <div class="roi-item">
+          <span class="roi-label">Cost Per Hour (Engineering)</span>
+          <span class="roi-value">[Your custom input]</span>
+        </div>
+        <div class="roi-item">
+          <span class="roi-label">Weekly Financial Impact</span>
+          <span class="roi-value">Calculated Automatically</span>
+        </div>
+        <div class="roi-item">
+          <span class="roi-label">Monthly Savings (60% reduction)</span>
+          <span class="roi-value">Calculated Automatically</span>
+        </div>
+      </div>
+      
+      <div class="social-proof">
+        <h3>Engineering teams at companies like these are calculating their ROI now</h3>
+        <div class="logo-grid">
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+        </div>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ GitHub Integration</span>
+          <span class="trust-badge">✓ GitLab Integration</span>
+          <span class="trust-badge">✓ Jenkins Integration</span>
+          <span class="trust-badge">✓ 95% Fewer Flaky Tests</span>
+        </div>
+      </div>
+      
+      <div class="faq-box">
+        <h4>How Does It Work?</h4>
+        <p>Enter your current false-positive rate, hours spent investigating, and engineering hourly rate. The calculator automatically shows your weekly and monthly financial impact.</p>
+      </div>
+      
+      <div class="faq-box">
+        <h4>Will I get the calculator again if I expire?</h4>
+        <p>Yes! You can access the ROI Calculator anytime from your Smoke Test Co dashboard after signing up for a free trial.</p>
+      </div>
+      
+      <div class="faq-box">
+        <h4>Is this really worth it?</h4>
+        <p>Most engineering teams report 60% reduction in testing time and 95% fewer flaky tests within their first week. Use the calculator to see if that applies to your team.</p>
+      </div>
+      
+      <p style="margin-top: 25px;">
+        <strong>Don't wait until it expires:</strong>
+      </p>
+      
+      <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>Calculate your actual financial impact of flaky tests</li>
+        <li>Build your business case for testing improvements</li>
+        <li>Get started with a free trial (no credit card required)</li>
+        <li>Access the calculator anytime from your dashboard</li>
+      </ul>
+      
+      <div style="text-align: center; margin: 30px 0;">
+        <a href="{{trial_signup_link}}" class="cta-button urgent">Claim Your ROI Calculator (Expires in 48h)</a>
+      </div>
+      
+      <p style="margin-top: 20px; font-size: 14px; color: #666;">
+        Already signed up? <a href="{{dashboard_link}}" style="color: #667eea; text-decoration: none;">Access your ROI Calculator now →</a>
+      </p>
+      
+      <p style="margin-top: 15px; font-size: 14px; color: #666;">
+        Prefer guidance? Book a 15-minute demo to walk through the calculator and discuss your specific challenges.
+        <br><br>
+        <a href="{{demo_request_link}}" style="color: #667eea; text-decoration: none;">Book a Demo →</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-links">
+      <a href="{{privacy_policy_link}}">Privacy Policy</a>
+      <a href="{{terms_link}}">Terms of Service</a>
+      <a href="{{support_link}}">Support</a>
+    </div>
+    <p>Smoke Test Co — API Testing That Actually Works</p>
+    <p>123 Tech Street, San Francisco, CA 94102</p>
+    <p><a href="{{unsubscribe_link}}">Unsubscribe</a> | <a href="{{preferences_link}}">Email Preferences</a></p>
+    <p style="margin-top: 10px; color: #666;">You received this email as part of the ROI Calculator Nurture sequence. This is your final reminder before expiration.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "asset": "Cold email sequence: Orchestration Authority — 5-touch outreach to AI founders/CTOs",
+    "description": "Create a 5-email cold outreach sequence targeting founders and CTOs at AI/SaaS startups. Anchor on key message: most AI initiatives fail at scale because they automate isolated tasks instead of orchestrating complete workflows. Email 1: hook on PoC-to-production gap; Email 2: system thinking framework; Email 3: human-in-the-loop governance; Email 4: case study/narrative; Email 5: consult CTA with 15-min calendar link. Each email 120-150 words, personalized opener referencing prospect's company stage or tech stack. Include clear CTA to calendar. Tone: authoritative but conversational.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn outreach message set: Connection + 3-touch follow-ups for CTOs/COOs",
+    "description": "Create LinkedIn connection request message (under 300 chars) and 3 follow-up messages. Connection: introduce as AI workflow orchestration specialist, hint at helping them build unified intelligence infrastructure. Follow-up 1: share relevant insight on system thinking for AI (1-2 sentences). Follow-up 2: ask open question about their biggest implementation challenge. Follow-up 3: offer 15-min chat to explore orchestration approach. Use key messages: AI should augment human judgment, ethical governance makes automation sustainable. Tone: professional, helpful, not salesy.",
+    "type": "text"
+  },
+  {
+    "asset": "Call script: 15-min consultation call for inbound/outbound qualified leads",
+    "description": "Create a 15-minute consultation call script for Danox to use with qualified leads from cold outreach or inbound inquiries. Structure: 2-min intro (establish credibility, confirm agenda), 5-min discovery (ask 4-5 targeted questions about their AI implementation challenges, tech stack fragmentation, human-in-the-loop needs), 5-min solution framing (map their pain points to orchestration authority positioning: system thinking, human governance, end-to-end workflows), 3-min next steps (offer workshop/demo, set follow-up). Include script notes, probe questions, and objection handling for common blockers (budget, timing, team readiness).",
+    "type": "text"
+  },
+  {
+    "asset": "Paid ad copy concept sheet: LinkedIn text+single-image posts for awareness phase",
+    "description": "Create a concept sheet with 3 distinct ad concepts for LinkedIn. Each concept includes headline (10-12 words), hook (2-3 sentences), CTA (single clear action), and suggested single-image visual. Concept 1: PoC-to-production gap (headline: why your AI PoC won't scale; hook on isolated tasks vs. orchestration). Concept 2: System thinking for AI (headline: connect your data silos; hook on unified intelligence infrastructure). Concept 3: Human-in-the-loop (headline: AI that augments, not replaces; hook on ethical governance). All copy 150-180 words max. Align with Phase 1: Awareness. Ensure single-image only (per publication constraints).",
+    "type": "text"
+  }
+]

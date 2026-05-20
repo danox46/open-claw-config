@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "69fcc79e4f8d317d52370ca4",
+      "reason": "LinkedIn InMail constraint 'under 160 characters' is incorrect—LinkedIn's InMail limit is 2,000 characters, and the strategy requires substantive multi-message nurture sequences. Remove the 160-character limit to allow meaningful case study sharing and value delivery."
+    }
+  ]
+}

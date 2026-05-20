@@ -1,0 +1,22 @@
+[
+  {
+    "asset": "Blog Post: AI adoption bottlenecks",
+    "description": "Write a thought-leadership article explaining why mid-market teams get stuck after initial AI experiments and how to move into repeatable workflow design.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page Copy: AI workflow audit",
+    "description": "Draft a conversion-focused landing page for the AI workflow audit offer with clear value proposition, CTA, and supporting proof points.",
+    "type": "text"
+  },
+  {
+    "asset": "Nurture Email: From curiosity to implementation",
+    "description": "Write the first nurture email for leads who requested the audit, with a calm expert tone and a CTA to book discovery.",
+    "type": "text"
+  },
+  {
+    "asset": "Visual: LinkedIn post image for AI workflow audit",
+    "description": "Create a clean social image for LinkedIn sized for a horizontal feed post. Keep the design professional, minimal, and centered on AI workflow clarity.",
+    "type": "image"
+  }
+]

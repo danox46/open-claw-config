@@ -1,0 +1,164 @@
+{
+  "campaign": {
+    "name": "Smoke Test Co: Quality Without the Complexity",
+    "objective": "Generate 500 qualified trial signups from mid-market engineering teams within 90 days",
+    "targetAudience": "Engineering managers, QA leads, and DevOps engineers at 50-500 employee B2B SaaS companies experiencing slow CI/CD pipelines, false positive tests, and fragmented testing tooling",
+    "positioning": "The fastest way to catch breaking changes with intelligent false-positive detection and enterprise-grade reliability—starting in 10 minutes, not 10 weeks",
+    "keyMessages": [
+      "Eliminate 95% of flaky tests with intelligent false-positive detection",
+      "Start testing in 10 minutes with one-click GitHub, GitLab, and Jenkins integration",
+      "Enterprise reliability without enterprise complexity—transparent pricing with no hidden costs"
+    ],
+    "primaryChannel": "LinkedIn + Developer Community SEO content",
+    "timeline": "90 days: Days 1-30 launch landing page and content hub, Days 31-60 activate LinkedIn ads and email nurture, Days 61-90 optimize based on conversion data"
+  },
+  "contentPlan": [
+    {
+      "type": "Blog Post",
+      "title": "The Real Cost of Flaky Tests: Why Your CI/CD Pipeline is Losing Money",
+      "purpose": "Top-of-funnel awareness piece that quantifies the financial impact of false positives",
+      "targetKeywords": ["flaky tests", "CI/CD pipeline", "testing costs", "false positives"],
+      "channel": "Company blog with LinkedIn distribution",
+      "callToAction": "Download ROI Calculator"
+    },
+    {
+      "type": "Blog Post",
+      "title": "5 Signs Your API Testing Strategy is Broken",
+      "purpose": "Middle-of-funnel consideration piece that self-identifies common testing problems",
+      "targetKeywords": ["API testing", "testing strategy", "QA best practices", "integration testing"],
+      "channel": "Company blog with Reddit r/devops sharing",
+      "callToAction": "Request Demo"
+    },
+    {
+      "type": "Blog Post",
+      "title": "How Mid-Size Engineering Teams Are Cutting Testing Time by 60%",
+      "purpose": "Social proof and credibility building with case study format",
+      "targetKeywords": ["testing time", "QA efficiency", "engineering productivity", "testing automation"],
+      "channel": "Company blog with email nurture distribution",
+      "callToAction": "Start Free Trial"
+    },
+    {
+      "type": "Technical Guide",
+      "title": "False Positive Reduction: A Step-by-Step Guide",
+      "purpose": "High-value downloadable that demonstrates technical depth and solves immediate problems",
+      "targetKeywords": ["false positive reduction", "test reliability", "QA automation", "test stability"],
+      "channel": "Developer community (GitHub/GitHub Discussions)",
+      "callToAction": "Download Guide + Email Capture"
+    },
+    {
+      "type": "Comparison Page",
+      "title": "Smoke Test Co vs. Postman: Real-World Comparison for API Testing",
+      "purpose": "Bottom-of-funnel decision aid that addresses competitive objections",
+      "targetKeywords": ["Postman alternative", "API testing tools", "testing comparison", "API testing platform"],
+      "channel": "Dedicated landing page with SEO targeting",
+      "callToAction": "Compare Side-by-Side"
+    }
+  ],
+  "landingPages": [
+    {
+      "slug": "/api-testing",
+      "headline": "API Testing That Actually Works",
+      "subheadline": "Catch breaking changes faster with intelligent false-positive detection",
+      "valueProposition": "Start testing in 10 minutes with enterprise reliability. 95% fewer flaky tests, works with your existing CI/CD, transparent pricing with no hidden costs.",
+      "cta": "Start Free Trial",
+      "formId": "trial-signup-form"
+    },
+    {
+      "slug": "/pricing",
+      "headline": "Transparent Pricing. No Surprises.",
+      "subheadline": "Choose the plan that fits your team. Upgrade or downgrade anytime.",
+      "valueProposition": "Free tier for individuals. Pro tier for growing teams. Team tier for 5+ developers. Enterprise tier with custom SLAs.",
+      "cta": "View Pricing Plans",
+      "formId": "pricing-inquiry-form"
+    },
+    {
+      "slug": "/demo-request",
+      "headline": "See Smoke Test Co in Action",
+      "subheadline": "15-minute personalized demo showing how we eliminate false positives",
+      "valueProposition": "Book a demo and see how engineering teams like yours reduce testing time by 60% and eliminate flaky tests forever.",
+      "cta": "Request Demo",
+      "formId": "demo-request-form"
+    }
+  ],
+  "forms": [
+    {
+      "id": "trial-signup-form",
+      "name": "Free Trial Signup",
+      "purpose": "trial signup",
+      "fields": ["email"],
+      "successAction": "redirect:/dashboard?source=trial"
+    },
+    {
+      "id": "roi-calculator-form",
+      "name": "ROI Calculator Download",
+      "purpose": "content download",
+      "fields": ["first_name", "email", "company"],
+      "successAction": "trigger:roi-nurture-sequence"
+    },
+    {
+      "id": "demo-request-form",
+      "name": "Demo Request",
+      "purpose": "demo request",
+      "fields": ["first_name", "email", "company", "job_title"],
+      "successAction": "trigger:demo-qualification-sequence"
+    }
+  ],
+  "emailSequences": [
+    {
+      "name": "ROI Calculator Nurture",
+      "trigger": "form:roi-calculator-form",
+      "steps": [
+        { "delay": "immediate", "subject": "Your ROI Calculator is Ready (plus 3 tips to save time)", "purpose": "Deliver download and establish credibility immediately" },
+        { "delay": "3 days", "subject": "3 Real Ways Engineering Teams Cut Testing Time by 60%", "purpose": "Share case study metrics and social proof" },
+        { "delay": "7 days", "subject": "Still thinking about flaky tests? Here's the fix", "purpose": "Address primary pain point with technical solution" },
+        { "delay": "14 days", "subject": "Last chance: Your ROI Calculator expires soon", "purpose": "Create urgency and drive trial signup" }
+      ]
+    },
+    {
+      "name": "Demo Qualification Sequence",
+      "trigger": "form:demo-request-form",
+      "steps": [
+        { "delay": "immediate", "subject": "Thanks for requesting a demo—here's what to expect", "purpose": "Set expectations and reduce anxiety" },
+        { "delay": "24 hours", "subject": "Quick question before we schedule your demo", "purpose": "Gather additional qualification data (timeline, team size, current tool)" },
+        { "delay": "48 hours", "subject": "Demo slot confirmed: Here's the link + prep tips", "purpose": "Confirm attendance and provide value upfront" },
+        { "delay": "1 week", "subject": "Missed the demo? Here's a 5-minute walkthrough", "purpose": "Capture missed opportunities with async content" }
+      ]
+    },
+    {
+      "name": "Developer Community Nurture",
+      "trigger": "tag:github-contributor OR tag:stackoverflow-answer",
+      "steps": [
+        { "delay": "immediate", "subject": "Congrats on the contribution! Here's how it fits into testing best practices", "purpose": "Validate contribution and establish thought leadership" },
+        { "delay": "3 days", "subject": "3 open-source testing projects that will level up your stack", "purpose": "Provide value without hard sell" },
+        { "delay": "7 days", "subject": "How we're using this approach at Smoke Test Co", "purpose": "Show practical application of shared knowledge" },
+        { "delay": "14 days", "subject": "Want to discuss testing challenges? Join our engineering office hours", "purpose": "Invite to community and soft CTA for deeper engagement" }
+      ]
+    }
+  ],
+  "leadRules": {
+    "scoringCriteria": [
+      { "action": "Visited pricing page", "points": 15 },
+      { "action": "Downloaded ROI calculator", "points": 20 },
+      { "action": "Downloaded False Positive Guide", "points": 15 },
+      { "action": "Attended webinar", "points": 10 },
+      { "action": "Requested demo", "points": 30 },
+      { "action": "Opened email (3+ in 7 days)", "points": 10 },
+      { "action": "Clicked CTA in email", "points": 5 },
+      { "action": "Company size 50-500 employees", "points": 10 },
+      { "action": "Job title: Engineering Manager, QA Lead, DevOps Lead", "points": 15 },
+      { "action": "Job title: CTO, VP Engineering", "points": 10 }
+    ],
+    "routingRules": [
+      { "condition": "score >= 80 AND demo_booked == true", "action": "assign to AE (priority: immediate outreach)" },
+      { "condition": "score >= 60 AND demo_requested == true", "action": "trigger:demo-qualification-sequence" },
+      { "condition": "score >= 40 AND content_downloaded == true", "action": "trigger:nurture-sequence" },
+      { "condition": "score >= 20", "action": "add to:weekly-digest-list" }
+    ]
+  },
+  "salesQualifiedHandoff": {
+    "sqaThreshold": "score >= 60 AND (demo_booked == true OR trial_started == true AND days_active >= 7)",
+    "handoffProcess": "1. Lead scoring automation triggers SQA flag in CRM 2. Sales Operations team reviews lead within 2 hours (80+), 8 hours (60-79), 24 hours (40-59) 3. AE receives Slack notification with lead score, engagement history, and pain point indicators 4. AE contacts lead via preferred channel (email first, then phone/Slack if available) 5. AE schedules discovery call within 24 hours 6. CRM auto-updates with conversation notes and next steps",
+    "notificationChannel": "Slack #sales-alerts",
+    "requiredData": ["first_name", "email", "company", "job_title", "company_size", "engagement_score", "pages_viewed", "content_downloaded", "demo_interest_level", "current_testing_tool", "timeline", "budget_range"]
+  }
+}

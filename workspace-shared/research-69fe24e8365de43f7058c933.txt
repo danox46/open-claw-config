@@ -1,0 +1,36 @@
+## Mock Market Research — AI First Solutions
+
+**1. Campaign**
+- Target: Mid-market companies (50–500 employees) frustrated by failed or stalled AI initiatives
+- Primary pain points: implementation complexity, unclear ROI, integration friction with existing tools
+- Competitive angle: most vendors sell software; position AI First Solutions as selling *outcomes*
+- Key message: "We don't install AI. We make it work."
+
+**2. Content Plan**
+- High-performing formats for this audience: short case studies, ROI calculators, implementation checklists, behind-the-scenes how-tos
+- Cadence that works: 2 blog posts/month, 1 LinkedIn thought-leadership piece/week, 1 email nurture sequence per funnel stage
+- SEO opportunity: "AI implementation for mid-market", "AI ROI for SMB", "how to adopt AI without an IT team"
+
+**3. Landing Pages**
+- Lead conversion benchmark: 3–5% for this audience segment
+- Highest-converting angle: proof-first ("See how [Company] saved 200 hrs/week") + low-friction CTA ("Get a free readiness assessment")
+- Social proof near CTAs lifts conversion 60–80%
+
+**4. Forms**
+- Top-of-funnel: 2 fields (email + company name) → 4–6% conversion
+- Mid-funnel: 4–5 fields with progressive profiling → 1.5–2% conversion
+- Never gate awareness content; gate tools and templates
+
+**5. Email Sequences**
+- Trigger-based sequences outperform batch sends 3:1 for this audience
+- Ideal sequence length: 5–7 emails over 10–14 days
+- Subject line patterns that work: specificity ("The 3 AI projects that failed in 2024 — and why"), curiosity gaps, peer comparison
+
+**6. Lead Scoring**
+- Strong intent signals: pricing page visit (+15), demo request (+40), tool/calculator use (+20), repeated blog visits (+5 each)
+- Threshold for sales handoff: score ≥ 65 AND company size ≥ 50
+
+**7. Sales Handoff**
+- Sales needs: company name, industry, team size, specific AI use case, current tech stack pain points
+- Ideal SLA: AE contact within 1 business hour for score ≥ 80; 4 hours for 65–79
+- Handoff channel: Slack #sales-qualified with enriched lead card

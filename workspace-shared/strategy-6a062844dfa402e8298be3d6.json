@@ -1,0 +1,140 @@
+{
+  "campaigns": [
+    {
+      "id": "pilot-to-production",
+      "name": "Pilot to Production",
+      "objective": "Position Danox as the specialist who bridges AI proof-of-concept to scalable production systems",
+      "targetAudience": "Founders and operators at early-stage to Series A companies who have built AI pilots but struggle to scale them",
+      "positioning": "The only consultant who focuses on scaling AI beyond the pilot phase, with proven frameworks for production deployment",
+      "keyMessages": [
+        "Most AI initiatives stall after the pilot phase. Here's how we bridge the gap.",
+        "We don't build more prototypes. We build production-ready systems.",
+        "AI amplifies your judgment. It doesn't replace it.",
+        "Integration over adoption: Enterprise capabilities without enterprise complexity"
+      ],
+      "channels": [
+        "linkedin",
+        "blog"
+      ],
+      "contentThemes": [
+        "Case studies showing pilot-to-production success rates and common failure points",
+        "Technical deep dives on integration patterns, data governance, and production deployment",
+        "Founder stories about scaling AI without drowning in technical debt"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture with pilot-to-production problem framing",
+        "Phase 2: Consideration — nurture with technical depth, case studies, and integration frameworks",
+        "Phase 3: Conversion — demo requests and SQL handoff for scaling assessments"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "Engagement rate on pilot-to-production themed posts",
+        "Profile visits from target audience segment",
+        "Demo/assessment request volume"
+      ]
+    },
+    {
+      "id": "governance-without-bureaucracy",
+      "name": "Governance Without Bureaucracy",
+      "objective": "Build authority on AI security and governance frameworks that enable rather than block innovation",
+      "targetAudience": "Marketing leaders and operators at growth-stage companies navigating AI security compliance without slowing velocity",
+      "positioning": "The governance framework that keeps security checkpoints within automated systems, not as roadblocks",
+      "keyMessages": [
+        "Built-in security checkpoints within automated systems, not as roadblocks.",
+        "Governance accelerates innovation when designed right.",
+        "Enterprise-grade security without enterprise complexity"
+      ],
+      "channels": [
+        "linkedin",
+        "blog"
+      ],
+      "contentThemes": [
+        "Practical security checkpoint patterns for automated workflows",
+        "Compliance frameworks that integrate with existing infrastructure",
+        "Real-world governance adoption rates and security incident reduction"
+      ],
+      "phases": [
+        "Phase 1: Awareness — problem frame governance as blocker vs. enabler",
+        "Phase 2: Consideration — frameworks, adoption metrics, and integration patterns",
+        "Phase 3: Conversion — governance assessments and security audits"
+      ],
+      "currentPhase": "Phase 1: Awareness — problem frame governance as blocker vs. enabler",
+      "successMetrics": [
+        "Profile visits from security/compliance focused audience",
+        "Engagement on governance frameworks content",
+        "Assessment request conversions"
+      ]
+    },
+    {
+      "id": "human-judgment-era",
+      "name": "Human Judgment in the AI Era",
+      "objective": "Differentiate through emphasis on human skills that AI cannot replicate",
+      "targetAudience": "Founders and operators evaluating AI consulting who fear AI will commoditize their expertise",
+      "positioning": "The consultant who leverages AI to amplify human judgment, not replace it",
+      "keyMessages": [
+        "AI amplifies your judgment. It doesn't replace it.",
+        "Your human skills are the differentiator in an AI-saturated market",
+        "Context, empathy, and strategic synthesis are irreplaceable human skills"
+      ],
+      "channels": [
+        "linkedin",
+        "blog"
+      ],
+      "contentThemes": [
+        "Decision quality comparisons: human vs. AI vs. human-AI collaboration",
+        "Founder stories on maintaining human oversight in AI workflows",
+        "Practical examples of human judgment in AI contexts"
+      ],
+      "phases": [
+        "Phase 1: Awareness — fear framing around AI commoditization",
+        "Phase 2: Consideration — evidence of human-AI collaboration value",
+        "Phase 3: Conversion — collaboration strategy workshops"
+      ],
+      "currentPhase": "Phase 1: Awareness — fear framing around AI commoditization",
+      "successMetrics": [
+        "Engagement rate on human-AI collaboration content",
+        "Profile visits from skeptical AI adopters",
+        "Workshop/consulting request conversions"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Multi-touch LinkedIn-first approach where awareness content drives profile visits, consideration content drives assessment requests, and conversion paths route high-intent prospects to booking calls or assessments",
+    "conversionPaths": [
+      "Primary: Profile → Content engagement → DM or comment → scheduling link → consultation call",
+      "Secondary: Content download → automated email nurture → landing page → assessment request form"
+    ],
+    "nurtureApproach": "LinkedIn-native documentation (carousels, PDFs) as primary consideration assets, supplemented by weekly email summaries that reinforce key insights and introduce deeper frameworks",
+    "leadQualification": {
+      "scoringSignals": [
+        "Visited pricing/demo page",
+        "Downloaded ROI calculator or governance framework",
+        "Attended webinar or requested case study",
+        "Multiple page views on demo content",
+        "Job title match (Ops Manager/Director, VP-level)",
+        "Timeline urgency signals (deadline, trigger event)"
+      ],
+      "qualificationThreshold": "60+ points triggers 24-hour outreach; 80+ points triggers 1-hour response",
+      "routingGuidance": "Route SQL leads (60+) to consultation calendar; hot leads (80+) to immediate call queue with context packet"
+    },
+    "salesHandoff": {
+      "owner": "Consultant/consulting team",
+      "process": "Automated scoring → notification → context packet assembly → outreach within SLA",
+      "requiredContext": [
+        "Contact info (name, email, phone, authority level)",
+        "Company context (size, revenue, locations, pains)",
+        "Engagement history (content downloaded, pages viewed, interaction types)",
+        "Pain point priorities (top 3 challenges)",
+        "Buying committee composition",
+        "Timeline and budget signals"
+      ]
+    },
+    "measurementPlan": [
+      "Engagement rate on campaign-specific content (target: >5.19% industry median)",
+      "Profile visits from target audience segment",
+      "Cost of audience acquisition (decreasing trend)",
+      "Assessment request conversion rate",
+      "Consulting engagement revenue attributed to brand efforts"
+    ]
+  }
+}

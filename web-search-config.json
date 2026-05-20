@@ -1,0 +1,17 @@
+{
+  "searxng": {
+    "enabled": true,
+    "baseUrl": "http://localhost:8888",
+    "categories": "general,images,news",
+    "language": "en"
+  },
+  "google-api": {
+    "enabled": true,
+    "apiKey": "YOUR_GOOGLE_API_KEY_HERE",
+    "customSearchEngineId": "YOUR_CUSTOM_SEARCH_ENGINE_ID_HERE"
+  },
+  "providers": {
+    "default": "google-api",
+    "fallback": "searxng"
+  }
+}

@@ -1,0 +1,85 @@
+# ── Sensitive / credentials ──────────────────────────────────────────────────
+credentials/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+personal-integrations-*.json
+googlechat-service-account.json
+web-search-credentials.json
+
+# ── Runtime state ─────────────────────────────────────────────────────────────
+logs/
+tasks/
+delivery-queue/
+session-delivery-queue/
+exec-approvals.json
+memory/
+canvas/
+media/
+devices/
+browser/
+identity/
+update-check.json
+flows/registry.sqlite
+flows/registry.sqlite-shm
+flows/registry.sqlite-wal
+
+# ── Node / npm ─────────────────────────────────────────────────────────────────
+npm/
+node_modules/
+package-lock.json
+
+# ── Backup files ──────────────────────────────────────────────────────────────
+*.bak
+*.bak.*
+*.last-good
+*.bak.1
+*.bak.2
+*.bak.3
+*.bak.4
+
+# ── Zone identifiers (Windows artifacts) ──────────────────────────────────────
+*:Zone.Identifier
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+
+# ── Per-agent session state ───────────────────────────────────────────────────
+subagents/
+discord/
+googlechat/
+whatsapp/
+
+# ── Workspace memory (daily logs are personal / noisy) ────────────────────────
+workspace/memory/
+workspace-*/memory/
+
+# ── Plugin built artifacts that can be reinstalled ───────────────────────────
+plugin-skills/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Openclaw json backups (non-standard names) ────────────────────────────────
+openclaw.json.bak*
+
+# ── Agent session histories (large, not config) ───────────────────────────────
+agents/*/sessions/
+
+# ── Python virtual environments ────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Openclaw workspace runtime state ──────────────────────────────────────────
+**/.openclaw/
+cron/runs/

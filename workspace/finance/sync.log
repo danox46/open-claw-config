@@ -1,0 +1,3011 @@
+[2026-05-14 18:15 UTC] → Fetch (since 2026/05/06)
+[load]  929 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  929 existing + 0 new = 929 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 18:15 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 53
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 18:15 UTC] Done. New items: 641  Carried over: 0  Total pending: 641  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 18:30 UTC] → Fetch (since 2026/05/06)
+[load]  929 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+[new  ] 19e27beb65d19856  1 msgs  +1 notifications
+
+[total]  929 existing + 1 new = 930 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 18:30 UTC] → Import (since 2026-05-06)
+[INSERT]   19e27beb65d19856  2026-05-14T13:27:00-05:00  OXXO INFINITUM  12000 COP  src=unclassified  cat=unclassified
+
+============================================================
+Import complete
+  Inserted : 1
+  Skipped (dedup)   : 53
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 18:30 UTC] Done. New items: 1  Carried over: 641  Total pending: 642  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 18:45 UTC] → Fetch (since 2026/05/06)
+[load]  930 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  930 existing + 0 new = 930 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 18:45 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 54
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 18:45 UTC]   Removed 1 item(s) from queue (now enriched in DB)
+[2026-05-14 18:45 UTC] Done. New items: 642  Carried over: 0  Total pending: 642  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 19:00 UTC] → Fetch (since 2026/05/06)
+[load]  930 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  930 existing + 0 new = 930 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 19:00 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 54
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 19:00 UTC] Done. New items: 0  Carried over: 642  Total pending: 642  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 19:15 UTC] → Fetch (since 2026/05/06)
+[load]  930 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+[grown] 19e27beb65d19856  2 msgs  +1 notifications
+
+[total]  930 existing + 1 new = 931 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 19:15 UTC] → Import (since 2026-05-06)
+[INSERT]   19e27e9bc7bea4b4  2026-05-14T14:14:00-05:00  OXXO INFINITUM  11700 COP  src=unclassified  cat=unclassified
+
+============================================================
+Import complete
+  Inserted : 1
+  Skipped (dedup)   : 54
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 19:15 UTC] Done. New items: 1  Carried over: 642  Total pending: 643  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 19:30 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 19:30 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 19:30 UTC] Done. New items: 0  Carried over: 2  Total pending: 2  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 19:45 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 19:45 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 19:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 20:00 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 20:00 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 20:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 20:15 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 20:15 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 20:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 20:30 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 20:30 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 20:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 20:45 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 20:45 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 20:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-14 21:00 UTC] → Fetch (since 2026/05/06)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  931 existing + 0 new = 931 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-14 21:00 UTC] → Import (since 2026-05-06)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 55
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 876
+  Errors (skipped)  : 0
+============================================================
+[2026-05-14 21:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 18:30 UTC] → Fetch (since 2026/05/07)
+[load]  931 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+[grown] 19e27beb65d19856  5 msgs  +3 notifications
+[new  ] 19e2be47a62de4c6  2 msgs  +2 notifications
+
+[total]  931 existing + 5 new = 936 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 18:30 UTC] → Import (since 2026-05-07)
+[INSERT]   19e28653ec2b58ae  2026-05-14T16:29:00-05:00  GOOGLE *PLAY YOUTUBE  16900 COP  src=unclassified  cat=unclassified
+[INSERT]   19e28bf4f64f5a67  2026-05-14T18:08:00-05:00  TIENDA D1 VITRA ART  56190 COP  src=unclassified  cat=unclassified
+[INSERT]   19e28c19f3fd8dd2  2026-05-14T18:10:00-05:00  OXXO INFINITUM  6800 COP  src=unclassified  cat=unclassified
+[INSERT]   19e2be47a62de4c6  2026-05-15T08:47:00-05:00  OXXO INFINITUM  12000 COP  src=auto-matched  cat=groceries
+[INSERT]   19e2c9077f362c94  2026-05-15T11:55:00-05:00  OPENAI *CHATGPT SUBS  75898 COP  src=unclassified  cat=unclassified
+
+============================================================
+Import complete
+  Inserted : 5
+  Skipped (dedup)   : 35
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 18:30 UTC] Done. New items: 4  Carried over: 0  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 18:45 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 18:45 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 18:45 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 19:00 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 19:00 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 19:00 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 19:15 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 19:15 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 19:15 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 19:30 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 19:30 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 19:30 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 19:45 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 19:45 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 19:45 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 20:00 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 20:00 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+[2026-05-15 20:00 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-15 20:15 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 20:15 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 20:30 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 20:30 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 20:45 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 20:45 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 21:00 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 21:00 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 21:15 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 21:15 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 21:30 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 21:30 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 21:45 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 21:45 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-15 22:00 UTC] → Fetch (since 2026/05/07)
+[load]  936 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  8 threads returned  (8 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  8 threads returned  (0 new across signals)
+[search] 8 unique threads total
+
+[total]  936 existing + 0 new = 936 records
+         skipped (unchanged threads): 8
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-15 22:00 UTC] → Import (since 2026-05-07)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 40
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 896
+  Errors (skipped)  : 0
+============================================================
+Traceback (most recent call last):
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 200, in <module>
+    main()
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 107, in main
+    existing_pending: list[dict] = load_json(PENDING_FILE, [])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/danox/.openclaw/workspace/finance/finance-sync.py", line 67, in load_json
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2026-05-19 13:45 UTC] → Fetch (since 2026/05/11)
+[load]  958 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  958 existing + 0 new = 958 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 13:45 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 41
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 13:45 UTC] Done. New items: 0  Carried over: 22  Total pending: 22  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 20:00 UTC] → Fetch (since 2026/05/11)
+[load]  958 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+[new  ] 19e409e05fd38131  4 msgs  +4 notifications
+
+[total]  958 existing + 4 new = 962 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 20:00 UTC] → Import (since 2026-05-11)
+[INSERT]   19e409e05fd38131  2026-05-19T09:22:00-05:00  SMART FIT CHAPINERO  116870 COP  src=unclassified  cat=unclassified
+[INSERT]   19e40a838869b337  2026-05-19T09:33:00-05:00  PANAMERICANA LIB Y P  4100 COP  src=unclassified  cat=unclassified
+[INSERT]   19e40b3bc60df4dd  2026-05-19T09:46:00-05:00  TIENDA D1 VITRA ART  55480 COP  src=unclassified  cat=unclassified
+[INSERT]   19e40b543a4c43f7  2026-05-19T09:47:00-05:00  TIENDA D1 VITRA ART  2600 COP  src=unclassified  cat=unclassified
+
+============================================================
+Import complete
+  Inserted : 4
+  Skipped (dedup)   : 41
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 20:00 UTC] Done. New items: 4  Carried over: 0  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 20:15 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 20:15 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 20:15 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 20:30 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 20:30 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 20:30 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 20:45 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 20:45 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 20:45 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 21:00 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 21:00 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 21:00 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 21:15 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 21:15 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 21:15 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 21:30 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 21:30 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 21:30 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 21:45 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 21:45 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 21:45 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 22:00 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  962 existing + 0 new = 962 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 22:00 UTC] → Import (since 2026-05-11)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 0
+============================================================
+[2026-05-19 22:00 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 22:15 UTC] → Fetch (since 2026/05/11)
+[load]  962 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+[grown] 19e409e05fd38131  5 msgs  +1 notifications
+
+[total]  962 existing + 1 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 22:15 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 22:15 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 22:30 UTC] → Fetch (since 2026/05/11)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 22:30 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 22:30 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 22:45 UTC] → Fetch (since 2026/05/11)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 22:45 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 22:45 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 23:00 UTC] → Fetch (since 2026/05/11)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 23:00 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 23:00 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 23:15 UTC] → Fetch (since 2026/05/11)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 23:15 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 23:15 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 23:30 UTC] → Fetch (since 2026/05/11)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 23:30 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 23:30 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-19 23:45 UTC] → Fetch (since 2026/05/11)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-19 23:45 UTC] → Import (since 2026-05-11)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 917
+  Errors (skipped)  : 1
+============================================================
+[2026-05-19 23:45 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 00:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 00:00 UTC] → Import (since 2026-05-12)
+[ERROR]    19e424e11a104329  2026-05-19 22:14 UTC  ITEM INTEGRITY FAILED: items do not sum to 15800  src=auto-matched
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 43
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 1
+============================================================
+[2026-05-20 00:00 UTC] Done. New items: 0  Carried over: 4  Total pending: 4  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 00:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 00:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 00:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 00:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 00:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 00:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 00:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 00:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 00:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 01:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 01:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 01:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 01:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 01:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 01:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 01:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 01:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 01:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 01:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 01:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 01:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 02:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 02:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 02:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 02:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 02:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 02:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 02:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 02:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 02:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 02:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 02:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 02:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 03:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 03:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 03:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 03:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 03:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 03:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 03:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 03:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 03:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 03:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 03:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 03:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 04:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 04:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 04:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 04:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 04:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 04:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 04:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 04:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 04:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 04:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 04:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 04:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 05:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 05:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 05:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 05:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 05:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 05:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 05:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 05:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 05:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 05:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 05:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 05:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 06:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 06:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 06:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 06:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 06:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 06:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 06:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 06:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 06:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 06:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 06:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 06:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 07:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 07:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 07:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 07:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 07:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 07:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 07:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 07:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 07:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 07:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 07:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 07:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 08:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 08:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 08:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 08:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 08:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 08:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 08:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 08:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 08:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 08:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 08:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 08:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 09:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 09:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 09:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 09:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 09:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 09:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 09:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 09:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 09:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 09:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 09:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 09:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 10:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 10:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 10:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 10:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 10:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 10:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 10:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 10:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 10:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 10:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 10:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 10:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 11:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 11:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 11:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 11:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 11:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 11:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 11:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 11:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 11:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 11:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 11:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 11:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 12:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 12:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 12:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 12:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 12:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 12:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 12:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 12:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 12:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 12:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 12:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 12:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 13:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 13:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 13:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 13:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 13:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 13:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 13:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 13:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 13:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 13:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 13:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 13:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 14:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 14:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 14:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 14:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 14:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 14:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 14:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 14:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 14:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 14:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 14:45 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 14:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 15:00 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 15:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 15:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 15:15 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 15:15 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 15:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 15:30 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  6 threads returned  (6 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  6 threads returned  (0 new across signals)
+[search] 6 unique threads total
+
+[total]  963 existing + 0 new = 963 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 15:30 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 15:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 15:45 UTC] → Fetch (since 2026/05/12)
+[load]  963 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+[new  ] 19e460cabc0aeeb7  1 msgs  +1 notifications
+
+[total]  963 existing + 1 new = 964 records
+         skipped (unchanged threads): 6
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 15:45 UTC] → Import (since 2026-05-12)
+[INSERT]   19e460cabc0aeeb7  2026-05-20T10:41:00-05:00  OXXO INFINITUM  12000 COP  src=auto-matched  cat=groceries
+
+============================================================
+Import complete
+  Inserted : 1
+  Skipped (dedup)   : 44
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 15:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 16:00 UTC] → Fetch (since 2026/05/12)
+[load]  964 existing records
+[search] signal: 'from:notificacionesbancolombia.com'
+  7 threads returned  (7 new across signals)
+[search] signal: 'from:bancolombia.com.co'
+  0 threads returned  (0 new across signals)
+[search] signal: 'subject:"Alertas y Notificaciones"'
+  7 threads returned  (0 new across signals)
+[search] 7 unique threads total
+
+[total]  964 existing + 0 new = 964 records
+         skipped (unchanged threads): 7
+[saved]  /home/danox/.openclaw/workspace/finance/samples-raw.json
+[saved]  /home/danox/.openclaw/workspace/finance/threads-meta.json
+[2026-05-20 16:00 UTC] → Import (since 2026-05-12)
+
+============================================================
+Import complete
+  Inserted : 0
+  Skipped (dedup)   : 45
+  Skipped (non-tx)  : 0
+  Skipped (date)    : 919
+  Errors (skipped)  : 0
+============================================================
+[2026-05-20 16:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 16:15 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 16:15 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 16:15 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 16:15 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 16:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 16:30 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 16:30 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 16:30 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 16:30 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 16:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 16:45 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 16:45 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 16:45 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 16:45 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 16:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 17:00 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 17:00 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 17:00 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 17:00 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 17:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 17:15 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 17:15 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 17:15 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 17:15 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 17:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 17:30 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 17:30 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 17:30 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 17:30 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 17:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 17:45 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 17:45 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 17:45 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 17:45 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 17:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 18:00 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 18:00 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 18:00 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 18:00 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 18:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 18:15 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 18:15 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 18:15 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 18:15 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 18:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 18:30 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 18:30 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 18:30 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 18:30 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 18:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 18:45 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 18:45 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 18:45 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 18:45 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 18:45 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 19:00 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 19:00 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 19:00 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 19:00 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 19:00 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 19:15 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 19:15 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 19:15 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 19:15 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 19:15 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json
+[2026-05-20 19:30 UTC] → Fetch (since 2026/05/12)
+python3: can't open file '/home/danox/.openclaw/workspace/finance/fetch-year.py': [Errno 2] No such file or directory
+[2026-05-20 19:30 UTC]   Fetch (since 2026/05/12) exited 2 — continuing anyway
+[2026-05-20 19:30 UTC] → Import (since 2026-05-12)
+FATAL: Input file not found: /home/danox/.openclaw/workspace/finance/samples-raw.json
+[2026-05-20 19:30 UTC]   Import (since 2026-05-12) exited 2 — continuing anyway
+[2026-05-20 19:30 UTC] Done. New items: 0  Carried over: 0  Total pending: 0  → /home/danox/.openclaw/workspace/finance/pending-review.json

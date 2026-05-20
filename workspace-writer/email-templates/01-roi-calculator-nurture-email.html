@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your ROI Calculator is Ready</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+    .email-container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px 20px; text-align: center; }
+    .header h1 { color: #ffffff; font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+    .header p { color: rgba(255,255,255,0.9); font-size: 16px; }
+    .content { padding: 30px 20px; }
+    .cta-button { display: inline-block; background: #667eea; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; margin: 20px 0; text-align: center; }
+    .cta-button:hover { background: #5a6fd6; }
+    .social-proof { background: #f8f9fa; padding: 20px; margin: 25px 0; border-radius: 8px; }
+    .social-proof h3 { color: #333; font-size: 14px; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+    .logo-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center; }
+    .logo-placeholder { width: 80px; height: 40px; background: #e0e0e0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #999; }
+    .trust-badges { display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap; }
+    .trust-badge { background: #e8f4fd; border: 1px solid #b3d9f2; padding: 8px 12px; border-radius: 4px; font-size: 12px; color: #0d6efd; font-weight: 500; }
+    .stats-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 8px; text-align: center; margin: 20px 0; }
+    .stats-box .stat-number { font-size: 42px; font-weight: 700; color: #ffffff; }
+    .stats-box .stat-label { font-size: 14px; opacity: 0.9; }
+    .footer { background: #1a1a2e; color: #a0a0a0; padding: 30px 20px; text-align: center; font-size: 12px; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer-links { margin-bottom: 15px; }
+    .footer-links a { margin: 0 10px; }
+    .mobile-responsive { width: 100% !important; max-width: 100% !important; height: auto !important; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>Your ROI Calculator is Ready</h1>
+      <p>Plus 3 tips to save time</p>
+    </div>
+    
+    <div class="content">
+      <p>Hi there,</p>
+      
+      <p>Your ROI Calculator for Smoke Test Co has been prepared and is ready to download. Use it to quantify the financial impact of flaky tests in your CI/CD pipeline.</p>
+      
+      <a href="{{download_link}}" class="cta-button">Download ROI Calculator</a>
+      
+      <p><strong>Inside this email:</strong></p>
+      <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>3 proven tips to eliminate false positives</li>
+        <li>ROI calculator with industry benchmarks</li>
+        <li>Step-by-step implementation guide</li>
+      </ul>
+      
+      <div class="stats-box">
+        <div class="stat-number">60%</div>
+        <div class="stat-label">Average testing time reduction with Smoke Test Co</div>
+      </div>
+      
+      <div class="social-proof">
+        <h3>Trusted by engineering teams at</h3>
+        <div class="logo-grid">
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+        </div>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ GitHub Integration</span>
+          <span class="trust-badge">✓ GitLab Integration</span>
+          <span class="trust-badge">✓ Jenkins Integration</span>
+          <span class="trust-badge">✓ 95% Fewer Flaky Tests</span>
+        </div>
+      </div>
+      
+      <p style="margin-top: 25px;">
+        <strong>Tip #1:</strong> Run your current pipeline with Smoke Test Co's false-positive detection and compare results. You'll likely see 95% fewer false positives in your first week.
+      </p>
+      
+      <p style="margin-top: 10px;">
+        <strong>Tip #2:</strong> Enable one-click integration with your existing CI/CD tool in under 10 minutes. No complex setup required.
+      </p>
+      
+      <p style="margin-top: 10px;">
+        <strong>Tip #3:</strong> Our enterprise reliability means no hidden costs—transparent pricing that scales with your team.
+      </p>
+      
+      <p style="margin-top: 25px;">Start testing smarter today.</p>
+      
+      <a href="{{trial_signup_link}}" class="cta-button">Start Free Trial</a>
+      
+      <p style="margin-top: 15px; font-size: 14px; color: #666;">
+        Or schedule a 15-minute demo to see how engineering teams like yours reduce testing time by 60%.
+        <br><br>
+        <a href="{{demo_request_link}}" style="color: #667eea; text-decoration: none;">Request a Demo →</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-links">
+      <a href="{{privacy_policy_link}}">Privacy Policy</a>
+      <a href="{{terms_link}}">Terms of Service</a>
+      <a href="{{support_link}}">Support</a>
+    </div>
+    <p>Smoke Test Co — API Testing That Actually Works</p>
+    <p>123 Tech Street, San Francisco, CA 94102</p>
+    <p><a href="{{unsubscribe_link}}">Unsubscribe</a> | <a href="{{preferences_link}}">Email Preferences</a></p>
+    <p style="margin-top: 10px; color: #666;">You received this email because you downloaded the ROI Calculator from Smoke Test Co.</p>
+  </div>
+</body>
+</html>

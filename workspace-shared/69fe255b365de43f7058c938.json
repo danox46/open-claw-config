@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "LinkedIn thought leadership post: 'Why 80% of AI Projects Fail (and What to Fix First)'",
+    "description": "Write a 300–400 word LinkedIn post that breaks down the 3 most common reasons mid-market companies fail at AI adoption (starting with the wrong tools, ignoring data readiness, and unrealistic timelines). Include a soft CTA to download the free AI Readiness Assessment. Align with key message: 'Most companies think they're ready. Our assessment reveals what they're missing.' Target: CTOs, Operations VPs, Chief of Staff at 50–500 employee companies.",
+    "type": "text"
+  },
+  {
+    "asset": "Blog post draft: 'The 5 Signs Your Company Is Not Ready for AI (and How to Fix Them)'",
+    "description": "Draft a 1,200–1,500 word blog post that educates mid-market decision-makers on the 5 critical readiness gaps that derail AI initiatives. For each sign, provide a brief explanation and a quick fix. Include a clear CTA to book a free 15-minute readiness assessment. Incorporate SEO keywords: 'AI implementation for mid-market', 'how to adopt AI without an IT team'. Align with content theme: 'Behind-the-scenes breakdowns of why 80% of AI projects fail and how we fix it.'",
+    "type": "text"
+  },
+  {
+    "asset": "Email nurture sequence (5 emails): 'Your AI Readiness Score is Inside'",
+    "description": "Create a 5-email nurture sequence triggered by AI Readiness Assessment form submission. Email 1: Deliver personalized readiness score with 3 immediate wins. Email 2 (2 days later): 'The 5 AI blockers you're probably ignoring.' Email 3 (4 days later): 'How [Similar Company] fixed their AI roadmap.' Email 4 (7 days later): 'Your 15-minute AI audit is waiting.' Email 5 (10 days later): 'The ROI calculator nobody tells you about.' Each email should be 150–250 words, conversational tone, with a soft CTA. Align with key message: 'We don't install AI—we make it work for your business.'",
+    "type": "text"
+  },
+  {
+    "asset": "AI Readiness Assessment landing page hero section copy",
+    "description": "Write compelling hero section copy for /ai-readiness-assessment landing page. Headline: 'Discover What's Holding Your AI Initiatives Back.' Subheadline: 'Free 15-minute readiness assessment. No sales pitch. Just honest answers and a clear roadmap.' Value proposition: 'Most companies fail at AI because they start with the wrong tools. We diagnose your readiness first, then build a custom plan.' CTA: 'Start My Free Assessment.' Include 3 bullet points highlighting what they'll discover (e.g., 'Your biggest AI blockers', 'Readiness score', 'First steps'). Align with positioning: 'The only AI adoption partner that starts with diagnosing your readiness, not selling tools.'",
+    "type": "text"
+  },
+  {
+    "asset": "Visual asset: 'AI Failure vs. Success' infographic",
+    "description": "Create an infographic that visually contrasts the 3 most common AI implementation mistakes (wrong tools first, ignoring data readiness, unrealistic timelines) with the 3 fixes (diagnostic-first approach, data readiness checklist, phased rollout). Use clean, professional design with AI First Solutions branding. Include a QR code or CTA that links to the AI Readiness Assessment. Align with content theme: 'Behind-the-scenes breakdowns of why 80% of AI projects fail and how we fix it.'",
+    "type": "image"
+  },
+  {
+    "asset": "LinkedIn carousel post: 'The 3-Step AI Adoption Roadmap for Companies Without IT Teams'",
+    "description": "Write a 5–6 slide LinkedIn carousel post that outlines a simple AI adoption roadmap for mid-market companies without in-house IT teams. Slide 1: Hook ('No IT team? No problem.') Slide 2: Step 1 — Diagnostic-first approach. Slide 3: Step 2 — Data readiness checklist. Slide 4: Step 3 — Phased rollout. Slide 5: Common pitfalls to avoid. Slide 6: CTA ('Get your free readiness assessment'). Use clear, actionable language. Align with key message: 'No IT team? No problem. We handle integration with your existing tools.'",
+    "type": "text"
+  }
+]

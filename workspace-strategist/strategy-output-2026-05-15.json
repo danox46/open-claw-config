@@ -1,0 +1,113 @@
+{
+  "campaigns": [
+    {
+      "id": "orchestration-authority",
+      "name": "Orchestration Authority",
+      "objective": "Position Danox as the leading thought leader on AI workflow orchestration, driving 20% LinkedIn growth and 15 inbound consulting inquiries per month within 90 days",
+      "targetAudience": "Founders, CTOs, COOs, and CMOs at AI/SaaS startups (pre-seed to Series B), mid-market companies ($10M–$100M) undergoing digital transformation, who face implementation challenges as their primary barrier to AI adoption",
+      "positioning": "AI workflow orchestration that connects end-to-end processes with human-in-the-loop governance — transforming fragmented tools into unified intelligence infrastructure rather than isolated automation tasks",
+      "keyMessages": [
+        "Most AI initiatives fail at scale because they automate isolated tasks instead of orchestrating complete workflows",
+        "True competitive advantage comes from systems thinking — connecting data, decisions, and actions across your entire tech stack",
+        "AI should augment human judgment, not replace it — ethical governance and structured handover make automation sustainable"
+      ],
+      "channels": ["linkedin"],
+      "contentThemes": [
+        "The Orchestration Gap — why PoCs fail and how to build production-ready systems from day one",
+        "System Thinking for AI — connecting data silos, automating decision chains, and creating unified workflows",
+        "Human-in-the-Loop Automation — designing AI systems that augment judgment with ethical governance and structured handover"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture through thought leadership posts, native carousels, and profile optimization",
+        "Phase 2: Consideration — nurture and educate with deep-dive posts, webinar series, and case study narratives",
+        "Phase 3: Conversion — demo requests and SQL handoff through direct outreach, personalized content offers, and consultation calls"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": ["LinkedIn profile views increase 20%", "Connection acceptance rate 30%+", "Content engagement rate 7%+", "Inbound consulting inquiries 15/month"]
+    },
+    {
+      "id": "ethical-ai-governance",
+      "name": "Ethical AI Governance",
+      "objective": "Build authority around ethical AI implementation, attracting 10% of total inbound leads from organizations concerned with compliance and governance as a competitive differentiator",
+      "targetAudience": "Enterprise digital transformation teams, compliance officers, and CTOs at mid-market companies ($10M–$100M) prioritizing ethical AI, embedded compliance, and risk mitigation alongside automation goals",
+      "positioning": "Ethical AI governance as a competitive advantage — embedding compliance, bias detection, and structured handover into automation architecture rather than treating it as an afterthought",
+      "keyMessages": [
+        "Ethical governance isn't a constraint — it's a competitive differentiator that unlocks enterprise adoption",
+        "Bias detection and compliance must be embedded in automation architecture, not added as an afterthought",
+        "Structured handover protocols make AI systems sustainable and transferable across teams and time"
+      ],
+      "channels": ["linkedin"],
+      "contentThemes": [
+        "Governance as Infrastructure — embedding compliance and bias detection into automation architecture",
+        "The Hidden Cost of Unmanaged AI — technical debt, security risks, and organizational friction from ignored governance",
+        "Structured Handover Protocols — making AI systems sustainable and transferable across teams and time"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence through governance-focused posts and native carousels highlighting ethical AI as competitive advantage",
+        "Phase 2: Consideration — nurture with deep-dive posts on compliance architecture, bias detection patterns, and governance case studies",
+        "Phase 3: Conversion — demo requests and SQL handoff through compliance-focused outreach and consultation calls for enterprise teams"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": ["LinkedIn content reach 40%+", "Engagement rate 8%+", "Enterprise-inclined lead share 10% of total", "Consulting inquiries from compliance-focused orgs 3+/month"]
+    },
+    {
+      "id": "human-centric-automation",
+      "name": "Human-Centric Automation",
+      "objective": "Reframe automation as augmentation, attracting 25% of inbound leads from organizations that prioritize human expertise alongside AI implementation",
+      "targetAudience": "Founders and operators at AI/SaaS startups (pre-seed to Series B), mid-market companies undergoing digital transformation who value human judgment and expertise alongside automation capabilities",
+      "positioning": "Human-centric automation that augments judgment rather than replacing it — combining AI efficiency with human expertise, ethical governance, and structured handover for sustainable results",
+      "keyMessages": [
+        "AI should augment human judgment, not replace it — the most valuable automation systems amplify expertise",
+        "Sustainable automation requires structured handover protocols, not just technical implementation",
+        "The best AI systems blend efficiency with human insight — combining speed with judgment for better outcomes"
+      ],
+      "channels": ["linkedin"],
+      "contentThemes": [
+        "Augmentation Over Automation — why the most valuable AI systems amplify human expertise rather than replace it",
+        "Designing Human-in-the-Loop Systems — creating automation that respects and enhances human judgment",
+        "Sustainable Automation Architecture — structured handover protocols, bias detection, and ethical governance for long-term success"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence through human-centric posts and carousels reframing automation as augmentation",
+        "Phase 2: Consideration — nurture with deep-dive posts on human-AI collaboration patterns, augmentation case studies, and design principles",
+        "Phase 3: Conversion — demo requests and SQL handoff through personalized outreach highlighting augmentation benefits and consultation calls"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": ["LinkedIn profile views increase 20%", "Content engagement rate 7%+", "Augmentation-focused lead share 25% of total", "Consulting inquiries 5+/month"]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Three-tier funnel structure: Top-funnel attracts through thought leadership on LinkedIn (native carousels, short-form video, personal profile optimization). Middle-funnel nurtures via weekly content series, webinar invitations, and educational posts that demonstrate expertise. Bottom-funnel converts through personalized outreach, consultation calls, and demo requests for high-intent prospects. All campaigns feed into a unified nurture workflow that qualifies leads based on behavior, timing, and fit signals before sales engagement.",
+    "conversionPaths": [
+      "Primary path: LinkedIn connection → profile engagement → consultation call request → SQL handoff within 5 minutes (21X conversion vs. 1 hour response time)",
+      "Secondary path: Educational content → newsletter signup → webinar invitation → nurture sequence → demo request → SQL handoff"
+    ],
+    "nurtureApproach": "Weekly content batches that educate prospects through progressive depth: awareness posts introduce concepts, mid-funnel posts provide technical deep dives and case study narratives, bottom-funnel content offers consultation and demo opportunities. Webinars serve as high-trust education events that move prospects from consideration to conversion. Email nurture sequences complement LinkedIn outreach with deeper technical content, case studies, and social proof. All nurturing emphasizes human-in-the-loop governance and ethical implementation as differentiators.",
+    "leadQualification": {
+      "scoringSignals": [
+        "FIT (0–50): Company matches ICP (AI/SaaS startup or mid-market $10M–$100M), decision-maker role (founder, CTO, COO, CMO), no blacklist criteria",
+        "INTENT (0–50): Pricing/demo visits, ROI calculator interaction, webinar registration, case study reads, consultation call requests",
+        "TIMING (0–40): Project deadlines, timeline <30 days, trigger events (hiring, funding, transformation initiatives), budget availability"
+      ],
+      "qualificationThreshold": "40+ points = MQL (48h response), 60+ points = SQL (24h response), 80+ points = Hot lead (1h response)",
+      "routingGuidance": "MQLs enter nurture sequence and continue LinkedIn engagement. SQLs trigger sales outreach with consultation call scheduling. Hot leads receive immediate personalized outreach from Danox with priority consultation availability."
+    },
+    "salesHandoff": {
+      "owner": "Danox (primary owner for all inbound leads, handling initial consultation and technical discovery)",
+      "process": "Automated lead scoring → CRM notification → consultation call within threshold time → technical discovery → scope definition → engagement proposal → ongoing advisory relationship",
+      "requiredContext": [
+        "Lead scoring breakdown (FIT/INTENT/TIMING points and contributing signals)",
+        "Engagement history (content consumed, webinars attended, connection interactions)",
+        "Company context (ICP fit, transformation initiatives, pain point indicators)"
+      ]
+    },
+    "measurementPlan": [
+      "ICP-fit engagement rate target: 15–22% (LinkedIn connection acceptance, profile views, content interactions)",
+      "Visitor-to-lead conversion rate target: 8–15% (single-field capture optimization)",
+      "MQL→SQL conversion rate target: 30%+ (5-field form qualification)",
+      "Speed-to-lead: 5 minutes for hot leads, 24h for SQL, 48h for MQL",
+      "CAC payback period monitoring and optimization",
+      "Content engagement rate target: 7%+ (average engagement per post)"
+    ]
+  }
+}

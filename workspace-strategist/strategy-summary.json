@@ -1,0 +1,215 @@
+{
+  "campaign": {
+    "name": "Stop Tool Sprawl. Start Solving.",
+    "objective": "Generate 500 qualified pipeline leads within 90 days while establishing Smoke Test Co as the integration-first platform for mid-market engineering teams",
+    "targetAudience": "CTOs, VP Engineering, and Engineering Directors at mid-market B2B SaaS companies ($50M+ revenue, 51-500 employees) who currently manage 3+ disconnected engineering tools and are actively evaluating engineering platform consolidation solutions",
+    "positioning": "The only engineering platform built for mid-market complexity—enterprise-grade reliability and features without enterprise bloat or pricing complexity",
+    "keyMessages": [
+      "Consolidate fragmented engineering tools into one platform that integrates natively with your existing stack",
+      "Achieve measurable ROI within 90 days through reduced tool sprawl and streamlined workflows",
+      "Enterprise-grade security and compliance (SOC 2) without enterprise pricing or complexity",
+      "Join 50+ mid-market engineering teams who replaced tool sprawl with one focused platform"
+    ],
+    "primaryChannel": "LinkedIn organic + employee advocacy",
+    "timeline": "3 months (Q2 2026): Month 1 - Asset creation and community seeding, Month 2 - Campaign launch with LinkedIn ads and webinar, Month 3 - Retargeting and trial push"
+  },
+  "contentPlan": [
+    {
+      "type": "Blog Post",
+      "title": "The Real Cost of Manual Engineering Processes: Why 74% of Mid-Market Teams Are Overwhelmed",
+      "purpose": "Top-of-funnel problem awareness; establishes authority and validates reader's pain",
+      "targetKeywords": ["engineering tool fragmentation", "mid-market SaaS engineering challenges", "engineering stack consolidation"],
+      "channel": "Smoke Test Co company blog",
+      "callToAction": "Download our Engineering Stack Consolidation Checklist"
+    },
+    {
+      "type": "Blog Post",
+      "title": "Integration-First: How to Consolidate Your Engineering Stack Without Disrupting Velocity",
+      "purpose": "Middle-of-funnel solution education; positions Smoke Test Co as the integration-first platform",
+      "targetKeywords": ["engineering platform integration", "consolidate engineering tools", "engineering stack modernization"],
+      "channel": "Smoke Test Co company blog",
+      "callToAction": "See how our integration-first approach works"
+    },
+    {
+      "type": "Blog Post",
+      "title": "ROI Within 90 Days: Measuring Engineering Tool Impact Like a CFO",
+      "purpose": "Bottom-of-funnel proof; addresses budget concerns with concrete timeline",
+      "targetKeywords": ["engineering tool ROI", "measure engineering efficiency", "engineering cost reduction"],
+      "channel": "Smoke Test Co company blog",
+      "callToAction": "Get our free Engineering ROI Calculator"
+    },
+    {
+      "type": "Blog Post",
+      "title": "5 Signs Your Engineering Tools Are Holding You Back (And What to Do About It)",
+      "purpose": "Problem-centered discovery; captures leads through checklist download",
+      "targetKeywords": ["engineering tool signs", "engineering efficiency problems", "engineering tool sprawl symptoms"],
+      "channel": "Smoke Test Co company blog",
+      "callToAction": "Download the complete checklist of 12 warning signs"
+    },
+    {
+      "type": "Checklist",
+      "title": "Engineering Stack Consolidation Checklist: 12 Warning Signs You're Ready to Act",
+      "purpose": "Lead capture asset; progressive profiling opportunity",
+      "targetKeywords": ["engineering stack audit", "tool consolidation checklist", "engineering efficiency assessment"],
+      "channel": "Company blog + LinkedIn download",
+      "callToAction": "Request your free checklist"
+    },
+    {
+      "type": "Webinar",
+      "title": "Stop Tool Sprawl. Start Solving: Engineering Platform Consolidation for Mid-Market Teams",
+      "purpose": "Technical deep dive; demonstrates expertise and drives demo bookings",
+      "targetKeywords": ["engineering platform consolidation", "engineering tool modernization", "mid-market engineering solutions"],
+      "channel": "Live webinar (LinkedIn promotion)",
+      "callToAction": "Book your personalized platform assessment"
+    },
+    {
+      "type": "Case Study",
+      "title": "How [Similar Company] Reduced Engineering Costs 30% in 6 Months",
+      "purpose": "Bottom-of-funnel proof; validates ROI claims with comparable profile",
+      "targetKeywords": ["engineering cost reduction", "engineering efficiency case study", "SaaS engineering optimization"],
+      "channel": "Company blog + LinkedIn",
+      "callToAction": "Book a demo to see how it works for your team"
+    }
+  ],
+  "landingPages": [
+    {
+      "slug": "/engineering-consolidation",
+      "headline": "Enterprise Features Without Enterprise Complexity",
+      "subheadline": "The engineering platform mid-market SaaS teams actually use",
+      "valueProposition": "Stop juggling 3+ disconnected tools. Consolidate your engineering stack into one platform that integrates natively with your existing systems. Achieve measurable ROI within 90 days.",
+      "cta": "Request Demo",
+      "formId": "form-demos"
+    },
+    {
+      "slug": "/stack-consolidation-checklist",
+      "headline": "Is Your Engineering Stack Holding You Back?",
+      "subheadline": "Download our 12-warning sign checklist for tool fragmentation",
+      "valueProposition": "Most mid-market engineering teams are overwhelmed by tool sprawl. Our checklist helps you identify if you're experiencing the same symptoms and what consolidation can do for you.",
+      "cta": "Download Checklist",
+      "formId": "form-checklist"
+    },
+    {
+      "slug": "/roi-calculator",
+      "headline": "Calculate Your Engineering Tool ROI",
+      "subheadline": "See how much efficiency you're losing to tool fragmentation",
+      "valueProposition": "Our calculator estimates your potential cost savings and time recovered by consolidating your engineering stack. See the real impact in numbers.",
+      "cta": "Calculate My ROI",
+      "formId": "form-calculator"
+    },
+    {
+      "slug": "/engineering-webinar",
+      "headline": "Stop Tool Sprawl. Start Solving.",
+      "subheadline": "Join 50+ mid-market engineering teams who replaced tool sprawl with one focused platform",
+      "valueProposition": "Learn how to consolidate fragmented engineering tools without disrupting team velocity. See real metrics, integration strategies, and implementation roadmaps.",
+      "cta": "Register for Webinar",
+      "formId": "form-webinar"
+    }
+  ],
+  "forms": [
+    {
+      "id": "form-demos",
+      "name": "Platform Demo Request",
+      "purpose": "demo request",
+      "fields": ["first_name", "email", "job_title", "company_name", "company_size"],
+      "successAction": "trigger:onboarding-sequence"
+    },
+    {
+      "id": "form-checklist",
+      "name": "Engineering Stack Consolidation Checklist",
+      "purpose": "content download",
+      "fields": ["first_name", "email", "company_name"],
+      "successAction": "trigger:nurture-sequence-checklist"
+    },
+    {
+      "id": "form-calculator",
+      "name": "Engineering ROI Calculator Access",
+      "purpose": "content download",
+      "fields": ["first_name", "email", "company_size"],
+      "successAction": "trigger:roi-nurture-sequence"
+    },
+    {
+      "id": "form-webinar",
+      "name": "Engineering Platform Consolidation Webinar",
+      "purpose": "webinar registration",
+      "fields": ["first_name", "email", "job_title", "company_name", "company_size", "current_solutions", "timeline"],
+      "successAction": "trigger:webinar-sequence"
+    }
+  ],
+  "emailSequences": [
+    {
+      "name": "Checklist Nurture",
+      "trigger": "form:form-checklist",
+      "steps": [
+        { "delay": "immediate", "subject": "Your Engineering Stack Consolidation Checklist (inside)", "purpose": "Deliver checklist + establish credibility" },
+        { "delay": "3 days", "subject": "3 of the 12 warning signs you might be experiencing", "purpose": "Validate pain points with specific examples" },
+        { "delay": "7 days", "subject": "How [Similar Company] consolidated their stack in 90 days", "purpose": "Social proof with case study" },
+        { "delay": "14 days", "subject": "See the ROI calculator in action", "purpose": "Drive calculator engagement + demo consideration" },
+        { "delay": "21 days", "subject": "Last chance: Webinar registration closes soon", "purpose": "Webinar promotion + urgency" }
+      ]
+    },
+    {
+      "name": "ROI Calculator Nurture",
+      "trigger": "form:form-calculator",
+      "steps": [
+        { "delay": "immediate", "subject": "Your Engineering ROI Calculator is ready", "purpose": "Deliver calculator + set expectations" },
+        { "delay": "2 days", "subject": "What our calculator revealed for similar teams", "purpose": "Showcase typical results + validate ROI claims" },
+        { "delay": "5 days", "subject": "Meet the teams using our platform", "purpose": "Customer testimonials + social proof" },
+        { "delay": "10 days", "subject": "Integration-first: How we reduce tool sprawl", "purpose": "Solution education + platform differentiator" },
+        { "delay": "17 days", "subject": "Book a 15-minute platform walkthrough", "purpose": "Demo request + close" }
+      ]
+    },
+    {
+      "name": "Webinar Series",
+      "trigger": "form:form-webinar",
+      "steps": [
+        { "delay": "immediate", "subject": "Webinar confirmation + calendar invite attached", "purpose": "Confirm registration + reduce no-shows" },
+        { "delay": "2 days", "subject": "What to expect from the webinar", "purpose": "Set expectations + increase attendance" },
+        { "delay": "3 days", "subject": "Webinar reminder: 48 hours remaining", "purpose": "Reminder + urgency" },
+        { "delay": "1 day (event)", "subject": "Missed the webinar? Here's the recording", "purpose": "Capture no-shows + nurture" },
+        { "delay": "3 days (after event)", "subject": "3 key takeaways from the webinar", "purpose": "Reinforce value + demo consideration" },
+        { "delay": "7 days (after event)", "subject": "See how our platform implements what you learned", "purpose": "Solution demo + booking" }
+      ]
+    },
+    {
+      "name": "Demo Follow-Up",
+      "trigger": "form:form-demos",
+      "steps": [
+        { "delay": "1 hour", "subject": "Thanks for requesting a demo - when works best?", "purpose": "Speed-to-lead response + schedule demo" },
+        { "delay": "24 hours", "subject": "No problem - here's what to expect in your demo", "purpose": "Manage expectations + reduce demo anxiety" },
+        { "delay": "2 days (if no demo booked)", "subject": "Quick question about your engineering challenges", "purpose": "Qualify further + re-engage" },
+        { "delay": "5 days (if no demo booked)", "subject": "3 ways our platform solves [their top concern]", "purpose": "Solution-specific value + urgency" },
+        { "delay": "10 days (if no demo booked)", "subject": "Is this still a priority for your team?", "purpose": "Qualify timing + move to nurture if needed" }
+      ]
+    }
+  ],
+  "leadRules": {
+    "scoringCriteria": [
+      { "action": "Requested demo", "points": 30 },
+      { "action": "Visited pricing page (2+ times)", "points": 15 },
+      { "action": "Downloaded ROI calculator", "points": 20 },
+      { "action": "Downloaded consolidation checklist", "points": 15 },
+      { "action": "Attended webinar", "points": 10 },
+      { "action": "Multiple page views (demo content)", "points": 5 },
+      { "action": "Requested case study", "points": 10 },
+      { "action": "Opened email (3+ in sequence)", "points": 5 },
+      { "action": "Clicked link in email", "points": 5 },
+      { "action": "Job title: VP Engineering/CTO/Director", "points": 15 },
+      { "action": "Timeline: < 30 days", "points": 25 },
+      { "action": "Visited only homepage", "points": -3 },
+      { "action": "Downloaded blog post only", "points": -5 },
+      { "action": "No engagement in 14+ days", "points": -5 }
+    ],
+    "routingRules": [
+      { "condition": "score >= 60 AND demo_booked == true", "action": "assign to AE + trigger:high-priority-sequence" },
+      { "condition": "score >= 50 AND demo_booked == false", "action": "trigger:demo-nudge-sequence" },
+      { "condition": "score >= 40", "action": "add to MQL list + trigger:nurture-sequence" },
+      { "condition": "score < 40", "action": "add to long-term nurture + monitor for engagement" }
+    ]
+  },
+  "salesQualifiedHandoff": {
+    "sqaThreshold": "score >= 60 AND (demo_booked == true OR timeline == '< 30 days')",
+    "handoffProcess": "1. Automated Slack alert to #sales-alerts channel with lead details and score. 2. Sales rep receives SMS + email notification within 1 hour of SQA. 3. AE reviews lead context and engagement history within 2 hours. 4. AE contacts lead within 1 hour for demo scheduling. 5. CRM updated with SQA status and assigned AE. 6. Daily standup includes SQA leads for prioritization.",
+    "notificationChannel": "Slack #sales-alerts",
+    "requiredData": ["company_name", "email", "phone", "job_title", "use_case", "budget_range", "timeline", "current_solutions", "pain_points"]
+  }
+}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="960" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Automation Debt</text>
+  <text x="960" y="130" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#666666">5 Warning Signs</text>
+  
+  <!-- Warning Line -->
+  <line x1="800" y1="160" x2="1120" y2="160" stroke="#ff6b35" stroke-width="4"/>
+  
+  <!-- Section 1: Poor Exception Handling -->
+  <g transform="translate(100, 220)">
+    <!-- Icon: Broken Chain -->
+    <rect x="0" y="0" width="280" height="280" rx="20" fill="#f5f5f5"/>
+    <text x="140" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">1</text>
+    <path d="M40 100 L80 100 M100 100 L140 100 M160 100 L200 100" stroke="#ff6b35" stroke-width="4" fill="none"/>
+    <line x1="100" y1="100" x2="120" y2="100" stroke="#ff6b35" stroke-width="4"/>
+    <line x1="100" y1="100" x2="120" y2="140" stroke="#ff6b35" stroke-width="4" transform="rotate(45 120 120)"/>
+    <text x="140" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333333">Poor Exception Handling</text>
+    <text x="140" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">No error recovery mechanisms</text>
+  </g>
+  
+  <!-- Section 2: Data Quality Issues -->
+  <g transform="translate(100, 540)">
+    <!-- Icon: Corrupted File -->
+    <rect x="0" y="0" width="280" height="280" rx="20" fill="#f5f5f5"/>
+    <text x="140" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">2</text>
+    <rect x="80" y="110" width="120" height="100" fill="#ff6b35" opacity="0.3"/>
+    <path d="M100 110 L140 110 M120 110 L120 150 M120 110 L120 150" stroke="#ff6b35" stroke-width="3" fill="none"/>
+    <line x1="120" y1="110" x2="120" y2="140" stroke="#ff6b35" stroke-width="3"/>
+    <line x1="120" y1="110" x2="100" y2="130" stroke="#ff6b35" stroke-width="3" transform="rotate(-30 120 120)"/>
+    <text x="140" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333333">Data Quality Issues</text>
+    <text x="140" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">Inconsistent or dirty input</text>
+  </g>
+  
+  <!-- Section 3: Brittle Edge Cases -->
+  <g transform="translate(100, 860)">
+    <!-- Icon: Fragile Glass -->
+    <rect x="0" y="0" width="280" height="280" rx="20" fill="#f5f5f5"/>
+    <text x="140" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">3</text>
+    <path d="M100 120 L140 120 L180 120 M100 140 L140 140 L180 140 M100 160 L140 160 L180 160" stroke="#ff6b35" stroke-width="2" fill="none"/>
+    <line x1="100" y1="140" x2="180" y2="140" stroke="#ff6b35" stroke-width="2" transform="rotate(15 140 140)"/>
+    <text x="140" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333333">Brittle Edge Cases</text>
+    <text x="140" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">Breaks under unexpected scenarios</text>
+  </g>
+  
+  <!-- Section 4: No Monitoring -->
+  <g transform="translate(100, 1180)">
+    <!-- Icon: Empty Dashboard -->
+    <rect x="0" y="0" width="280" height="280" rx="20" fill="#f5f5f5"/>
+    <text x="140" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">4</text>
+    <rect x="60" y="100" width="160" height="140" fill="#ff6b35" opacity="0.15"/>
+    <rect x="80" y="120" width="120" height="80" fill="#ff6b35" opacity="0.15"/>
+    <text x="140" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333333">No Monitoring</text>
+    <text x="140" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">No visibility into performance</text>
+  </g>
+  
+  <!-- Section 5: Over-Complicated Workflows -->
+  <g transform="translate(100, 1500)">
+    <!-- Icon: Tangled Knots -->
+    <rect x="0" y="0" width="280" height="280" rx="20" fill="#f5f5f5"/>
+    <text x="140" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">5</text>
+    <path d="M100 140 Q120 120 140 140 Q160 120 180 140 M100 160 Q120 180 140 160 Q160 180 180 160" stroke="#ff6b35" stroke-width="3" fill="none"/>
+    <text x="140" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333333">Over-Complicated Workflows</text>
+    <text x="140" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">Too many unnecessary steps</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="0" y="940" width="1920" height="80" fill="#1a1a1a"/>
+  <text x="960" y="975" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Identify &amp; Address Automation Debt</text>
+</svg>

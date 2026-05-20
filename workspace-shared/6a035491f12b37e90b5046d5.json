@@ -1,0 +1,22 @@
+[
+  {
+    "asset": "Cold Email Sequence: AI workflow audit",
+    "description": "Create a 3-email outbound sequence for operations leaders who are exploring AI adoption but have not operationalized it yet.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Outreach Message Set",
+    "description": "Write initial connection note, follow-up, and value message for LinkedIn outreach to revenue and operations leaders.",
+    "type": "text"
+  },
+  {
+    "asset": "Call Script: AI audit qualification",
+    "description": "Draft a short discovery call script that uncovers team bottlenecks, urgency, and decision-making context.",
+    "type": "text"
+  },
+  {
+    "asset": "Visual: Outreach social graphic",
+    "description": "Create a bold but professional social graphic that supports outbound promotion of the AI workflow audit.",
+    "type": "image"
+  }
+]

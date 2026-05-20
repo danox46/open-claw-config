@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "Cold Email Sequence (5-email) for Mid-Market CTOs",
+    "description": "Create a 5-part cold email sequence targeting CTOs and Operations VPs at 50-500 employee companies with stalled AI initiatives. Use key message: 'Turn failed AI attempts into measurable wins.' Email 1: Hook about 80% AI project failure rate + soft intro. Email 2: 'No IT team? No problem' integration story. Email 3: Case study teaser (200+ hours/week savings). Email 4: Webinar CTA with ROI calculator preview. Email 5: Break-up with 30-day ROI guarantee mention. Subject lines: 6-8 words, no caps, conversational tone. Include one CTA per email.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Connection + InMail Template Set",
+    "description": "Develop 3 LinkedIn outreach templates for Phase 1 Awareness: 1) Connection request (<300 chars) referencing 'stalled AI initiatives' pain point. 2) InMail follow-up using 'We don't install AI—we make it work for your business' message. 3) InMail with 'AI readiness assessment' CTA and 15-minute promise. All templates must feel human, not salesy. Include placeholder fields for company name, specific AI use case mention, and one-sentence value prop. Avoid emojis and exclamation marks.",
+    "type": "text"
+  },
+  {
+    "asset": "Paid LinkedIn Ad Copy Variants (3 versions)",
+    "description": "Write 3 distinct LinkedIn Sponsored Content ad variants for Phase 1 Awareness targeting mid-market decision makers. Ad 1: Problem-focused ('Why 80% of AI projects fail at implementation') + 'See how we fix it in 30 days' CTA. Ad 2: Outcome-focused ('Reduced operational costs by 37% without an AI team') + 'Download our implementation checklist' CTA. Ad 3: Guarantee-focused ('See real ROI in 30 days or we adjust') + 'Book free assessment' CTA. Each must use 1-2 key messages, include clear CTA, and fit LinkedIn's character limits (headline, primary text, CTA button). No jargon.",
+    "type": "text"
+  },
+  {
+    "asset": "Cold Call Script (7-minute max)",
+    "description": "Create a conversational cold call script for sales reps reaching out to mid-market CTOs/Operations VPs. Structure: 30-sec intro (no AI jargon), 60-sec discovery questions about their stalled AI initiatives, 90-sec value prop using 'No IT team? No problem' and 'We handle integration' messages, 90-sec objection handling (budget, timeline, team size), 30-sec CTA to 15-minute readiness assessment. Include verbatim lines, natural pauses, and tone notes. Max 7 minutes total. End with clear next step.",
+    "type": "text"
+  },
+  {
+    "asset": "Partnership Outreach Email for Channel Partners",
+    "description": "Draft a partnership outreach email targeting accounting firms, IT consultants, and business coaches who serve mid-market clients. Subject line: 'Help your clients get real AI ROI (without the hype).' Body: 1) Acknowledge their current clients' AI confusion. 2) Use 'We don't install AI—we make it work for your business' message. 3) Offer free 'AI readiness assessment' for their clients. 4) Include partnership benefits (referral fees, co-branded resources). 5) Clear CTA to schedule 20-min discovery call. Keep under 200 words, conversational tone, no fluff.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Ad Creative Mockup (Visual)",
+    "description": "Design a LinkedIn Sponsored Content ad visual (1200x627px) featuring a split-screen comparison: left side shows frustrated team staring at complex AI dashboards (grayscale), right side shows same team celebrating with simple ROI metrics (color). Overlay headline: 'Most AI Projects Fail. Not Yours.' Bottom CTA button: 'Get Your Free Assessment.' Use clean, professional design. Include AI First Solutions branding elements. No text-heavy graphics.",
+    "type": "image"
+  }
+]

@@ -1,0 +1,61 @@
+# Research Summary: Danox Personal Brand — AI Workflow Orchestration
+
+**Research completed and saved to:** `research-summary-2026-05-08.md`  
+**Long-term memory updated in:** `MEMORY.md`
+
+---
+
+## Key Findings at a Glance
+
+### 1. Audience & Pain Points
+**Best-fit buyers:** Founders, CTOs, COOs, CMOs at AI/SaaS startups (pre-seed to Series B), mid-market companies ($10M–$100M), digital transformation initiatives.
+
+**Core pain points:**
+- Repetitive "busy work" consuming 30–50% of time
+- Disconnected tools creating data silos and manual handoffs
+- Lack of AI expertise — implementation challenges are #1 barrier
+- Scaling maintenance — "automation debt" from unmanaged growth
+
+**Language that resonates:** Outcome-specific, proof-led, problem-first framing (e.g., "Enterprise features without enterprise complexity")
+
+### 2. Competitive Positioning
+**Direct competitors:** Taplio, AuthorityMax, Supergrow, BAMF, Socialsonic — all focused on AI content creation and personal branding automation.
+
+**Differentiators to emphasize:**
+- Orchestration over automation (end-to-end process vs. isolated tasks)
+- Human-in-the-loop (augments judgment, doesn't replace)
+- Ethical governance (embedded compliance, bias detection)
+- Knowledge transfer (structured handover protocols)
+
+### 3. Channel & Message Fit
+**Primary channel:** LinkedIn (40% of B2B research time)
+- **Formats:** Native carousels/PDFs (7% engagement), personal profiles (10.7%, 8x company pages), short native video ≤45s
+- **Algorithm:** Relevance > volume; deep engagement weighted heavily
+
+**Secondary channels:** Webinars (30% MQL→SQL), SEO content (51% MQL→SQL)
+
+### 4. Campaign Opportunities
+**Theme 1:** "From PoC to Production" — Most AI initiatives fail at scale; show end-to-end deployment
+**Theme 2:** "Orchestration as Infrastructure" — AI is foundational, not experimental
+**Theme 3:** "Ethical AI for Business" — Governance as competitive advantage
+**Theme 4:** "Human-Centric Automation" — AI augments judgment
+
+### 5. Funnel & Conversion Expectations
+- Visitor→Lead (1-field): 3.20% avg, 8-15% high performer
+- Lead→SQL (5-field): 0.81% avg, 5-7% high performer
+- Speed-to-lead: 5 minutes = 21X conversion vs. 1 hour
+
+### 6. Qualification Signals
+**Lead Scoring (3-Block Model):**
+- FIT (0–50): Company matches ICP, decision-maker, no blacklist
+- INTENT (0–50): Pricing/demo visit, ROI calculator, webinar, case study
+- TIMING (0–40): Project deadline, timeline <30 days, trigger event, budget
+
+**Thresholds:** 40+ = MQL (48h), 60+ = SQL (24h), 80+ = Hot lead (1h)
+
+### 7. Measurement Considerations
+**Primary indicators:** ICP-fit engagement rate (15–22% target), visitor-to-lead conversion (8–15%), MQL→SQL (30%+), CAC payback period
+
+---
+
+**Full report:** See `research-summary-2026-05-08.md` for comprehensive details including campaign cadence, sales handoff requirements, and confidence assessment.

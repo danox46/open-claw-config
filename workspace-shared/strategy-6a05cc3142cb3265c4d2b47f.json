@@ -1,0 +1,143 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-adoption-roadmap",
+      "name": "AI Adoption Roadmap",
+      "objective": "Position structured AI implementation as the antidote to pilot purgatory, driving demo requests from operations leaders seeking to scale beyond pilots",
+      "targetAudience": "VP/Director-level operations leaders at mid-market companies (100–1,000 employees, $10M–$100M revenue) who are resource-constrained on strategic tech decisions (<10 hours/week)",
+      "positioning": "Enterprise AI capabilities without enterprise complexity — a structured path from pilot to production that works with legacy systems, not against them",
+      "keyMessages": [
+        "From pilot to production: A structured path to AI scaling that addresses the 20% gap",
+        "AI that works with your legacy systems, not against them",
+        "Unclear ROI within 30–90 days is a solvable problem, not a business constraint"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "The Real Cost of Manual Logistics Operations — data-driven ROI calculators showing fuel savings, stockout reduction, and efficiency gains",
+        "5 Signs Your AI Strategy Is Stuck in Pilot Purgatory — diagnostic content that positions structured roadmaps as the solution",
+        "How Mid-Size Logistics Companies Are Cutting Costs 25% with AI — case-study-style content with anonymized metrics and implementation timelines"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture with carousels and data-driven infographics on LinkedIn",
+        "Phase 2: Consideration — nurture and educate with blog posts, native document ads, and webinar registrations",
+        "Phase 3: Conversion — demo requests and SQL handoff triggered by pricing/demo visits, ROI calculator downloads, and webinar attendance"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "LinkedIn impressions and saves on framework content",
+        "Demo request volume from top-funnel campaigns",
+        "Website-to-lead conversion rate improvement via form optimization"
+      ]
+    },
+    {
+      "id": "route-optimization-vertical",
+      "name": "Route Optimization Vertical",
+      "objective": "Own the route optimization category among mid-market operations leaders with a clear, measurable value proposition",
+      "targetAudience": "Operations leaders and technologists at mid-market distribution/logistics companies seeking 25%+ fuel savings within 90 days",
+      "positioning": "Stop guessing on routes. Start saving — practical route optimization that delivers 25% fuel savings in 90 days, proven in mid-market operations",
+      "keyMessages": [
+        "Stop guessing on routes. Start saving — 25% fuel savings in 90 days",
+        "Route optimization that works with your existing fleet and drivers, not a complete fleet replacement",
+        "Integration is prerequisite for innovation — we integrate, not replace"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "Route Optimization: What Actually Works in 2026 — framework content comparing approaches and showing what drives real savings",
+        "The Hidden Costs of Route Inefficiency — data-driven content quantifying fuel, time, and wear-and-tear impacts",
+        "Implementation Timeline: What to Expect — transparency content that reduces purchase anxiety and builds trust"
+      ],
+      "phases": [
+        "Phase 1: Awareness — carousels and infographics on route optimization ROI, LinkedIn article deep-dives on methodology",
+        "Phase 2: Consideration — blog posts on best practices, native document ads with ROI calculators, webinar on implementation",
+        "Phase 3: Conversion — demo requests triggered by pricing page visits, ROI calculator downloads, and case study requests"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "LinkedIn engagement (saves/shares) on route optimization content",
+        "ROI calculator completion rate",
+        "Demo request conversion from pricing page visits"
+      ]
+    },
+    {
+      "id": "inventory-predictive",
+      "name": "Inventory Management Vertical",
+      "objective": "Position predictive inventory forecasting as the antidote to stockouts and dead stock, driving demo requests from mid-market retailers and distributors",
+      "targetAudience": "VP/Director-level operations and supply chain leaders at mid-market retailers and distributors struggling with stockouts and inventory carrying costs",
+      "positioning": "Inventory that moves. Not dead stock — predictive forecasting that reduces stockouts by 40% without over-investing in inventory",
+      "keyMessages": [
+        "Inventory that moves. Not dead stock — 40% stockout reduction with predictive forecasting",
+        "Predictive forecasting that works with your legacy WMS, not a complete replacement",
+        "The data problems undermining mid-market AI projects — and how we solve them"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "Inventory Management: Best Practices for Mid-Size Warehouses — framework content on optimal stock levels and turnover",
+        "The Data Problems Undermining Mid-Market AI Projects — diagnostic content positioning data quality as the foundation of successful AI",
+        "Case Study: [Similar Company] Reduced Costs 30% in 6 Months — social proof with anonymized metrics and implementation timeline"
+      ],
+      "phases": [
+        "Phase 1: Awareness — data infographics on inventory carrying costs, LinkedIn articles on inventory optimization frameworks",
+        "Phase 2: Consideration — blog posts on best practices, native document ads with inventory health checklists, webinar on predictive forecasting",
+        "Phase 3: Conversion — demo requests triggered by case study downloads, inventory health checklist requests, and pricing page visits"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "LinkedIn saves and shares on inventory cost content",
+        "Inventory health checklist download rate",
+        "Webinar registration and attendance for predictive forecasting deep dive"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Top-funnel captures via 3-field forms (name, company, email) on high-value LinkedIn content. Mid-funnel nurtures via email sequences triggered by content downloads and website behavior. Bottom-funnel converts via 5–7 field demo forms, with progressive profiling to minimize friction while gathering qualification signals. All campaigns feed into a unified lead scoring and routing system.",
+    "conversionPaths": [
+      "Primary: LinkedIn carousel/article → native document ad (gated asset) → email nurture sequence → 5–7 field demo request form → SQL handoff",
+      "Secondary: LinkedIn → blog post → newsletter signup → progressive profiling → webinar registration → demo request"
+    ],
+    "nurtureApproach": "Trigger-based email sequences (4–7 emails) focused on value delivery before conversion asks. Day 0, 3, 7, 14, 21, 30 cadence with specific content: frameworks, case studies, calculators. 3:1 rule — deliver value 3 times before asking for demo. Beyond first-name personalization: reference industry, previously downloaded content, and recent behavior.",
+    "leadQualification": {
+      "scoringSignals": [
+        "Company matches ICP (size + sector + zone): +10 points",
+        "Contact is decision-maker or influencer: +15 points",
+        "Pricing/demo visit: +15 points",
+        "Downloaded ROI calculator: +20 points",
+        "Attended webinar: +10 points",
+        "Job title VP/Director: +10 points"
+      ],
+      "qualificationThreshold": "Score 40–59 = MQL (nurture), 60–79 = SQL (24-hour outreach), 80+ = Hot lead (1-hour response)",
+      "routingGuidance": "MQLs enter 14-day nurture sequence with educational content. SQLs trigger 3-day 4-touch demo request sequence. Hot leads receive executive outreach from SDR within 1 hour with personalized demo invite."
+    },
+    "salesHandoff": {
+      "owner": "SDR team handles initial contact and scheduling. AEs own closed-won opportunities and account planning.",
+      "process": "CRM auto-creates lead record with score and signals. SDR reviews queue 24/5. Hot leads (80+) receive phone call within 1 hour. SQLs receive email + calendar link within 24 hours. MQLs enter nurture until score threshold crossed.",
+      "requiredContext": [
+        "Lead score and contributing signals",
+        "Company context (size, revenue, locations)",
+        "Engagement history (content downloaded, pages viewed)",
+        "Pain point priorities (top 3 challenges ranked)",
+        "Timeline and budget information",
+        "Competitive context (current vendor, blockers)"
+      ]
+    },
+    "measurementPlan": [
+      "Campaign-specific LinkedIn engagement metrics (impressions, saves, shares, profile visits)",
+      "Top-of-funnel to mid-funnel conversion rate (content downloads, webinar registrations)",
+      "Mid-funnel to bottom-funnel conversion rate (demo requests, qualified opportunities)",
+      "Lead scoring distribution and velocity (MQL→SQL conversion rate)",
+      "Form optimization impact (conversion rate by field count)",
+      "Overall cost per demo request and cost per qualified opportunity"
+    ]
+  }
+}

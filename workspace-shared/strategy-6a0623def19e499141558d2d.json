@@ -1,0 +1,68 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-clarity-sprint",
+      "name": "AI Clarity Sprint",
+      "objective": "Generate qualified inbound and outbound pipeline in 90 days",
+      "targetAudience": "Mid-market operations and revenue leaders adopting AI workflows",
+      "positioning": "A practical partner that helps teams operationalize AI without chaos",
+      "keyMessages": [
+        "Turn AI interest into repeatable workflows",
+        "Adopt AI with clear process and measurable outcomes",
+        "Get stakeholder confidence with visible execution wins"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "Operational blockers to AI adoption",
+        "Workflow clarity as a competitive advantage",
+        "Practical audit-led transformation stories"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture",
+        "Phase 2: Consideration — nurture and educate",
+        "Phase 3: Conversion — demo requests and SQL handoff"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "Audit requests",
+        "Email replies",
+        "LinkedIn engagement"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Use educational top-funnel content to capture demand, then move high-intent prospects into an audit-led conversion path.",
+    "conversionPaths": [
+      "Primary path: AI workflow audit request for teams with immediate execution pressure",
+      "Secondary path: educational nurture for teams still aligning internally on AI adoption"
+    ],
+    "nurtureApproach": "Reinforce operational clarity, measurable workflow wins, and low-chaos implementation steps between first touch and sales handoff.",
+    "leadQualification": {
+      "scoringSignals": [
+        "Requested an audit or strategy consultation",
+        "Repeated engagement with AI operations content",
+        "Firmographic fit with mid-market service or ops-heavy teams"
+      ],
+      "qualificationThreshold": "Escalate to sales when intent plus operational urgency suggest active evaluation.",
+      "routingGuidance": "Send high-intent leads to revenue for direct follow-up and keep education-stage prospects in nurture."
+    },
+    "salesHandoff": {
+      "owner": "Revenue or advisory sales lead",
+      "process": "Provide campaign context, recent engagement, and the stated AI workflow problem before discovery.",
+      "requiredContext": [
+        "company profile",
+        "team pain point",
+        "recent engagement summary"
+      ]
+    },
+    "measurementPlan": [
+      "Audit requests",
+      "Qualified conversations",
+      "Channel engagement by campaign"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# Research Complete: Fresh Run Demo — AI Adoption Services for Medium Businesses
+
+## Key Insights
+
+### Market Context
+- **78%** of mid-market companies have adopted AI, but only **20%** scale beyond pilots
+- **73%** cite integration with legacy systems as primary roadblock
+- **Up to 95%** of AI projects fail to deliver measurable ROI
+
+### Competitive Positioning
+- **Boutique firms** ($150–300/hr) vs. Big 4 ($300–600+/hr)
+- **Mid-market specialization** is the gap: "Enterprise capabilities without enterprise complexity"
+- **Build vs. Advise** — Top competitors emphasize implementation, not just strategy
+
+### Audience Pain Points (Priority Order)
+1. **Scaling Beyond Pilots** — Primary concern for CEOs
+2. **Integration** — Primary concern for IT Directors
+3. **Unclear ROI** — Primary concern for Operations Managers
+
+### Channel Benchmarks
+| Channel | MQL→SQL Rate |
+|---------|--------------|
+| **SEO** | 51% conversion |
+| **Email Nurture** | 46% conversion |
+| **Webinars** | 30% conversion |
+| **Product Tours** | >25% trial conversion |
+
+## Immediate Actions
+
+**0–30 Days:**
+1. Optimize load speed to sub-2 seconds
+2. Cut form fields by 40% on top-funnel pages
+3. Add social proof near CTAs (logos, metrics, badges)
+4. Implement progressive profiling
+
+**30–90 Days:**
+1. Launch interactive ROI calculator
+2. Build trigger-based email nurture sequences
+3. Implement lead scoring (40+ = MQL, 60+ = SQL, 80+ = Hot)
+
+**Full Research:** Saved to `research-summary-2026-05-09.md` with detailed breakdown across all 7 strategy areas (Campaign, Content, Landing Pages, Forms, Email, Lead Rules, Sales Handoff).

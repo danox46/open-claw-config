@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick question before we schedule your demo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+    .email-container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px 20px; text-align: center; }
+    .header h1 { color: #ffffff; font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+    .header p { color: rgba(255,255,255,0.9); font-size: 16px; }
+    .content { padding: 30px 20px; }
+    .cta-button { display: inline-block; background: #667eea; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; margin: 20px 0; text-align: center; }
+    .cta-button:hover { background: #5a6fd6; }
+    .social-proof { background: #f8f9fa; padding: 20px; margin: 25px 0; border-radius: 8px; }
+    .social-proof h3 { color: #333; font-size: 14px; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+    .logo-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center; }
+    .logo-placeholder { width: 80px; height: 40px; background: #e0e0e0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #999; }
+    .trust-badges { display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap; }
+    .trust-badge { background: #e8f4fd; border: 1px solid #b3d9f2; padding: 8px 12px; border-radius: 4px; font-size: 12px; color: #0d6efd; font-weight: 500; }
+    .qualification-box { background: #fafbfc; border: 2px solid #667eea; border-radius: 8px; padding: 25px; margin: 20px 0; }
+    .qualification-box h3 { color: #667eea; font-size: 18px; margin-bottom: 15px; }
+    .qualification-box .question { margin-bottom: 15px; }
+    .qualification-box .question strong { color: #333; display: block; margin-bottom: 5px; }
+    .qualification-box .question p { color: #666; font-size: 14px; margin: 0; }
+    .qualification-box .options { margin-top: 10px; }
+    .qualification-box .options label { display: block; margin-bottom: 8px; color: #333; }
+    .qualification-box .options input[type="text"], .qualification-box .options select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-top: 5px; font-size: 14px; }
+    .qualification-box .options .help { font-size: 12px; color: #888; margin-top: 5px; font-style: italic; }
+    .demo-value { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    .demo-value h4 { color: #333; font-size: 16px; margin-bottom: 10px; }
+    .demo-value p { color: #666; font-size: 14px; margin: 0 0 10px 0; }
+    .demo-value ul { margin-left: 20px; margin-top: 10px; }
+    .demo-value li { margin-bottom: 5px; }
+    .footer { background: #1a1a2e; color: #a0a0a0; padding: 30px 20px; text-align: center; font-size: 12px; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer-links { margin-bottom: 15px; }
+    .footer-links a { margin: 0 10px; }
+    .mobile-responsive { width: 100% !important; max-width: 100% !important; height: auto !important; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>Quick question before we schedule your demo</h1>
+      <p>Help us make it more valuable for you</p>
+    </div>
+    
+    <div class="content">
+      <p>Hi {{first_name}},</p>
+      
+      <p>Before we schedule your demo, I'd love to gather a few details about your current testing setup. This helps us tailor the demo to address your specific challenges.</p>
+      
+      <div class="qualification-box">
+        <h3>Help us understand your testing environment</h3>
+        
+        <div class="question">
+          <strong>1. What's your biggest testing challenge right now?</strong>
+          <p>What's keeping your engineering team up at night?</p>
+          <div class="options">
+            <label><input type="radio" name="challenge" value="false_positives" /> False positives and flaky tests</label>
+            <label><input type="radio" name="challenge" value="slow_tests" /> Slow test execution times</label>
+            <label><input type="radio" name="challenge" value="complex_setup" /> Complex setup and maintenance</label>
+            <label><input type="radio" name="challenge" value="other" /> Other (please specify below)</label>
+            <input type="text" name="other_challenge" placeholder="Tell us more...">
+          </div>
+        </div>
+        
+        <div class="question">
+          <strong>2. Which CI/CD tools does your team use?</strong>
+          <div class="options">
+            <label><input type="checkbox" name="tools" value="github" /> GitHub Actions</label>
+            <label><input type="checkbox" name="tools" value="gitlab" /> GitLab CI</label>
+            <label><input type="checkbox" name="tools" value="jenkins" /> Jenkins</label>
+            <label><input type="checkbox" name="tools" value="circleci" /> CircleCI</label>
+            <label><input type="checkbox" name="tools" value="other" /> Other (please specify below)</label>
+            <input type="text" name="other_tools" placeholder="List your tools...">
+          </div>
+        </div>
+        
+        <div class="question">
+          <strong>3. How many developers are on your team?</strong>
+          <div class="options">
+            <label><input type="radio" name="team_size" value="1-5" /> 1-5 developers</label>
+            <label><input type="radio" name="team_size" value="6-15" /> 6-15 developers</label>
+            <label><input type="radio" name="team_size" value="16-50" /> 16-50 developers</label>
+            <label><input type="radio" name="team_size" value="50+" /> 50+ developers</label>
+          </div>
+        </div>
+        
+        <div class="question">
+          <strong>4. What's your timeline for improving testing?</strong>
+          <div class="options">
+            <label><input type="radio" name="timeline" value="immediate" /> Immediate (within 1 week)</label>
+            <label><input type="radio" name="timeline" value="short" /> Short-term (1-3 months)</label>
+            <label><input type="radio" name="timeline" value="medium" /> Medium-term (3-6 months)</label>
+            <label><input type="radio" name="timeline" value="long" /> Long-term (6+ months)</label>
+          </div>
+        </div>
+      </div>
+      
+      <div class="demo-value">
+        <h4>Why This Matters</h4>
+        <p>Understanding your current setup helps us:</p>
+        <ul>
+          <li>Focus the demo on solutions that address your specific challenges</li>
+          <li>Show integrations relevant to your tech stack</li>
+          <li>Discuss metrics and ROI that matter to your team size</li>
+          <li>Address timelines that align with your goals</li>
+        </ul>
+      </div>
+      
+      <p style="margin-top: 20px;">
+        <strong>Reply to this email with your answers</strong> and we'll confirm your demo time within 24 hours.
+      </p>
+      
+      <p style="margin-top: 10px;">
+        If you prefer, you can skip this step and we'll cover everything in the demo itself.
+      </p>
+      
+      <div class="social-proof">
+        <h3>Engineering teams from companies like these are joining our demos</h3>
+        <div class="logo-grid">
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+        </div>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ GitHub Integration</span>
+          <span class="trust-badge">✓ GitLab Integration</span>
+          <span class="trust-badge">✓ Jenkins Integration</span>
+          <span class="trust-badge">✓ 95% Fewer Flaky Tests</span>
+        </div>
+      </div>
+      
+      <p style="margin-top: 25px;">
+        Ready to see Smoke Test Co in action?
+      </p>
+      
+      <a href="{{trial_signup_link}}" class="cta-button">Start Free Trial</a>
+      
+      <p style="margin-top: 15px; font-size: 14px; color: #666;">
+        Prefer to explore on your own first? Start your free trial and access all features without credit card required.
+        <br><br>
+        <a href="{{trial_signup_link}}" style="color: #667eea; text-decoration: none;">Start Free Trial →</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-links">
+      <a href="{{privacy_policy_link}}">Privacy Policy</a>
+      <a href="{{terms_link}}">Terms of Service</a>
+      <a href="{{support_link}}">Support</a>
+    </div>
+    <p>Smoke Test Co — API Testing That Actually Works</p>
+    <p>123 Tech Street, San Francisco, CA 94102</p>
+    <p><a href="{{unsubscribe_link}}">Unsubscribe</a> | <a href="{{preferences_link}}">Email Preferences</a></p>
+    <p style="margin-top: 10px; color: #666;">You received this email as part of the Demo Qualification Sequence.</p>
+  </div>
+</body>
+</html>

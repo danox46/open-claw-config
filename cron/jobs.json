@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "29ea3cbe-190f-4893-acdd-b0ac008ce3b2",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "Weekly Summary Ready Notification",
+      "enabled": true,
+      "createdAtMs": 1778445576397,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * 0",
+        "tz": "America/Bogota"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run weekly-summary skill"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "user:1194089615590699008",
+        "bestEffort": false
+      },
+      "deleteAfterRun": false,
+      "state": {}
+    },
+    {
+      "id": "f0ee9382-a062-4e86-8825-ede7d1950b58",
+      "agentId": "main",
+      "sessionKey": "agent:main:discord:default:direct:1194089615590699008",
+      "name": "Daily IRL Event Search",
+      "enabled": true,
+      "createdAtMs": 1778457896986,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Bogota"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run daily IRL event search for approved hobbies and hobby pitches"
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "user:1194089615590699008",
+        "channel": "discord",
+        "accountId": "default"
+      },
+      "state": {}
+    },
+    {
+      "id": "f7b086bd-f820-4041-9992-231e6c8a139e",
+      "agentId": "main",
+      "sessionKey": "agent:main:discord:default:direct:1194089615590699008",
+      "name": "Hobby Pitch Management",
+      "enabled": true,
+      "createdAtMs": 1778457901524,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "America/Bogota"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Use your skill to manage hobby pitches"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "user:1194089615590699008",
+        "accountId": "default",
+        "bestEffort": false
+      },
+      "deleteAfterRun": false,
+      "state": {}
+    },
+    {
+      "id": "c0043d8f-f44e-47ea-8764-724821d5870b",
+      "agentId": "main",
+      "name": "Finance Review",
+      "description": "Check pending transactions every 30 minutes, only notify if there are items to classify",
+      "enabled": true,
+      "createdAtMs": 1778792900156,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/30 * * * *",
+        "tz": "America/Bogota"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Use your finance review skill to check for new transactions."
+      },
+      "deleteAfterRun": false,
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "default",
+        "bestEffort": false
+      },
+      "state": {}
+    }
+  ]
+}

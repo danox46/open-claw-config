@@ -1,0 +1,17 @@
+[
+  {
+    "asset": "LinkedIn Carousel: The Real Cost of Manual Logistics Operations",
+    "description": "Create a LinkedIn carousel image asset for the AI Adoption Roadmap campaign. Deploy Week 1 of Phase 1 (Awareness). Serves the 'The Real Cost of Manual Logistics Operations' content theme. Target VP/Director-level operations leaders at mid-market companies. Channel: LinkedIn. Focus on data-driven ROI visualizations as top-funnel capture.",
+    "type": "image"
+  },
+  {
+    "asset": "Blog Post: 5 Signs Your AI Strategy Is Stuck in Pilot Purgatory",
+    "description": "Create a blog post for SEO and topical authority for the AI Adoption Roadmap campaign. Deploy Week 1 of Phase 1 (Awareness). Serves the '5 Signs Your AI Strategy Is Stuck in Pilot Purgatory' content theme. Target VP/Director-level operations leaders at mid-market companies. Channel: Blog (SEO + topical authority).",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Article: How Mid-Size Logistics Companies Are Cutting Costs 25% with AI",
+    "description": "Create a LinkedIn Article for case-study deep-dive methodology for the AI Adoption Roadmap campaign. Deploy Week 1 of Phase 1 (Awareness). Serves the 'How Mid-Size Logistics Companies Are Cutting Costs 25% with AI' content theme. Target VP/Director-level operations leaders at mid-market companies. Channel: LinkedIn (native article format for case-study deep-dives).",
+    "type": "text"
+  }
+]

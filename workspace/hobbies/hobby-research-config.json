@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-05-20",
+  "notes": "Find recurring, solo-friendly hobbies in Bogotá that help build real mixed-gender friendships, not dating/hookup dynamics.",
+
+  "preferences": {
+    "categories": ["creative", "social", "hands-on", "performance", "lifestyle"],
+    "vibe": "Edgy/adventurous but relatable. Social, attractive, outgoing young adult crowd; ideally nightlife-adjacent but structured enough for real friendships.",
+    "socialGoal": "Build non-sexual friendships with attractive women and eventually a cool mixed social group.",
+    "preferredFormats": [
+      "recurring open workshops",
+      "short courses",
+      "drop-in classes",
+      "structured social experiences"
+    ],
+    "location": {
+      "city": "Bogotá",
+      "preferredZones": ["Chapinero", "Chapinero Alto", "Quinta Camacho", "Zona G", "Zona T", "north Bogotá"]
+    },
+    "budget": {
+      "maxPerSession": 100000,
+      "maxMonthly": 300000,
+      "currency": "COP"
+    },
+    "timeCommitment": {
+      "hoursPerWeek": 3,
+      "note": "Prefer 1-2 sessions per week; test short/drop-in formats before long courses."
+    }
+  },
+  "avoid": [
+    "pure nightlife or just drinking",
+    "couples-heavy events",
+    "early long fixed courses before testing vibe",
+    "screen-based hobbies",
+    "team sports",
+    "skate/rollerblading",
+    "DJ/music production",
+    "choreography dance"
+  ]
+}

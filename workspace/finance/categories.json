@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-05-14",
+  "note": "Edit this file to add or rename categories. The enrich script validates against this list.",
+  "categories": [
+    {
+      "id": "groceries",
+      "description": "Food and household supplies from supermarkets and convenience stores"
+    },
+    {
+      "id": "dining",
+      "description": "Restaurants, cafes, bars, food delivery"
+    },
+    {
+      "id": "transport",
+      "description": "Uber, taxis, public transit, fuel, tolls"
+    },
+    {
+      "id": "health",
+      "description": "Pharmacy, doctor, dentist, gym, psychologist"
+    },
+    {
+      "id": "utilities",
+      "description": "Internet, phone plan, electricity, water, gas"
+    },
+    {
+      "id": "subscriptions",
+      "description": "Streaming, software, recurring digital services"
+    },
+    {
+      "id": "clothing",
+      "description": "Clothes, shoes, accessories"
+    },
+    {
+      "id": "grooming",
+      "description": "Haircut, barber, personal care products, cosmetics"
+    },
+    {
+      "id": "electronics",
+      "description": "Phones, computers, TVs, appliances, gadgets"
+    },
+    {
+      "id": "entertainment",
+      "description": "Movies, concerts, events, games, hobbies"
+    },
+    {
+      "id": "car",
+      "description": "Car payments, insurance, maintenance, repairs"
+    },
+    {
+      "id": "rent",
+      "description": "Monthly rent or housing payments"
+    },
+    {
+      "id": "home",
+      "description": "Furniture, decor, home improvement, repairs"
+    },
+    {
+      "id": "cleaning",
+      "description": "Cleaning supplies, laundry products, household consumables"
+    },
+    {
+      "id": "education",
+      "description": "Courses, books, certifications, school supplies"
+    },
+    {
+      "id": "travel",
+      "description": "Hotels, flights, vacation, tourism"
+    },
+    {
+      "id": "savings",
+      "description": "Transfers to savings or investment accounts"
+    },
+    {
+      "id": "income",
+      "description": "Salary, freelance income, transfers received"
+    },
+    {
+      "id": "cash",
+      "description": "ATM withdrawals and petty cash"
+    },
+    {
+      "id": "other",
+      "description": "Anything that does not fit the above categories — avoid overusing"
+    }
+  ]
+}

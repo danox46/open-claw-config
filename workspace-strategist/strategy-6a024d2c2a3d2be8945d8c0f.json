@@ -1,0 +1,105 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-scale-beyond-pilots",
+      "name": "Scale Beyond Pilots",
+      "objective": "Position Fresh Run Demo as the implementation partner that helps 80% of mid-market companies move from AI pilots to scaled, ROI-driving deployments within 90 days",
+      "targetAudience": "CEOs and Operations leaders at 50–500 employee businesses struggling to move AI initiatives beyond proof-of-concept phases",
+      "positioning": "Enterprise-grade AI implementation without enterprise complexity — we build, integrate, and deliver measurable ROI, not just strategy decks",
+      "keyMessages": [
+        "Most AI pilots fail because they stop at discovery — we take you to deployment and ROI",
+        "Integration with legacy systems is our specialty — we bridge the gap between AI ambition and operational reality",
+        "We measure what matters — revenue impact, time saved, and efficiency gains, not just hours billed"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "webinars"
+      ],
+      "contentThemes": [
+        "Case studies showing real ROI from AI deployments in mid-market businesses",
+        "Technical deep dives on integrating AI with legacy ERPs, CRMs, and data systems",
+        "ROI calculators and frameworks that help leaders quantify AI investment value"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture through thought leadership and social proof",
+        "Phase 2: Consideration — nurture and educate with technical content and interactive ROI tools",
+        "Phase 3: Conversion — demo requests and SQL handoff through targeted webinars and personalized outreach"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "Top-of-funnel engagement rate increase of 40%",
+        "MQL generation from 500+ qualified prospects per quarter",
+        "Conversion rate from MQL to SQL of 46% or higher"
+      ]
+    },
+    {
+      "id": "integration-expertise",
+      "name": "Integration Expertise",
+      "objective": "Become the go-to partner for mid-market businesses needing AI systems that actually work with their existing technology stack",
+      "targetAudience": "IT Directors and CTOs at 50–500 employee businesses concerned about AI integration complexity and technical debt",
+      "positioning": "The only AI implementation partner that specializes in legacy system integration — we make AI work with what you already have, not what you wish you had",
+      "keyMessages": [
+        "73% of AI projects fail due to integration issues — we solve this as our primary expertise",
+        "We don't replace your systems — we enhance them with AI that respects your existing architecture",
+        "Your IT team stays in the loop — we build collaborative solutions, not black-box implementations"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "product-tours"
+      ],
+      "contentThemes": [
+        "Technical case studies showcasing successful AI integrations with specific legacy systems",
+        "Architecture guides and integration pattern libraries for common enterprise tech stacks",
+        "Comparative content on build vs. advise approaches to AI implementation"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish technical credibility through architecture content and system compatibility messaging",
+        "Phase 2: Consideration — deep-dive technical content and interactive product demonstrations",
+        "Phase 3: Conversion — technical demos and proof-of-concept engagements"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish technical credibility through architecture content and system compatibility messaging",
+      "successMetrics": [
+        "Technical content engagement rate of 30% or higher",
+        "Product tour conversion rate of 25% or higher to trial",
+        "SQL conversion from product tours of 25% or higher"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Multi-touch progression from top-of-funnel educational content through nurturing sequences to conversion. SEO drives broad awareness, email nurture educates and warms prospects, webinars provide social proof, and product tours enable high-intent conversion. Progressive profiling ensures we capture signals without friction at each stage.",
+    "conversionPaths": [
+      "Primary: Educational content → Webinar attendance → Product tour → Qualified demo request → SQL handoff",
+      "Secondary: SEO-driven blog content → Progressive profiling → Trigger-based email nurture → High-score lead → SQL handoff"
+    ],
+    "nurtureApproach": "Segmented nurture tracks based on audience role and engagement behavior. Top-of-funnel prospects receive educational content on AI adoption challenges and ROI frameworks. Mid-funnel prospects engage with technical integration case studies and architecture deep dives. Bottom-funnel prospects receive personalized case studies, ROI calculators, and direct outreach. All sequences emphasize integration expertise and measurable outcomes over hours billed.",
+    "leadQualification": {
+      "scoringSignals": [
+        "Content engagement depth (pages per session, time on page)",
+        "Firmographic fit (50–500 employees, mid-market industry)",
+        "Role-based behavior (CEO/CTO/IT Director actions weighted higher)",
+        "Webinar attendance and product tour completion",
+        "Explicit interest signals (demo requests, RFP downloads)"
+      ],
+      "qualificationThreshold": "40+ points = MQL for marketing qualification, 60+ points = SQL ready for sales engagement, 80+ points = Hot lead requiring immediate attention",
+      "routingGuidance": "MQLs enter nurture sequences and receive educational content. SQLs trigger sales outreach within 24 hours. Hot leads receive executive-level attention and dedicated solution design sessions."
+    },
+    "salesHandoff": {
+      "owner": "Account executives with AI implementation experience, supported by solution architects for technical qualification",
+      "process": "Automated handoff with context-rich lead profiles including engagement history, firmographic data, role behavior, and explicit pain points. Sales receives 24-hour SLA for initial contact and 7-day SLA for qualified opportunity creation.",
+      "requiredContext": [
+        "Lead engagement history across all touchpoints",
+        "Firmographic and role-based qualification data",
+        "Explicit pain point indicators and interest signals",
+        "Competitive landscape and budget timeframe if captured"
+      ]
+    },
+    "measurementPlan": [
+      "Top-of-funnel: Organic traffic growth, engagement rate, social impressions",
+      "Mid-funnel: MQL volume and quality, nurture sequence engagement rates, webinar attendance",
+      "Bottom-funnel: SQL conversion rate (target 46%+), demo-to-qualified-opportunity rate, sales cycle length",
+      "Business outcome: Revenue influenced by AI adoption services, customer acquisition cost, ROI measurement from client implementations"
+    ]
+  }
+}

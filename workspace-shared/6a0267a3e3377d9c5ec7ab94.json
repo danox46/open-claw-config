@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "Cold email sequence (5 emails) for CEOs struggling with AI pilot fatigue",
+    "description": "Create a 5-email cold outreach sequence targeting CEOs of 50–500 employee businesses. Leverage key messages: 'Most AI pilots fail because they stop at discovery — we take you to deployment and ROI' and 'We measure what matters — revenue impact, time saved, efficiency gains, not just hours billed'. Each email should be conversational, under 150 words, and include a clear CTA to a 15-minute discovery call. Focus on the pain of stuck AI initiatives and Fresh Run Demo's track record of 90-day ROI deployments.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn connection note + 3-part message sequence for Operations leaders",
+    "description": "Create a LinkedIn outreach kit for Operations leaders. Include a 300-character connection request and a 3-part follow-up sequence (Day 1, Day 4, Day 7). Emphasize integration expertise with legacy systems and the '73% of AI projects fail due to integration issues' message. Each message should reference a relevant mid-market case study or technical deep dive. Keep tone professional but conversational, avoiding salesy language.",
+    "type": "text"
+  },
+  {
+    "asset": "Paid ad copy variations for LinkedIn (3 versions) targeting AI pilot fatigue",
+    "description": "Create 3 LinkedIn ad copy variations targeting CEOs and Operations leaders frustrated with AI pilot fatigue. Each ad should: (1) headline under 40 characters, (2) body under 150 characters, (3) CTA under 30 characters. Leverage positioning: 'Enterprise-grade AI implementation without enterprise complexity — we build, integrate, and deliver measurable ROI, not just strategy decks'. Include one variation focusing on legacy system integration, one on ROI measurement, and one on 90-day deployment timelines.",
+    "type": "text"
+  },
+  {
+    "asset": "Call script for outbound discovery calls (8-minute format)",
+    "description": "Create a structured outbound discovery call script for 8-minute conversations. Include: opening (1 min) with AI pilot empathy, qualification questions (4 min) on legacy system challenges and integration pain points, value proposition (2 min) around Fresh Run Demo's 90-day ROI deployment model, and CTA (1 min) for scheduling a technical deep dive. Script should reference key messages about integration expertise and measurable outcomes. Include agent prompts for handling objections about pilot fatigue and integration complexity.",
+    "type": "text"
+  },
+  {
+    "asset": "Partnership outreach email template for mid-market system vendors",
+    "description": "Create a partnership outreach email template targeting vendors of legacy ERPs, CRMs, and data systems used by mid-market businesses. Position Fresh Run Demo as the implementation partner who complements their product. Include: personalized intro referencing their system, value proposition around integration expertise, mutual benefit proposition (co-marketing, referral opportunities), and clear CTA for a 20-minute partnership call. Keep under 200 words and maintain professional but collaborative tone.",
+    "type": "text"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "Cold email sequence (5-touch) for mid-market AI skeptics",
+    "description": "Create a 5-email outreach sequence targeting medium businesses struggling with AI adoption. Use key message: 'Data silos and skills gaps are killing AI ROI — we fix both.' Structure: Email 1 (problem awareness + social proof), Email 2 (educational: common AI pitfalls), Email 3 (case study snippet: 25% ROI in 90 days), Email 4 (ROI calculator CTA), Email 5 (final value proposition). Include clear CTAs and 2-3 customizable placeholders per email (company name, industry, specific pain point). Tone: practical, jargon-free, ROI-focused. Subject lines should be short, benefit-driven, and avoid spammy language.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn outreach template (connection request + 2 follow-up messages)",
+    "description": "Create LinkedIn outreach assets targeting operations leaders and C-level executives. Connection request: 300 characters max, referencing AI adoption challenges. Follow-up 1 (post-connection): Share insight on data silos/skills gaps with optional resource link. Follow-up 2: Case study teaser highlighting 25% ROI in 90 days and 90-day guarantee. Use positioning: 'AI without the jargon — we translate business problems into AI solutions.' Include 2-3 placeholders (industry, specific challenge, company size). Keep tone professional but conversational, no hard sell.",
+    "type": "text"
+  },
+  {
+    "asset": "Paid ad copy variants (3 options) for LinkedIn awareness campaign",
+    "description": "Create 3 distinct LinkedIn ad copy variants (150 characters each) targeting medium businesses. Variant 1: Focus on '25% ROI within 90 days or your investment is ours.' Variant 2: Focus on 'No technical expertise required — we bridge the gap.' Variant 3: Focus on '60% of AI projects fail — we're the 40% that succeed.' Include clear CTA to ROI calculator. Each variant must include headline (120 chars max) and body (150 chars max). Use brand voice: practical, confident, jargon-free. Include 1-2 customizable placeholders (industry, pain point) for A/B testing.",
+    "type": "text"
+  },
+  {
+    "asset": "Cold call script (5-minute discovery call) for AI skepticism",
+    "description": "Create a 5-minute cold call script for outreach to medium businesses hesitant about AI. Structure: 30-sec intro (value prop), 60-sec problem validation (data silos/skills gaps), 90-sec solution framing (90-day ROI guarantee), 60-sec CTA (ROI calculator demo). Include 3-4 open-ended questions to uncover pain points. Use key message: 'Data silos and skills gaps are killing AI ROI — we fix both.' End with clear next step: 15-minute ROI calculator walkthrough. Tone: consultative, not salesy. Include notes on handling objections about 'too expensive' and 'not ready.'",
+    "type": "text"
+  },
+  {
+    "asset": "Partnership outreach email (3-touch sequence) for industry consultants",
+    "description": "Create a 3-email partnership outreach sequence targeting industry consultants who serve medium businesses. Email 1: Value proposition — we amplify their AI practice with our implementation expertise. Email 2: Mutual benefit — co-branded content, shared leads, referral commissions. Email 3: Case example + CTA for 15-min call. Use positioning: 'AI without the jargon — we translate business problems into AI solutions.' Include 2-3 placeholders (consultant's specialty, their client base, specific service). Tone: collaborative, not transactional. Subject lines should reference mutual value, not just 'partnership opportunity.'",
+    "type": "text"
+  },
+  {
+    "asset": "ROI calculator landing page hero section copy (headline + subhead + CTA)",
+    "description": "Create hero section copy for ROI calculator landing page. Headline (60 chars max): Focus on 'See your ROI before you commit.' Subhead (150 chars): Explain 90-day ROI guarantee and no-obligation calculator. Primary CTA: 'Calculate Your ROI Now' with supporting micro-copy. Include 1-2 trust signals (e.g., 'Used by 500+ medium businesses' or '4.8/5 from 200+ reviews'). Use key message: '25% ROI within 90 days or your investment is ours.' Keep tone confident but not overpromising. Include 1-2 placeholders (social proof metric, industry example) for A/B testing.",
+    "type": "text"
+  }
+]

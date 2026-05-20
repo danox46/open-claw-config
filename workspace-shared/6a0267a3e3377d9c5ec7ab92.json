@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "LinkedIn thought leadership post: 'From Pilot to Profit' series opener",
+    "description": "Create a 3-paragraph LinkedIn post positioning Fresh Run Demo as the bridge between AI pilots and deployment. Hook: '80% of AI initiatives stall at discovery. Here's what actually moves the needle.' Include a brief case study snippet (anonymized) showing revenue impact from an ERP integration. End with CTA: 'Comment 'SCALE' and I'll send our free 5-step framework for moving beyond pilots.'",
+    "type": "text"
+  },
+  {
+    "asset": "Blog post: 'Why Your AI Pilot Isn't Delivering ROI (And How to Fix It)'",
+    "description": "Write a 1,200-word technical blog post for mid-market leaders. Outline: 1) The discovery trap (most consultants stop here), 2) Integration reality (legacy systems, data silos), 3) The ROI gap (hours billed vs. revenue impact). Use anonymized case study data showing time saved and efficiency gains. Include a downloadable 1-page ROI checklist. End with CTA linking to a webinar on 'Scaling AI Beyond Pilots.'",
+    "type": "text"
+  },
+  {
+    "asset": "Webinar title, description, and landing page copy: 'Scaling AI Beyond Pilots' series opener",
+    "description": "Draft webinar assets for the first episode of the 'Scale Beyond Pilots' series. Title: 'Why Your AI Pilot Isn't Delivering ROI (And How to Fix It in 90 Days).' Description: Focus on the 3 key pain points from the campaign messaging (stalled pilots, integration complexity, ROI measurement). Include registration CTA and a pre-webinar poll question: 'What's your biggest AI blocker? Integration | Data | Leadership Buy-in.'",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn carousel graphic: 'The AI Implementation Funnel Trap'",
+    "description": "Design a 5-slide LinkedIn carousel visual. Slide 1: Title 'Why Your AI Pilot Stalls.' Slide 2: 'Discovery ≠ Deployment' with simple funnel graphic. Slide 3: 'Integration Reality' showing legacy system icons (ERP, CRM, data silos). Slide 4: 'ROI Measurement' with simple metrics (revenue impact, time saved). Slide 5: CTA 'Download our free 5-step framework' with link placeholder. Use clean, professional business graphics style.",
+    "type": "image"
+  },
+  {
+    "asset": "Email nurture sequence (3 emails): 'From Pilot to Profit' series opener",
+    "description": "Create 3-email nurture sequence for new top-of-funnel leads. Email 1: 'Welcome — here's what you need to know about moving beyond pilots' with LinkedIn post link. Email 2: 'The ROI gap explained' with blog post link and 1-page ROI checklist attachment. Email 3: 'Upcoming webinar alert' with registration link and pre-webinar poll. All emails should reference Fresh Run Demo's positioning as the bridge between strategy and deployment.",
+    "type": "text"
+  }
+]

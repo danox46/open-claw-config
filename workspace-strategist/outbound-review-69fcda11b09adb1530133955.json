@@ -1,0 +1,17 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "69fcda11b09adb1530133955",
+      "reason": "Cold Email Sequence misaligned: Strategy explicitly states 'You must not send emails, messages, tweets, or public posts' and all outreach should go through channel plugins via message tool. The outbound-campaign plan includes cold email sequences, LinkedIn InMail outreach, and cold call scripts that would require direct email/SMS outreach. These need to be converted to channel-approved outreach via the message tool with proper target/channel configuration, or removed from the plan since cold outreach is outside scope."
+    },
+    {
+      "processInstanceId": "69fcda11b09adb1530133955",
+      "reason": "LinkedIn Connection Request + Follow-up Sequence misaligned: Strategy defines primary channel as LinkedIn with 40% of B2B research time happening there, but the connection request approach conflicts with the strategy's focus on inbound lead capture via landing pages and progressive profiling. The plan should instead focus on LinkedIn Sponsored Content ads and retargeting (which is included), not direct connection requests that bypass the defined funnel."
+    },
+    {
+      "processInstanceId": "69fcda11b09adb1530133955",
+      "reason": "Missing partnership landing page alignment: Strategy specifies 4 core landing pages (demo, checklist download, ROI calculator, webinar registration) but the plan includes a Partnership Landing Page which is not in the strategy. This should either be removed or the strategy needs to be updated to include partnership channel expansion."
+    }
+  ]
+}

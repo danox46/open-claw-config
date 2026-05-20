@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "LinkedIn carousel: 'From Pilot to Production in 4 Steps'",
+    "description": "Create outline for 7-slide LinkedIn carousel covering the 'Integration-First AI' message. Slide 1: Hook (cut time-to-value 40%). Slide 2-4: Step-by-step readiness assessment (current stack inventory, process owner identification, success metric definition). Slide 5: ROI case snippet. Slide 6: CTA (book 15-min workflow audit). Slide 7: Branded CTA with lead gen form link.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn post: 'The Integration-First AI Approach'",
+    "description": "Write LinkedIn post (400-500 characters) positioning AI audits as integration-first rather than replacement. Hook with 'We don't replace your stack — we connect AI to it.' Include 2 bullet points on benefits (faster time-to-value, existing workflows leverage), and CTA to download AI readiness checklist. Tone: authoritative, practical, no hype.",
+    "type": "text"
+  },
+  {
+    "asset": "AI Readiness Checklist (PDF lead magnet)",
+    "description": "Design a 2-page checklist PDF for operations leaders to assess AI adoption readiness. Sections: Current AI initiatives inventory, Process owner mapping, Success metric definition, Integration opportunity scorecard, Risk assessment. Include branded header, clear checkboxes, and CTA to download full ROI calculator. Filename: 'AI_Readiness_Checklist_Operations_Leaders.pdf'",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn connection request template",
+    "description": "Create short, personalized connection request copy (300 chars max) referencing operations leaders' AI adoption challenges. Include subtle hook about cutting time-to-value by 40% and reference their recent content or company milestone. Avoid 'AI expert' positioning; focus on peer-to-peer value exchange.",
+    "type": "text"
+  },
+  {
+    "asset": "Carousel cover image: 'From Pilot to Production'",
+    "description": "Design LinkedIn carousel cover graphic featuring bold headline 'From Pilot to Production in 4 Steps' with branded color scheme. Include clean visual hierarchy showing 4-step progress metaphor (arrow or ladder iconography). Optimized for LinkedIn mobile view.",
+    "type": "image"
+  }
+]

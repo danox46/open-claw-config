@@ -1,0 +1,17 @@
+[
+  {
+    "asset": "LinkedIn Text Post: Manual Operations Waste",
+    "description": "Write a LinkedIn post about how manual operations consume significant work time. Frame as general problem identification without specific metrics. End with a question about manual task time waste. CTA: invite download of a 2-field 'Manual Task Audit Checklist' lead magnet.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Text Post: Automation Debt Signs",
+    "description": "Write a LinkedIn post identifying common signs of automation debt: poor exception handling, data quality issues, brittle edge cases, lack of monitoring, over-complicated workflows. Frame as AI hype vs. operational reality. CTA: invite download of a 2-field 'Automation Health Assessment' template.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Carousel Draft: From Pilot to Scale Failures",
+    "description": "Create a LinkedIn carousel draft (5-7 slides) about common pilot-to-scale AI project failures: scope creep, lack of ROI tracking, technical debt, false positives. Frame as practical lessons without specific metrics. CTA: invite download of a 2-field 'Scale Planning Framework' guide. Note: carousel is stage-only in dashboard for now.",
+    "type": "text"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "LinkedIn single-image post: The Orchestration Gap — why PoCs fail",
+    "description": "Create a LinkedIn post with one supporting image. Copy should explain that most AI initiatives fail because they automate isolated tasks instead of orchestrating complete workflows. Include a CTA to connect and learn about end-to-end workflow systems. Visual should be a clean graphic showing fragmented tools vs. unified intelligence infrastructure.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn single-image post: System Thinking for AI",
+    "description": "Create a LinkedIn post with one supporting image. Copy should emphasize that true competitive advantage comes from systems thinking — connecting data, decisions, and actions across your tech stack. Visual should illustrate connected workflow nodes rather than isolated automation tasks.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn single-image post: AI should augment human judgment",
+    "description": "Create a LinkedIn post with one supporting image. Copy should explain that AI should augment human judgment, not replace it — ethical governance and structured handover make automation sustainable. Visual should show AI and human collaboration with a handshake or bridge metaphor.",
+    "type": "text"
+  },
+  {
+    "asset": "Single-image LinkedIn carousel draft: The Orchestration Gap deep dive",
+    "description": "Create a carousel draft for the dashboard (staging only, not auto-publishable). 5-7 slides: Slide 1 hook (why PoCs fail), Slide 2-4 breakdown of common failures, Slide 5 the orchestration solution, Slide 6-7 CTA to connect. Use clean tech-illustration style.",
+    "type": "image"
+  },
+  {
+    "asset": "Blog post outline: Building production-ready systems from day one",
+    "description": "Create a detailed outline for a blog post that supports the LinkedIn narrative. Include sections: intro (PoC failure stats), the orchestration gap explained, building unified workflows, human-in-the-loop governance, CTA for consultation. Align with key message about systems thinking and end-to-end workflows.",
+    "type": "text"
+  },
+  {
+    "asset": "Supporting banner image for blog post",
+    "description": "Create a banner image for the blog post. Visual should show fragmented tools vs. unified intelligence infrastructure, matching the LinkedIn post imagery style. Clean, professional, tech-illustration aesthetic.",
+    "type": "image"
+  }
+]

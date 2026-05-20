@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Still thinking about flaky tests? Here's the fix</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+    .email-container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px 20px; text-align: center; }
+    .header h1 { color: #ffffff; font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+    .header p { color: rgba(255,255,255,0.9); font-size: 16px; }
+    .content { padding: 30px 20px; }
+    .cta-button { display: inline-block; background: #667eea; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; margin: 20px 0; text-align: center; }
+    .cta-button:hover { background: #5a6fd6; }
+    .social-proof { background: #f8f9fa; padding: 20px; margin: 25px 0; border-radius: 8px; }
+    .social-proof h3 { color: #333; font-size: 14px; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+    .logo-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center; }
+    .logo-placeholder { width: 80px; height: 40px; background: #e0e0e0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #999; }
+    .trust-badges { display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap; }
+    .trust-badge { background: #e8f4fd; border: 1px solid #b3d9f2; padding: 8px 12px; border-radius: 4px; font-size: 12px; color: #0d6efd; font-weight: 500; }
+    .problem-solution { background: white; border: 2px solid #667eea; border-radius: 8px; padding: 25px; margin: 20px 0; }
+    .problem-solution h3 { color: #667eea; font-size: 18px; margin-bottom: 15px; }
+    .problem-solution .problem { color: #666; margin-bottom: 15px; }
+    .problem-solution .solution { background: #f0f4f8; padding: 15px; border-radius: 6px; border-left: 4px solid #667eea; margin-top: 10px; }
+    .problem-solution .solution strong { color: #333; }
+    .tech-spec { background: #fafbfc; padding: 20px; border-radius: 8px; margin: 20px 0; font-family: 'Courier New', monospace; font-size: 13px; color: #333; }
+    .tech-spec code { background: #e8e8e8; padding: 2px 6px; border-radius: 3px; }
+    .footer { background: #1a1a2e; color: #a0a0a0; padding: 30px 20px; text-align: center; font-size: 12px; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer-links { margin-bottom: 15px; }
+    .footer-links a { margin: 0 10px; }
+    .mobile-responsive { width: 100% !important; max-width: 100% !important; height: auto !important; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>Still thinking about flaky tests?</h1>
+      <p>Here's the fix</p>
+    </div>
+    
+    <div class="content">
+      <p>Hi there,</p>
+      
+      <p>Seven days ago, you downloaded our ROI Calculator. We've been sharing how engineering teams are eliminating false positives and cutting testing time.</p>
+      
+      <p>Now, let's address the core problem directly.</p>
+      
+      <div class="problem-solution">
+        <h3>The Problem: False Positives</h3>
+        <p class="problem">Your CI/CD pipeline is failing tests that shouldn't fail. Every false positive means:</p>
+        <ul style="margin-left: 20px; margin-top: 10px;">
+          <li>Wasted developer time investigating non-issues</li>
+          <li>Delayed deployments and blocked rollouts</li>
+          <li>Reduced confidence in automated testing</li>
+          <li>Increased stress for your engineering team</li>
+        </ul>
+        
+        <div class="solution">
+          <strong>The Solution:</strong> Smoke Test Co's intelligent false-positive detection automatically identifies and excludes flaky tests from your CI/CD pipeline.
+        </div>
+      </div>
+      
+      <div class="tech-spec">
+        How it works:
+        <br><br>
+        <code>// Enable intelligent detection in 10 minutes</code>
+        <br><br>
+        <code>smokeTestCo.init({</code>
+        <br>
+        &nbsp;&nbsp;<code>provider: 'github'</code>,
+        <br>
+        &nbsp;&nbsp;<code>intelligentDetection: true</code>,
+        <br>
+        &nbsp;&nbsp;<code>confidenceThreshold: 0.95</code>
+        <br>
+        <code>});</code>
+        <br><br>
+        <code>// Automatically excludes flaky tests</code>
+        <br><br>
+        <code>const results = await smokeTestCo.run('api/tests');</code>
+      </div>
+      
+      <div class="problem-solution">
+        <h3>The Result: Reliable Testing</h3>
+        <p class="problem">Engineering teams using Smoke Test Co report:</p>
+        <ul style="margin-left: 20px; margin-top: 10px;">
+          <li>95% reduction in false positives within the first week</li>
+          <li>60% faster test execution cycles</li>
+          <li>Increased confidence in CI/CD pipelines</li>
+          <li>More time shipping features, less time debugging tests</li>
+        </ul>
+      </div>
+      
+      <div class="social-proof">
+        <h3>Engineering teams solving false positives with Smoke Test Co</h3>
+        <div class="logo-grid">
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+        </div>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ GitHub Integration</span>
+          <span class="trust-badge">✓ GitLab Integration</span>
+          <span class="trust-badge">✓ Jenkins Integration</span>
+          <span class="trust-badge">✓ 95% Fewer Flaky Tests</span>
+        </div>
+      </div>
+      
+      <p style="margin-top: 25px;">
+        <strong>Technical teams start in 10 minutes:</strong>
+      </p>
+      <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>One-click integration with GitHub, GitLab, or Jenkins</li>
+        <li>Enable intelligent false-positive detection in the dashboard</li>
+        <li>Watch your test reliability metrics improve in real-time</li>
+        <li>Transparent pricing—no hidden costs, no enterprise complexity</li>
+      </ul>
+      
+      <p style="margin-top: 25px;">Stop fighting false positives. Start shipping code.</p>
+      
+      <a href="{{trial_signup_link}}" class="cta-button">Start Free Trial</a>
+      
+      <p style="margin-top: 15px; font-size: 14px; color: #666;">
+        Technical deep dive? Read our False Positive Reduction Guide.
+        <br><br>
+        <a href="{{guide_download_link}}" style="color: #667eea; text-decoration: none;">Download Technical Guide →</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-links">
+      <a href="{{privacy_policy_link}}">Privacy Policy</a>
+      <a href="{{terms_link}}">Terms of Service</a>
+      <a href="{{support_link}}">Support</a>
+    </div>
+    <p>Smoke Test Co — API Testing That Actually Works</p>
+    <p>123 Tech Street, San Francisco, CA 94102</p>
+    <p><a href="{{unsubscribe_link}}">Unsubscribe</a> | <a href="{{preferences_link}}">Email Preferences</a></p>
+    <p style="margin-top: 10px; color: #666;">You received this email as part of the ROI Calculator Nurture sequence.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missed the demo? Here's a 5-minute walkthrough</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+    .email-container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px 20px; text-align: center; }
+    .header h1 { color: #ffffff; font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+    .header p { color: rgba(255,255,255,0.9); font-size: 16px; }
+    .content { padding: 30px 20px; }
+    .cta-button { display: inline-block; background: #667eea; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; margin: 20px 0; text-align: center; }
+    .cta-button:hover { background: #5a6fd6; }
+    .social-proof { background: #f8f9fa; padding: 20px; margin: 25px 0; border-radius: 8px; }
+    .social-proof h3 { color: #333; font-size: 14px; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+    .logo-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center; }
+    .logo-placeholder { width: 80px; height: 40px; background: #e0e0e0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #999; }
+    .trust-badges { display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap; }
+    .trust-badge { background: #e8f4fd; border: 1px solid #b3d9f2; padding: 8px 12px; border-radius: 4px; font-size: 12px; color: #0d6efd; font-weight: 500; }
+    .video-wrapper { background: #000; border-radius: 8px; overflow: hidden; margin: 20px 0; }
+    .video-placeholder { height: 360px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; }
+    .video-placeholder h3 { font-size: 20px; margin-bottom: 10px; }
+    .video-placeholder p { opacity: 0.9; }
+    .video-cta { display: inline-block; background: white; color: #667eea; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 14px; margin-top: 10px; text-decoration: none; }
+    .video-cta:hover { background: #f8f9fa; }
+    .demo-recap { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    .demo-recap h4 { color: #333; font-size: 16px; margin-bottom: 10px; }
+    .demo-recap ul { margin-left: 20px; margin-top: 10px; }
+    .demo-recap li { margin-bottom: 8px; color: #666; font-size: 14px; }
+    .demo-cta-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 8px; text-align: center; margin: 20px 0; }
+    .demo-cta-box h3 { font-size: 18px; margin-bottom: 10px; }
+    .demo-cta-box p { opacity: 0.9; font-size: 14px; margin-bottom: 15px; }
+    .demo-cta-box a { display: inline-block; background: white; color: #667eea; padding: 12px 24px; border-radius: 6px; font-weight: 600; font-size: 14px; text-decoration: none; }
+    .demo-cta-box a:hover { background: #f8f9fa; }
+    .results-metrics { background: #fafbfc; border: 2px solid #667eea; border-radius: 8px; padding: 25px; margin: 20px 0; }
+    .results-metrics h4 { color: #667eea; font-size: 18px; margin-bottom: 15px; }
+    .results-metrics .metric { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #e0e0e0; }
+    .results-metrics .metric:last-child { border-bottom: none; }
+    .results-metrics .metric-label { color: #333; font-weight: 500; }
+    .results-metrics .metric-value { color: #27ae60; font-weight: 700; }
+    .next-steps { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    .next-steps h4 { color: #333; font-size: 16px; margin-bottom: 10px; }
+    .next-steps p { color: #666; font-size: 14px; margin: 0 0 10px 0; }
+    .next-steps ul { margin-left: 20px; margin-top: 10px; }
+    .next-steps li { margin-bottom: 8px; color: #666; font-size: 14px; }
+    .footer { background: #1a1a2e; color: #a0a0a0; padding: 30px 20px; text-align: center; font-size: 12px; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer-links { margin-bottom: 15px; }
+    .footer-links a { margin: 0 10px; }
+    .mobile-responsive { width: 100% !important; max-width: 100% !important; height: auto !important; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>Missed the demo?</h1>
+      <p>Here's a 5-minute walkthrough</p>
+    </div>
+    
+    <div class="content">
+      <p>Hi {{first_name}},</p>
+      
+      <p>We noticed you couldn't make it to your demo with our engineering team. No worries—we've got you covered with a quick walkthrough instead.</p>
+      
+      <div class="video-wrapper">
+        <div class="video-placeholder">
+          <div>
+            <h3>🎥 5-Minute Smoke Test Co Walkthrough</h3>
+            <p>See how we eliminate false positives in action</p>
+            <a href="{{walkthrough_video_link}}" class="video-cta">Watch Video →</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="demo-recap">
+        <h4>What You'll Learn in the Walkthrough</h4>
+        <ul>
+          <li><strong>False-positive detection:</strong> How we automatically identify and exclude flaky tests, reducing false positives by 95%</li>
+          <li><strong>Live integrations:</strong> See one-click setup with GitHub, GitLab, and Jenkins</li>
+          <li><strong>Real metrics:</strong> Review how engineering teams reduced testing time by 60%</li>
+          <li><strong>Transparent pricing:</strong> Understand our straightforward cost structure with no hidden fees</li>
+        </ul>
+      </div>
+      
+      <div class="results-metrics">
+        <h4>Real Results from Engineering Teams</h4>
+        <div class="metric">
+          <span class="metric-label">False Positives Reduced</span>
+          <span class="metric-value">95%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Testing Time Reduction</span>
+          <span class="metric-value">60%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Setup Time</span>
+          <span class="metric-value">10 minutes</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">CI/CD Integrations</span>
+          <span class="metric-value">GitHub, GitLab, Jenkins</span>
+        </div>
+      </div>
+      
+      <div class="demo-cta-box">
+        <h3>Ready to Start Testing Smarter?</h3>
+        <p>Try Smoke Test Co free for 14 days. No credit card required.</p>
+        <a href="{{trial_signup_link}}">Start Free Trial</a>
+      </div>
+      
+      <div class="next-steps">
+        <h4>What's Next?</h4>
+        <p>Once you sign up, you'll have access to:</p>
+        <ul>
+          <li>Full access to all Smoke Test Co features</li>
+          <li>One-click integrations with your CI/CD tools</li>
+          <li>Real-time false-positive detection</li>
+          <li>24/7 support from our engineering team</li>
+        </ul>
+      </div>
+      
+      <div class="social-proof">
+        <h3>Join the engineering teams trusting Smoke Test Co</h3>
+        <div class="logo-grid">
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+          <div class="logo-placeholder">Logo</div>
+        </div>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ GitHub Integration</span>
+          <span class="trust-badge">✓ GitLab Integration</span>
+          <span class="trust-badge">✓ Jenkins Integration</span>
+          <span class="trust-badge">✓ 95% Fewer Flaky Tests</span>
+        </div>
+      </div>
+      
+      <p style="margin-top: 25px;">
+        <strong>Still have questions?</strong> Book a 15-minute personalized demo to discuss your specific testing challenges.
+      </p>
+      
+      <a href="{{demo_request_link}}" class="cta-button">Book a Personalized Demo</a>
+      
+      <p style="margin-top: 15px; font-size: 14px; color: #666;">
+        Prefer to explore on your own? Start your free trial and access all features without credit card required.
+        <br><br>
+        <a href="{{trial_signup_link}}" style="color: #667eea; text-decoration: none;">Start Free Trial →</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-links">
+      <a href="{{privacy_policy_link}}">Privacy Policy</a>
+      <a href="{{terms_link}}">Terms of Service</a>
+      <a href="{{support_link}}">Support</a>
+    </div>
+    <p>Smoke Test Co — API Testing That Actually Works</p>
+    <p>123 Tech Street, San Francisco, CA 94102</p>
+    <p><a href="{{unsubscribe_link}}">Unsubscribe</a> | <a href="{{preferences_link}}">Email Preferences</a></p>
+    <p style="margin-top: 10px; color: #666;">You received this email as part of the Demo Qualification Sequence.</p>
+  </div>
+</body>
+</html>

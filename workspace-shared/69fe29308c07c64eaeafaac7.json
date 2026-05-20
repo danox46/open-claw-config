@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "LinkedIn thought leadership post: 'We Don't Install AI. We Make It Work'",
+    "description": "Write a 250-300 word LinkedIn post positioning AI First Solutions as the outcome-focused partner. Highlight the core positioning ('We don't install AI. We make it work. We sell outcomes, not software.') and include one key message about handling implementation complexity. Target mid-market decision-makers frustrated with failed AI initiatives. End with CTA to the readiness-assessment landing page.",
+    "type": "text"
+  },
+  {
+    "asset": "Blog post: 'AI Implementation for Mid-Market: Why Your Team Doesn't Need an IT Department'",
+    "description": "Draft a 1,200-1,500 word blog post addressing the 'No IT team required' key message. Explain how AI First Solutions handles integration complexity and implementation friction. Include a real-world example (placeholder) of a mid-market company that saved 200+ hours/week. Embed internal links to the AI for mid-market landing page and readiness assessment. Optimize for SEO keyword: 'AI implementation for mid-market'.",
+    "type": "text"
+  },
+  {
+    "asset": "Email nurture sequence: Week 1 welcome + case study teaser",
+    "description": "Create a 2-email sequence for awareness-level prospects who visited the readiness-assessment page. Email 1 (immediate): Deliver placeholder readiness score and highlight top 3 opportunity areas. Email 2 (2 days later): Social proof case study showing how a similar mid-market company saved 200+ hours/week (use placeholder company name). Include CTA to book a 15-min strategy chat.",
+    "type": "text"
+  },
+  {
+    "asset": "Visual: Hero banner for AI Outcomes landing page",
+    "description": "Create a hero banner graphic (1200x628px) for the readiness-assessment landing page. Visual theme: clean, professional, business-focused. Include headline 'See if Your Business Is Ready for AI — For Free' and subheadline 'A 5-minute assessment reveals your AI implementation gaps and opportunity score.' Use AI First Solutions brand colors. Style: minimal, corporate, trust-building.",
+    "type": "image"
+  },
+  {
+    "asset": "Visual: LinkedIn post image for 'We Don't Install AI' post",
+    "description": "Create an accompanying image (1200x627px) for the LinkedIn thought leadership post. Visual should reinforce the 'outcomes vs. software' positioning. Style: clean, professional, minimal. Include a visual contrast or comparison graphic showing 'Software Vendors' vs 'AI First Solutions' with key differentiators (e.g., 'Sell Software' vs 'Sell Outcomes', 'Complex Implementation' vs 'We Handle It').",
+    "type": "image"
+  }
+]

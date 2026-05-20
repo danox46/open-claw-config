@@ -1,0 +1,193 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-adoption-navigator",
+      "name": "AI Navigator",
+      "objective": "Position Fresh Run Demo as the trusted AI implementation partner for medium businesses, driving 20% MoM demo requests from qualified prospects.",
+      "targetAudience": "CTOs, Operations VPs, and IT Managers at medium-sized businesses (50-500 employees) struggling with AI adoption, uncertain about ROI, and overwhelmed by vendor noise",
+      "positioning": "The practical AI implementation partner that bridges the gap between AI potential and business reality — no jargon, no fluff, just measurable results",
+      "keyMessages": [
+        "AI is accessible for medium businesses — you don't need enterprise resources to start",
+        "We've already solved your hardest AI challenges so you can focus on execution",
+        "Measurable ROI from day one, not theoretical benefits or long-term promises",
+        "Your team becomes AI-fluent without the steep learning curve or cultural friction"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "AI implementation roadmaps — breaking down complex AI projects into actionable steps for medium businesses",
+        "ROI case studies and benchmarks — showing real numbers from businesses like yours",
+        "Myth-busting content — addressing common fears and misconceptions about AI adoption",
+        "Team enablement stories — how other companies trained teams without disrupting workflows",
+        "Vendor landscape analysis — helping prospects cut through the noise and understand what matters"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture through thought leadership and educational content",
+        "Phase 2: Consideration — nurture and educate with case studies, ROI calculators, and implementation frameworks",
+        "Phase 3: Conversion — demo requests and SQL handoff through personalized consultation offers"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "Demo request volume",
+        "Content engagement rates",
+        "Lead-to-opportunity conversion rate"
+      ]
+    },
+    {
+      "id": "roi-visibility",
+      "name": "ROI Visibility",
+      "objective": "Build credibility through transparent ROI demonstrations, positioning Fresh Run Demo as the vendor that proves value before the sale.",
+      "targetAudience": "Finance leaders, Operations VPs, and C-suites skeptical about AI vendor ROI, requiring hard data and business case validation",
+      "positioning": "The ROI-transparent partner that shows, not tells — we prove value through measurable outcomes and transparent metrics",
+      "keyMessages": [
+        "We don't promise — we measure and report actual outcomes",
+        "Transparent ROI tracking built into every engagement",
+        "Peer benchmarks and industry standards that set realistic expectations",
+        "Business case development that aligns AI investment with strategic goals"
+      ],
+      "channels": [
+        "blog",
+        "linkedin",
+        "email"
+      ],
+      "contentThemes": [
+        "ROI frameworks and calculators — helping prospects model their expected returns",
+        "Transparent case studies with actual metrics, not just success stories",
+        "Industry benchmarks and peer comparisons — what others are achieving",
+        "Business case templates — ready-to-use frameworks for AI investment approval",
+        "Cost avoidance narratives — showing how AI prevents problems, not just creates value"
+      ],
+      "phases": [
+        "Phase 1: Awareness — publish ROI frameworks and benchmarks that attract skeptical buyers",
+        "Phase 2: Consideration — provide interactive ROI modeling and peer comparisons",
+        "Phase 3: Conversion — offer pre-sale ROI validation sessions and business case development"
+      ],
+      "currentPhase": "Phase 1: Awareness — publish ROI frameworks and benchmarks",
+      "successMetrics": [
+        "ROI content engagement",
+        "Case study downloads",
+        "Business case consultations"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "landingPages": [
+      {
+        "slug": "ai-implementation",
+        "headline": "AI Implementation for Medium Businesses",
+        "subheadline": "Skip the jargon and get measurable results — we've already solved your hardest challenges",
+        "valueProposition": "Fresh Run Demo bridges the gap between AI potential and business reality, delivering measurable ROI from day one without the enterprise overhead",
+        "cta": "Schedule Your Free Assessment",
+        "formId": "form-ai-assessment"
+      },
+      {
+        "slug": "roi-calculator",
+        "headline": "Calculate Your AI ROI Potential",
+        "subheadline": "See what other medium-sized businesses are achieving — with transparent metrics and real results",
+        "valueProposition": "Our interactive ROI calculator shows realistic expectations based on industry benchmarks, plus a free business case template",
+        "cta": "Get My ROI Estimate",
+        "formId": "form-roi-modeling"
+      },
+      {
+        "slug": "case-studies",
+        "headline": "Real Results from Real Businesses",
+        "subheadline": "Transparent case studies with actual metrics, not just success stories",
+        "valueProposition": "See exactly what we delivered, how we measured it, and the actual ROI — no fluff, just outcomes",
+        "cta": "View All Case Studies",
+        "formId": "form-case-study-download"
+      }
+    ],
+    "forms": [
+      {
+        "id": "form-ai-assessment",
+        "name": "AI Implementation Assessment",
+        "purpose": "demo request",
+        "fields": [
+          "first_name",
+          "email",
+          "company_size",
+          "current_ai_challenges",
+          "timeline"
+        ],
+        "successAction": "trigger:ai-assessment-sequence"
+      },
+      {
+        "id": "form-roi-modeling",
+        "name": "ROI Modeling Request",
+        "purpose": "content download",
+        "fields": [
+          "first_name",
+          "email",
+          "company_size",
+          "industry",
+          "primary_ai_use_case"
+        ],
+        "successAction": "redirect:/case-studies/roi-calculator"
+      },
+      {
+        "id": "form-case-study-download",
+        "name": "Case Study Library",
+        "purpose": "content download",
+        "fields": [
+          "first_name",
+          "email",
+          "company_name"
+        ],
+        "successAction": "trigger:case-study-sequence"
+      }
+    ],
+    "emailSequences": [
+      {
+        "name": "AI Assessment Nurture",
+        "trigger": "form:form-ai-assessment",
+        "steps": [
+          { "delay": "immediate", "subject": "Your AI implementation roadmap starts here", "purpose": "Welcome + calendar link for consultation" },
+          { "delay": "2 days", "subject": "3 common AI challenges for businesses like yours", "purpose": "Educational value + pain point validation" },
+          { "delay": "4 days", "subject": "How we helped [similar company] achieve measurable ROI", "purpose": "Social proof + case study teaser" },
+          { "delay": "6 days", "subject": "Free AI readiness checklist inside", "purpose": "Lead magnet + demo push" }
+        ]
+      },
+      {
+        "name": "ROI Modeling Follow-up",
+        "trigger": "form:form-roi-modeling OR form:form-case-study-download",
+        "steps": [
+          { "delay": "immediate", "subject": "Your personalized ROI calculation is ready", "purpose": "Deliver promised value + calendar invite" },
+          { "delay": "3 days", "subject": "Industry benchmarks: what medium businesses are achieving", "purpose": "Benchmarking + credibility boost" },
+          { "delay": "5 days", "subject": "Business case template for your AI investment", "purpose": "Enablement + approval support" },
+          { "delay": "7 days", "subject": "Last chance: Free ROI consultation", "purpose": "Urgency + final push" }
+        ]
+      }
+    ],
+    "leadRules": {
+      "scoringCriteria": [
+        { "action": "Downloaded ROI calculator", "points": 15 },
+        { "action": "Opened email", "points": 5 },
+        { "action": "Visited case studies page", "points": 10 },
+        { "action": "Clicked demo CTA", "points": 20 },
+        { "action": "Booked consultation", "points": 30 },
+        { "action": "Filled assessment form", "points": 25 }
+      ],
+      "routingRules": [
+        { "condition": "score >= 70 AND demo_booked == true", "action": "assign to AE" },
+        { "condition": "score >= 50 AND consultation_scheduled == true", "action": "trigger:high-intent-sequence" },
+        { "condition": "score >= 20", "action": "trigger:nurture-sequence" }
+      ]
+    },
+    "salesQualifiedHandoff": {
+      "sqaThreshold": "score >= 60 AND consultation booked",
+      "handoffProcess": "Automated Slack notification to Sales team with full lead profile, scoring breakdown, and recommended next steps. Sales rep receives 24-hour window to respond with discovery call invitation.",
+      "notificationChannel": "Slack #sales-alerts",
+      "requiredData": [
+        "company_name",
+        "contact_name",
+        "email",
+        "current_ai_challenges",
+        "timeline",
+        "budget_range"
+      ]
+    }
+  }
+}

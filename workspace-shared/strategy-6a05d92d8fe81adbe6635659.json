@@ -1,0 +1,75 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-workflow-audits",
+      "name": "AI Workflow Audits",
+      "objective": "Generate qualified demo requests from LinkedIn by positioning AI workflow audits as the de-risked path to production AI adoption",
+      "targetAudience": "Mid-market operations leaders (COOs, VPs of Operations, Directors of Digital Transformation) at $10M–$100M companies struggling to scale beyond AI pilots",
+      "positioning": "Enterprise-grade AI implementation without enterprise complexity — we connect AI to your existing stack rather than replacing it, with proven ROI within 90 days",
+      "keyMessages": [
+        "Move from Pilot to Production: Cut Time-to-Value by 40%",
+        "AI Audits That Reveal Hidden ROI (Not Just Risks)",
+        "Integration-First AI: Connect to Your Existing Stack, Not Replace It"
+      ],
+      "channels": [
+        "linkedin"
+      ],
+      "contentThemes": [
+        "AI Adoption Reality Check — why 80% of AI pilots fail and how to beat the odds",
+        "Workflow Audit Playbooks — step-by-step AI readiness assessments and integration checklists",
+        "ROI Case Studies — specific operational cost savings with named metrics and timelines"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture with educational carousels and high-engagement opinion pieces",
+        "Phase 2: Consideration — nurture and educate with deep-dive case studies, ROI calculators, and webinar invitations",
+        "Phase 3: Conversion — demo requests and SQL handoff through LinkedIn Lead Gen Forms with progressive profiling"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "LinkedIn follower growth rate",
+        "Lead Gen Form conversion rate (target 8-11%)",
+        "Cost per qualified demo request"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Top-funnel awareness via LinkedIn organic content drives profile visits and checklist downloads (2-3 form fields) into a nurture sequence; mid-funnel educated prospects convert via higher-intent ROI calculator and webinar registrations (5-7 fields); bottom-funnel qualified leads with explicit budget/timeline convert via LinkedIn Lead Gen Forms (8-10 fields) to demo requests",
+    "conversionPaths": [
+      "Primary conversion motion for high-intent prospects: LinkedIn Lead Gen Form directly to demo request with progressive profiling across funnel stages",
+      "Secondary path for education-first prospects: Content download → email nurture sequence → calendar link for workflow audit consultation"
+    ],
+    "nurtureApproach": "Trigger-based email sequences segmented by engagement behavior: website/demo page visitors receive 5-email demo request sequence; checklist downloaders receive 7-email education plus demo sequence; webinar registrants receive 5-email attendance plus conversion sequence; no-show demos receive 3-touch reschedule sequence",
+    "leadQualification": {
+      "scoringSignals": [
+        "Company matches ICP (size + sector): +10 points",
+        "Decision-maker or influencer role: +15 points",
+        "Pricing/demo page visit: +15 points",
+        "ROI calculator download: +20 points",
+        "Webinar attendance: +10 points",
+        "Active project with deadline: +20 points",
+        "Timeline under 30 days: +25 points"
+      ],
+      "qualificationThreshold": "0-39 points: nurture; 40-59 points: MQL (48-hour outreach); 60-79 points: SQL (24-hour outreach); 80+ points: hot lead (1-hour outreach)",
+      "routingGuidance": "Automated scoring in CRM triggers time-sensitive outreach workflow; MQLs receive 48-hour follow-up; SQLs receive 24-hour personal outreach from SDR; hot leads receive immediate SDR or AM contact"
+    },
+    "salesHandoff": {
+      "owner": "Account Executive receives qualified demand with full context packet",
+      "process": "CRM automation pushes qualified leads to AE queue with time-bounded SLA; AE reviews context packet within 24 hours and contacts lead within 1 hour for hot leads",
+      "requiredContext": [
+        "Contact info (name, email, phone, authority level)",
+        "Company context (size, revenue, locations, pain points)",
+        "Engagement history (content downloaded, pages viewed, signals)",
+        "Pain point priorities (top 3 challenges from form or survey)",
+        "Buying committee composition (IT, Finance, Operations)",
+        "Competitive context (current vendor, blockers)",
+        "Timeline (decision + implementation dates)",
+        "Budget (range, approval status, payment terms)"
+      ]
+    },
+    "measurementPlan": [
+      "Weekly review of LinkedIn follower growth and engagement rate",
+      "Monthly analysis of cost per qualified demo request by content theme",
+      "Quarterly audit of MQL→SQL conversion rate and time-to-qualification"
+    ]
+  }
+}

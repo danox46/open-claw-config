@@ -1,0 +1,109 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-simplification-2026",
+      "name": "AI Simplification",
+      "objective": "Position Fresh Run Demo as the bridge between business needs and AI capabilities, achieving 25% ROI within 90 days for target enterprises",
+      "targetAudience": "Medium businesses (50-500 employees) struggling with AI adoption, lacking technical expertise but recognizing the competitive necessity of AI implementation",
+      "positioning": "AI without the jargon — we translate business problems into AI solutions and demonstrate measurable ROI within 90 days, eliminating the skills gap that causes 60% of AI projects to fail",
+      "keyMessages": [
+        "Data silos and skills gaps are killing AI ROI — we fix both",
+        "25% ROI within 90 days or your investment is ours",
+        "No technical expertise required — we bridge the gap between business needs and AI capabilities"
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "Case studies showing real ROI from AI implementation in similar-sized businesses",
+        "Educational content on overcoming common AI adoption pitfalls (data quality, skills gaps)",
+        "Industry-specific AI success stories with measurable business outcomes"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture through LinkedIn thought leadership and SEO-optimized content",
+        "Phase 2: Consideration — nurture and educate via email sequences, webinars, and ROI calculator engagement",
+        "Phase 3: Conversion — demo requests and SQL handoff through progressive profiling and intent signals"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "LinkedIn engagement rate 4%+",
+        "Blog organic traffic 25% MoM",
+        "MQL to SQL conversion rate 60-70%"
+      ]
+    },
+    {
+      "id": "roi-proven-2026",
+      "name": "ROI Proven",
+      "objective": "Demonstrate tangible business value through measurable outcomes and calculator engagement, driving 21X faster response times and 5-minute SLA adoption",
+      "targetAudience": "C-level executives and operations leaders actively evaluating AI solutions but skeptical about ROI without clear proof points",
+      "positioning": "ROI before features — our calculator and case studies show exactly how much value you'll capture before you commit to implementation",
+      "keyMessages": [
+        "See your ROI before you commit — calculator shows 25%+ gains in 90 days",
+        "60% of AI projects fail — we're the 40% that succeed",
+        "21X faster response = 5-minute SLA for qualified leads"
+      ],
+      "channels": [
+        "blog",
+        "email",
+        "linkedin"
+      ],
+      "contentThemes": [
+        "ROI calculator case studies and testimonials",
+        "Comparative analysis: why 60% of AI projects fail and how Fresh Run Demo succeeds",
+        "Industry benchmarks and performance metrics"
+      ],
+      "phases": [
+        "Phase 1: Awareness — calculator landing page promotion and benchmark content distribution",
+        "Phase 2: Consideration — ROI nurture sequences and intent-based content delivery",
+        "Phase 3: Conversion — high-intent lead routing with 1-hour response SLA"
+      ],
+      "currentPhase": "Phase 1: Awareness — calculator landing page promotion and benchmark content distribution",
+      "successMetrics": [
+        "ROI calculator completion rate 35%+",
+        "Lead response time < 5 minutes",
+        "Qualified lead conversion rate 80%+"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Multi-touch attribution funnel where prospects enter through LinkedIn organic reach or SEO blog content, engage with progressive profiling forms (2-3 fields top-of-funnel, 8-10 fields bottom-funnel), and move through email nurture sequences based on behavior (calculator downloads, webinar registrations). Lead scoring moves prospects from 0-30 (FIT) to 0-40 (INTENT) to 0-30 (TIMING), with automated routing at 40+ points (MQL), 60+ (SQL), and 80+ (hot lead).",
+    "conversionPaths": [
+      "Primary: ROI Calculator → Demo Request → BANT-Q Qualification → Sales Handoff",
+      "Secondary: LinkedIn Content → Blog Deep Dive → Webinar Registration → Email Nurture → Demo Request"
+    ],
+    "nurtureApproach": "Behavior-triggered email sequences: 5-day nurture for webinar registrations, 7-day for calculator downloads, and 3-touch LinkedIn outreach for cold prospects. Content escalates from educational (AI basics) to problem-aware (data silos, skills gaps) to solution-focused (ROI proof). All sequences include social proof and measurable outcomes.",
+    "leadQualification": {
+      "scoringSignals": [
+        "Website visits (1 point per session)",
+        "Calculator usage (5 points per session)",
+        "Webinar registration (10 points)",
+        "Form completion depth (2 points per additional field)",
+        "Content downloads (3 points per asset)",
+        "Email engagement (1 point per open, 2 points per click)",
+        "LinkedIn engagement (2 points per interaction)"
+      ],
+      "qualificationThreshold": "80+ points = hot lead (1-hour response), 60-79 points = SQL (24-hour response), 40-59 points = MQL (48-hour response)",
+      "routingGuidance": "Automated routing to sales queue with SLA-based notification. Hot leads trigger immediate alert, SQL leads create task for same-day contact, MQLs enter weekly review cadence."
+    },
+    "salesHandoff": {
+      "owner": "Sales team with BANT-Q qualification framework (Budget, Authority, Need, Timeline, Quality)",
+      "process": "CRM integration with automated lead scoring, real-time engagement tracking, and BANT-Q score calculation. Sales receives lead with full engagement history, calculator results, and content preferences.",
+      "requiredContext": [
+        "Contact information and company context",
+        "Engagement history (content consumed, calculator results, form responses)",
+        "Budget status and timeline awareness",
+        "Competitive context and differentiation needs"
+      ]
+    },
+    "measurementPlan": [
+      "MQL to SQL conversion rate (target 60-70%)",
+      "SQL to opportunity conversion rate (target 45%+)",
+      "Lead response time SLA achievement (90% within threshold)",
+      "ROI calculator engagement rate (target 35%+)",
+      "Cost per qualified lead (target reduction 20% QoQ)",
+      "Overall campaign ROI (target 25% within 90 days)"
+    ]
+  }
+}

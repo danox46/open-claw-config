@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "LinkedIn Organic Post: The Real Cost of Manual Logistics Operations",
+    "description": "Campaign: AI Adoption Roadmap. Asset: LinkedIn organic post with carousel format (5-7 slides). Align to contentTheme 'The Real Cost of Manual Logistics Operations' with keyMessages about pilot-to-production gap and legacy system integration. Define direction: specify data-driven ROI calculator concept showing fuel savings, stockout reduction, efficiency gains. Include 1 CTA to download free ROI calculator (3-field form). Define engagement target: LinkedIn impressions and saves on framework content.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Organic Post: 5 Signs Your AI Strategy Is Stuck in Pilot Purgatory",
+    "description": "Campaign: AI Adoption Roadmap. Asset: LinkedIn organic post + LinkedIn Article deep-dive. Align to contentTheme '5 Signs Your AI Strategy Is Stuck in Pilot Purgatory' with keyMessages on solvable unclear ROI problems. Define direction: diagnostic framework positioning structured roadmaps as solution. Include 1 CTA to register for free 30-min AI workflow audit. Define engagement target: demo request volume from top-funnel campaigns.",
+    "type": "text"
+  },
+  {
+    "asset": "Native Document Ad: AI Pilot to Production Gap Diagnostic",
+    "description": "Campaign: AI Adoption Roadmap. Asset: LinkedIn Sponsored Content - native document ad with gated asset. Align to contentTheme 'The Real Cost of Manual Logistics Operations' with keyMessages on enterprise AI without enterprise complexity. Define direction: 3-field form (name, company, email) for 'AI Pilot to Production Gap Diagnostic' native document. Include value proposition bullets from keyMessages. Define engagement target: website-to-lead conversion rate improvement via form optimization.",
+    "type": "text"
+  },
+  {
+    "asset": "Email Nurture Sequence: Top-Funnel Educational Series",
+    "description": "Campaign: AI Adoption Roadmap. Asset: Trigger-based email nurture sequence for LinkedIn content engagers. Define direction: 4-7 emails at Day 0, 3, 7, 14, 21, 30 cadence following 3:1 value-before-ask rule. Content focus: frameworks, case study snippets (anonymized metrics), calculators from approved contentThemes. Personalization rules: reference industry, downloaded content, recent behavior. Define engagement target: mid-funnel to bottom-funnel conversion rate (demo requests, qualified opportunities).",
+    "type": "text"
+  },
+  {
+    "asset": "Lead Qualification Scorecard: MQL/SQL/Hot Lead Thresholds",
+    "description": "Campaign: AI Adoption Roadmap. Asset: Internal-facing lead qualification documentation for SDR team. Define direction: specify scoring signals from strategy (company match ICP +10 points, decision-maker +15 points, pricing/demo visit +15 points, ROI calculator download +20 points, webinar attendance +10 points, VP/Director title +10 points). Define thresholds: 40-59 MQL (14-day nurture), 60-79 SQL (24-hour outreach), 80+ Hot lead (1-hour response). Include requiredContext fields for sales handoff. Type is text for internal enablement, not external-facing.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Carousel Visual: Enterprise AI Without Enterprise Complexity",
+    "description": "Campaign: AI Adoption Roadmap. Asset: Visual carousel mockup for Phase 1 awareness phase. Align to positioning 'Enterprise AI capabilities without enterprise complexity' and keyMessages about structured path to AI scaling. Define direction: 5-7 slide visual structure showing 'pilot to production' journey with legacy system integration visuals. Include data visualization placeholders for contentTheme metrics. Define engagement target: LinkedIn saves on framework content.",
+    "type": "image"
+  }
+]

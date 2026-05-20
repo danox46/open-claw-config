@@ -1,0 +1,133 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-workflow-authority",
+      "name": "AI Workflow Authority",
+      "objective": "Establish Danox as the go-to expert for practical AI automation systems by generating 500+ qualified LinkedIn impressions per week and 15+ consultation requests monthly.",
+      "targetAudience": "Founders and operators at early-to-mid-stage tech-enabled companies experiencing AI tool overload, unclear ROI, and integration complexity with legacy systems.",
+      "positioning": "Practical, ROI-first AI workflow systems that solve specific operational problems without creating complexity or maintenance debt.",
+      "keyMessages": [
+        "AI automation should reduce manual work by 30-50%, not add complexity",
+        "We bridge the gap between AI hype and operational reality",
+        "Enterprise-grade governance without enterprise-grade friction"
+      ],
+      "channels": [
+        "linkedin"
+      ],
+      "contentThemes": [
+        "The Real Cost of Manual Operations: How AI can cut 25% of repetitive tasks",
+        "5 Signs Your Current Automation is Holding You Back (Exception handling, data quality, edge cases)",
+        "From Pilot to Scale: Why Most AI Projects Fail and How to Prevent It"
+      ],
+      "phases": [
+        "Phase 1: Awareness — Establish presence through problem-identification content and niche positioning",
+        "Phase 2: Consideration — Deep-dive frameworks, methodologies, and transparent ROI tracking",
+        "Phase 3: Conversion — Case studies with specific metrics, implementation timelines, and consultation calls"
+      ],
+      "currentPhase": "Phase 1: Awareness — Establish presence through problem-identification content and niche positioning",
+      "successMetrics": [
+        "LinkedIn impressions per week (target: 500+)",
+        "Profile visits per week (target: 100+)",
+        "Consultation requests per month (target: 15+)"
+      ]
+    },
+    {
+      "id": "roi-first-implementation",
+      "name": "ROI-First Implementation",
+      "objective": "Position Danox as the ROI specialist for AI automation by demonstrating measurable 30-90 day outcomes and generating 10+ high-intent consultation requests monthly.",
+      "targetAudience": "CTOs, COOs, and marketing leaders at scaling businesses facing unclear AI ROI, integration complexity, and maintenance debt.",
+      "positioning": "Measurable, transparent AI automation implementation with proven 30-90 day ROI outcomes and clear risk mitigation.",
+      "keyMessages": [
+        "We don't sell tools; we deliver measurable business outcomes",
+        "ROI tracking frameworks that prove 30-50% time savings within 90 days",
+        "Governance and security built-in, not bolted on"
+      ],
+      "channels": [
+        "linkedin"
+      ],
+      "contentThemes": [
+        "ROI Tracking Frameworks: How to Prove 30% Efficiency Gains Within 90 Days",
+        "Case Studies: Before/After Comparisons with Specific Metrics",
+        "Risk Mitigation: How We Handle Exception Cases and Edge Conditions"
+      ],
+      "phases": [
+        "Phase 1: Awareness — Share ROI philosophy and measurement frameworks",
+        "Phase 2: Consideration — Technical deep dives on integration patterns and governance",
+        "Phase 3: Conversion — Detailed case studies, implementation timelines, and direct consultation calls"
+      ],
+      "currentPhase": "Phase 1: Awareness — Share ROI philosophy and measurement frameworks",
+      "successMetrics": [
+        "Consultation request rate per post (target: 2-3%)",
+        "High-intent leads per month (target: 10+)",
+        "Lead-to-consultation conversion rate (target: 25%+)"
+      ]
+    },
+    {
+      "id": "niche-specialization",
+      "name": "Niche Specialization",
+      "objective": "Build authority in specific workflow automation categories by demonstrating deep expertise and generating consistent inbound from aligned prospects.",
+      "targetAudience": "Founders and operators specifically struggling with [specific workflow type: e.g., customer onboarding, data integration, reporting automation].",
+      "positioning": "Specialized expertise in [workflow type] automation, not generic 'we do AI' claims.",
+      "keyMessages": [
+        "Depth over breadth: We specialize in [specific workflow type]",
+        "Transparent implementation methodology for complex workflows",
+        "Proven ROI frameworks specific to [workflow type]"
+      ],
+      "channels": [
+        "linkedin"
+      ],
+      "contentThemes": [
+        "The Real Cost of Manual [Specific Workflow] Operations",
+        "5 Signs Your [Workflow Type] Automation is Holding You Back",
+        "Exception Handling and Edge Case Management for [Specific Workflow]"
+      ],
+      "phases": [
+        "Phase 1: Awareness — Problem-identification content focused on specific workflow pain points",
+        "Phase 2: Consideration — Technical frameworks and methodology for [workflow type]",
+        "Phase 3: Conversion — Niche-specific case studies and consultation calls"
+      ],
+      "currentPhase": "Phase 1: Awareness — Problem-identification content focused on specific workflow pain points",
+      "successMetrics": [
+        "Niche-specific engagement rate (target: 5%+)",
+        "Consultation requests from aligned prospects (target: 8+ monthly)",
+        "Profile completion rate (target: 40%+)"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "funnelStrategy": "Top-funnel LinkedIn content drives profile visits → 2-field lead magnet (checklist/template) → email nurture sequence → consultation request. Mid-funnel: carousel/PDF deep dives on specific workflows. Bottom-funnel: case studies with specific metrics and direct consultation calls.",
+    "conversionPaths": [
+      "Primary: LinkedIn post → profile visit → 2-field lead magnet download → email nurture → consultation request",
+      "Secondary: LinkedIn post → carousel/PDF download → email nurture → consultation request"
+    ],
+    "nurtureApproach": "Email sequences focused on problem identification (Weeks 1-2), framework education (Weeks 3-4), and case study proof (Weeks 5-6). Each email provides actionable insight, not just promotion. Include 1-2 field lead capture per sequence stage.",
+    "leadQualification": {
+      "scoringSignals": [
+        "2+ asset downloads in 30 days",
+        "Repeated email opens (same topic, 3+ times)",
+        "Consultation/demo request behavior",
+        "Specific technical questions in conversations",
+        "Company size and sector alignment"
+      ],
+      "qualificationThreshold": "40+ points (FIT + INTENT + TIMING) triggers MQL status; 60+ points triggers SQL status for immediate sales attention.",
+      "routingGuidance": "Hot leads (<1 hour response window) get immediate sales outreach. Warm leads (24-48 hour window) enter automated nurture sequence with weekly check-ins."
+    },
+    "salesHandoff": {
+      "owner": "Sales/Consulting team",
+      "process": "CRM notification with lead score, asset history, and engagement timeline → scheduled discovery call within 1 hour for MQLs → qualification framework (company size, budget, timeline, decision committee) → proposal within 48 hours",
+      "requiredContext": [
+        "Lead score and scoring breakdown",
+        "Asset download history and engagement timeline",
+        "Company size and sector alignment",
+        "Specific workflow challenges identified",
+        "Current tool stack and integration complexity"
+      ]
+    },
+    "measurementPlan": [
+      "Weekly: LinkedIn impressions, profile visits, post engagement rate",
+      "Monthly: Consultation requests, lead-to-consultation conversion, cost per lead",
+      "Quarterly: Consultation-to-client conversion, CAC payback period, LTV:CAC ratio",
+      "Ongoing: Lead response time, form friction impact, nurture sequence effectiveness"
+    ]
+  }
+}

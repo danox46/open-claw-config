@@ -1,0 +1,17 @@
+[
+  {
+    "asset": "LinkedIn carousel: 10-slide 'AI Adoption Reality Check' infographic",
+    "description": "Create a visually engaging LinkedIn carousel that breaks down why 80% of AI pilots fail (common mistakes, hidden costs, integration gaps) and positions AI workflow audits as the de-risked path. Slide 1: Hook — '80% of AI pilots stall at pilot stage. Here's why.' Slides 2-9: 3-4 key failure reasons with brief explanations and one-line 'how audits fix this' callouts. Slide 10: CTA — 'Get your free 15-min AI readiness assessment. Link in comments.' Tone: authoritative, data-driven, empathetic to operations leaders. Visual style: clean, professional, consistent with brand guidelines. Use icons for failure points, simple charts for stats.",
+    "type": "image"
+  },
+  {
+    "asset": "Week 1 LinkedIn Content Batch: 4 posts with progressive form capture",
+    "description": "Create 4 LinkedIn posts for Week 1, each with embedded progressive form capture strategy (top-funnel: 2-3 fields — name, title, email via comment engagement): 1) 'The Integration-First AI Approach' — 300-400 word opinion piece challenging 'AI platform replacement' narrative, weave in 'Integration-First AI: Connect to Your Existing Stack' message, include 1-2 anonymized examples of 20-40% implementation time savings, CTA: 'Want to know where your org stands on AI integration readiness? Comment 'YES' below (we'll send you a quick 3-question assessment).' 2) Hidden ROI metric teaser — lead with '$287K/year saved by automating only 3 of 47 weekly reports', explain real ROI is time freed for strategic work (30+ hours/week), CTA: 'Want our simple ROI calculator? Comment 'ROI' — we'll DM you the link.' 3) Carousel teaser for 'AI Pilot vs. Production' — 3-slide setup driving engagement, CTA: 'Comment 'PLAYBOOK' for the free 5-step readiness checklist.' 4) Weekly recap post summarizing week's themes, CTA: 'Want our AI workflow audit guide? Comment 'GUIDE' below.' Each post includes 4-7 relevant hashtags and is optimized for comment-based progressive profiling.",
+    "type": "text"
+  },
+  {
+    "asset": "Lead magnet PDF: '5-Step AI Workflow Readiness Checklist'",
+    "description": "Create a concise, scannable checklist PDF for operations leaders to self-assess AI readiness. Include 5 key questions: 1) Data infrastructure (clean, accessible datasets?), 2) Process mapping (are workflows documented?), 3) Team skills (who can use AI tools?), 4) Use case prioritization (which pain points to solve first?), 5) Integration plan (what systems need AI integration?). Each question has yes/no/maybe rating with brief explanation. Add 'Next Steps' section: Score 0-2: Start with process mapping. Score 3-5: Run a paid workflow audit. Score 6+: You're ready to pilot. Include branding, company logo, footer with website link. Keep to 3-4 pages. This asset feeds into mid-funnel nurture (7-email sequence) after 2-3 field top-funnel capture.",
+    "type": "text"
+  }
+]

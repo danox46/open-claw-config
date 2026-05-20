@@ -1,0 +1,25 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b484",
+      "reason": "Asset titles and specific copy instructions violate the strategic boundary of defining direction only. Task Planner must not pre-specify asset titles, exact headlines, slide-by-slide breakdowns, or form field descriptions — these should be derived from content themes (e.g., 'The Real Cost of Manual Logistics Operations', '5 Signs Your AI Strategy Is Stuck in Pilot Purgatory') without prescribing exact wording. Remove explicit instructions for 'Slide 1: Hook — X' and 'Headline: Y' and replace with theme guidance aligned to the campaign brief's contentThemes array."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b484",
+      "reason": "Two distinct carousel assets are proposed without alignment to the phased content calendar. Strategy defines Phase 1 (Awareness) content as carousels on LinkedIn for 'The Real Cost of Manual Logistics Operations', '5 Signs Your AI Strategy Is Stuck in Pilot Purgatory', and 'How Mid-Size Logistics Companies Are Cutting Costs 25% with AI'. These should be scheduled as weekly batches across Phase 1, not produced simultaneously. Task Planner should specify which campaign theme each asset serves and which week it deploys within Phase 1."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b484",
+      "reason": "AI ROI Calculator landing page copy is a deliverable spec, not strategic direction. Strategy calls for an ROI calculator gated asset as part of mid-funnel conversion, but Task Planner should not write specific headlines, subheads, or button copy at this stage. Instead, Task Planner should derive these from the campaign's keyMessages ('Stop guessing on routes. Start saving', 'Inventory that moves. Not dead stock') and channel guidelines for native document ads or landing page CTAs."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b484",
+      "reason": "LinkedIn Article asset incorrectly references 'native to LinkedIn, not blog' without aligning to the infrastructure funnelStrategy. Strategy defines blog posts (2/month) for SEO + topical authority and LinkedIn Articles for deep-dive methodology. Task Planner must clarify whether this asset serves the blog content calendar or the LinkedIn-native content bucket, and which campaign it supports (AI Adoption Roadmap or Inventory Management Vertical)."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b484",
+      "reason": "Missing alignment to campaign-specific targeting. Strategy defines three distinct campaigns (AI Adoption Roadmap, Route Optimization Vertical, Inventory Management Vertical) each with precise audience segments. Task Planner must explicitly state which campaign(s) each asset serves — e.g., 'LinkedIn Carousel: From Pilot to Production' supports AI Adoption Roadmap's Phase 1 awareness, while 'LinkedIn Article: How Mid-Size Logistics Companies Are Cutting Costs 25% with AI' supports Route Optimization Vertical's Phase 1 awareness with fuel savings angle."
+    }
+  ]
+}

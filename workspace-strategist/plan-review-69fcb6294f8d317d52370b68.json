@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "69fcb6294f8d317d52370b68",
+      "reason": "The plan includes cold email and outbound LinkedIn outreach that were NOT approved in the original strategy. The strategy prioritizes Email Nurture (triggered by organic lead capture) as primary channel, with LinkedIn as secondary for community building and content distribution. Cold outreach should be deferred until after organic lead capture establishes baseline conversion data. Remove cold email sequences and LinkedIn InMail templates from immediate execution; focus instead on nurturing inbound leads from the Tech Stack Audit Checklist and ROI Calculator lead magnets."
+    }
+  ]
+}

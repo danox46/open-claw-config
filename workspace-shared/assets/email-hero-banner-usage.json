@@ -1,0 +1,63 @@
+{
+  "asset": "Email Campaign: Hero Banner Usage",
+  "description": "Configure email banner using hero banner image with subject line variants A/B testing",
+  "parentAssetId": "69fdfb6bec0393f475b0c82e",
+  "campaign": {
+    "name": "Smoke Test Co: Quality Without the Complexity",
+    "objective": "Generate 500 qualified trial signups from mid-market engineering teams within 90 days"
+  },
+  "subjectLineVariants": {
+    "variantA": {
+      "text": "Stop Flaky Tests",
+      "position": 1
+    },
+    "variantB": {
+      "text": "95% Fewer False Positives",
+      "position": 2
+    }
+  },
+  "previewText": "Enterprise reliability. Start testing in 10 minutes with intelligent false-positive detection.",
+  "senderName": "Smoke Test Co Team",
+  "heroBanner": {
+    "usage": "Primary visual for email header",
+    "altText": "Smoke Test Co hero banner showing API testing interface with false-positive detection",
+    "dimensions": {
+      "width": "600px",
+      "height": "auto",
+      "maxHeight": "400px"
+    },
+    "responsiveBehavior": "Scale down to 500px on mobile devices"
+  },
+  "ctaButton": {
+    "text": "Start Free Trial",
+    "link": "/api-testing",
+    "style": {
+      "background": "#0070f3",
+      "textColor": "#ffffff",
+      "padding": "12px 24px",
+      "radius": "4px",
+      "fontSize": "16px"
+    }
+  },
+  "emailBodyContent": {
+    "headline": "API Testing That Actually Works",
+    "subheadline": "Catch breaking changes faster with intelligent false-positive detection",
+    "body": [
+      "Tired of wasting time on tests that fail for no reason? Our intelligent false-positive detection eliminates 95% of flaky tests.",
+      "",
+      "Start testing in 10 minutes with enterprise reliability. Works with your existing CI/CD—no complex setup required.",
+      "",
+      "Transparent pricing with no hidden costs."
+    ],
+    "footer": {
+      "unsubLink": "/unsubscribe",
+      "privacyLink": "/privacy",
+      "address": "123 Tech Street, San Francisco, CA 94107"
+    }
+  },
+  "metrics": {
+    "trackingPixel": true,
+    "openRateTracking": true,
+    "clickThroughTracking": true
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "asset": "LinkedIn Content Calendar - Awareness Phase (Months 1-2) (12 posts)",
+    "description": "Create LinkedIn post copy for awareness phase targeting decision-makers at medium businesses struggling with AI. Posts should include: 1) 'Why 62% of medium businesses fail at AI' educational insights 2) 12-Step AI Implementation Checklist tips (shareable snippets) 3) Case study highlights (200 hours/week savings) 4) 'AI myth vs reality' debunking posts 5) ROI calculator teaser posts. Each post: 150-200 words, include CTA to blog or calculator, use hashtags #AI #SMB #DigitalTransformation. Include posting schedule (3x/week optimal).",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Content Calendar - Consideration Phase (Months 3-4) (8 posts)",
+    "description": "Create LinkedIn post copy for consideration phase nurturing prospects who engaged with awareness content. Posts should include: 1) Webinar 'AI Without the Hype' promotion posts 2) Blog post teasers (ROI calculator, case study) 3) Implementation checklist deep-dive posts 4) 'What to expect from AI implementation' realistic expectations posts 5) Social proof posts (company size ranges served). Focus on education and building trust. Include CTA to register for webinar or download checklist.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Content Calendar - Conversion Phase (Months 5-6) (8 posts)",
+    "description": "Create LinkedIn post copy for conversion phase driving demo requests. Posts should include: 1) Free implementation plan CTA posts 2) Webinar recording highlights 3) New case study announcements 4) ROI calculator results showcase posts 5) 'Ready to implement AI?' readiness posts 6) Limited-time consultation offer posts 7) Client success story roundups 8) Q&A posts addressing common objections. Focus on urgency and clear CTAs for demo bookings.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn InMail Outreach Sequence (5 messages over 14 days)",
+    "description": "Create LinkedIn InMail follow-up sequence for prospects who accepted connection request. Messages should progress from sharing AI implementation insights (no pitch) to discussing their specific challenges, then to offering the ROI calculator or free checklist. Include the '12-Step AI Implementation Checklist' as value-add. Messages should be conversational like 'Thought about what you shared' or 'Quick resource for your team'. Include clear CTA for each message.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Connection Request Templates (3 variations)",
+    "description": "Create LinkedIn connection request messages for decision-makers at medium businesses. Templates should be under 300 characters, mention 'AI implementation for medium businesses' or 'helping companies avoid AI pitfalls', and include a clear hook about ROI or implementation challenges. Avoid salesy language - position as peer sharing insights.",
+    "type": "text"
+  },
+  {
+    "asset": "Paid Ad Copy - LinkedIn (3 ad variants)",
+    "description": "Create LinkedIn sponsored content ad copy targeting medium business decision-makers. Ad copy should focus on: 1) 'Stop wrestling with AI - get working solutions in 30 days' 2) '62% of businesses fail at AI - here's the checklist that prevents that' 3) 'Calculate your AI savings before you commit - free ROI calculator'. Include headline, body text, and CTA for each variant. Target audiences: CTOs, Operations VPs, IT Directors at 50-500 employee companies.",
+    "type": "text"
+  },
+  {
+    "asset": "Paid Ad Creatives - LinkedIn (3 image assets)",
+    "description": "Create visual ad creatives for LinkedIn ads. Asset 1: Infographic showing '62% of medium businesses fail at AI - here's the 12-step checklist that works'. Asset 2: Screenshot mockup of ROI calculator with sample results showing 'Projected annual savings: $XXX,XXX'. Asset 3: Case study card design showing '$45M Manufacturing Company - 200 hours/week saved'. All should use brand colors and include company logo.",
+    "type": "image"
+  },
+  {
+    "asset": "Blog Post - Why 62% of Medium Businesses Fail at AI",
+    "description": "Create full blog post content for SEO awareness piece. Include: 1) 300-word SEO-optimized intro with keyword 'AI implementation for SMBs' 2) 5 key reasons businesses fail at AI (complexity, no ROI visibility, integration challenges) 3) 3 success factors (implementation-first approach, measurable KPIs, phased rollout) 4) CTA to download 12-step checklist. Include meta description (155 chars) and 5 target keywords.",
+    "type": "text"
+  },
+  {
+    "asset": "Blog Post - AI ROI Calculator Guide",
+    "description": "Create blog post content for ROI calculator landing page. Include: 1) 250-word intro about AI cost-benefit confusion 2) 5 questions to ask before calculating ROI 3) How the calculator works (step-by-step) 4) Sample results from real businesses 5) CTA to use calculator and get personalized recommendations. Include meta description targeting 'AI ROI calculator' keyword.",
+    "type": "text"
+  },
+  {
+    "asset": "Case Study - $45M Manufacturing Company",
+    "description": "Create full case study for social proof. Include: 1) 300-word company background (anonymized) 2) The challenge (200 hours/week manual processes) 3) The solution (AI implementation approach) 4) The results (200 hours saved, 15% productivity increase, ROI in 45 days) 5) Quotes from decision-maker 6) CTA to see what AI can do for their business. Include pull quotes and data visualization suggestions.",
+    "type": "text"
+  },
+  {
+    "asset": "12-Step AI Implementation Checklist",
+    "description": "Create downloadable checklist PDF content. Include: 1) Executive summary (what this checklist is for) 2) 12 numbered steps with brief explanations (assess readiness, define use cases, build team, etc.) 3) Self-assessment scoring (1-5 per step) 4) Action plan template 5) CTA for next steps (demo or consultation). Format as engaging checklist with checkboxes, not just bullet points.",
+    "type": "text"
+  },
+  {
+    "asset": "Webinar Content - 'AI Without the Hype' (outline + slides script)",
+    "description": "Create webinar content for consideration-phase nurture asset. Include: 1) Webinar outline with 5 key sections 2) Slide-by-slide speaker script 3) Handout outline (key takeaways) 4) Q&A preparation (anticipated questions) 5) Follow-up email templates for registrants. Focus on practical implementation, not hype. Include 15-minute interactive demo of ROI calculator.",
+    "type": "text"
+  },
+  {
+    "asset": "Webinar Attendee Nurture Sequence (5 emails over 14 days)",
+    "description": "Create email sequence for webinar registrants. Email 1: Thank you + recording link. Email 2: 3 key takeaways from webinar. Email 3: Case study showing concepts in action. Email 4: Free 30-min implementation strategy session offer. Email 5: Are you still implementing AI? Re-engagement. Include clear CTAs and personalization placeholders.",
+    "type": "text"
+  },
+  {
+    "asset": "Demo Request Nurture Sequence (6 emails over 14 days)",
+    "description": "Create email sequence for prospects who requested demo consultation. Email 1: Thank you + what to expect. Email 2: Differentiate offering (30-min strategic session vs 30+ min traditional demo). Email 3: Qualifying question 'What problem are you trying to solve?'. Email 4: Case study social proof. Email 5: Still looking at AI solutions? Re-engage. Email 6: Last reminder + bonus guide. Include clear CTAs.",
+    "type": "text"
+  },
+  {
+    "asset": "ROI Calculator Users Nurture Sequence (5 emails over 14 days)",
+    "description": "Create email sequence for prospects who used ROI calculator. Email 1: ROI analysis ready + review link. Email 2: Personalized message 'Your projected savings: $X/year - can we help?'. Email 3: How other businesses achieved similar results. Email 4: Questions about ROI projection? Support offer. Email 5: Last chance for free implementation plan. Include personalization placeholders for calculated savings.",
+    "type": "text"
+  },
+  {
+    "asset": "Checklist Downloaders Nurture Sequence (5 emails over 14 days)",
+    "description": "Create email sequence for prospects who downloaded the AI Implementation Checklist. Email 1: Checklist delivered + expert positioning. Email 2: Most businesses skip step 4 - educate on pitfalls. Email 3: Case study showing how a company avoided the #1 AI mistake. Email 4: Quick question about AI plans - engagement. Email 5: Last reminder + bonus guide inside. Include clear CTAs.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page - AI Made Simple",
+    "description": "Create landing page copy for demo request CTA. Include: 1) Headline: 'Enterprise AI Power Without Enterprise Complexity' 2) Subheadline: 'Working AI solutions deployed in 30 days or less - no PhD required' 3) Value proposition section 4) 3 bullet points on what they'll get in free implementation plan 5) Form fields (name, email, company size) 6) Trust signals (logos, testimonials). Keep above-the-fold content to 200 words max.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page - ROI Calculator",
+    "description": "Create landing page copy for ROI calculator access. Include: 1) Headline: 'See Exactly How Much AI Will Save Your Business' 2) Subheadline: 'Interactive ROI calculator + personalized implementation recommendations' 3) Value proposition 4) Form fields (email, company name) 5) What the calculator includes 6) CTA to start free ROI analysis. Keep concise and benefit-focused.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page - AI Implementation Checklist",
+    "description": "Create landing page copy for checklist download. Include: 1) Headline: 'Is Your Business Ready for AI?' 2) Subheadline: '12-step checklist to assess readiness and avoid common implementation pitfalls' 3) Value proposition 4) What's inside the checklist 5) Form fields (first name, email) 6) CTA to download free checklist. Keep benefit-focused and scannable.",
+    "type": "text"
+  },
+  {
+    "asset": "Blog Post - Webinar Recording & Case Study Highlights (SEO distribution)",
+    "description": "Create blog post content for distributing webinar recording and case study. Include: 1) 300-word intro connecting webinar insights to case study results 2) 5 key implementation takeaways from webinar 3) Case study highlights (anonymized) 4) CTA to register for next webinar or book consultation. Include meta description and 5 SEO keywords for distribution.",
+    "type": "text"
+  }
+]

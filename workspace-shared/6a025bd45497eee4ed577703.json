@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "LinkedIn thought leadership post: 'Data Silos Killing Your AI ROI'",
+    "description": "Write a 300-word LinkedIn post targeting CTOs and operations leaders at medium businesses. Explain how data silos and skills gaps cause 60% of AI projects to fail. Include the Fresh Run Demo solution: bridging business needs with AI capabilities without technical expertise. End with a soft CTA to download our ROI calculator. Use key message: 'Data silos and skills gaps are killing AI ROI — we fix both'.",
+    "type": "text"
+  },
+  {
+    "asset": "Blog post: 'Why 60% of AI Projects Fail (And How to Be in the 40%)'",
+    "description": "Draft a 1,200-word SEO-optimized blog post for LinkedIn audience. Cover common AI adoption pitfalls: data quality issues, skills gaps, lack of clear ROI measurement. Position Fresh Run Demo as the solution that delivers 25% ROI within 90 days with no technical expertise required. Include internal links to ROI calculator and case study. Use key message: 'No technical expertise required — we bridge the gap between business needs and AI capabilities'.",
+    "type": "text"
+  },
+  {
+    "asset": "Email newsletter: 'AI Without the Jargon' campaign launch",
+    "description": "Create a 350-word email newsletter for existing and prospect contacts. Introduce the AI Simplification campaign with a clear value proposition: AI implementation that delivers measurable ROI in 90 days. Highlight the no-jargon approach and include a soft CTA to take our free ROI assessment. Use key message: '25% ROI within 90 days or your investment is ours'.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn carousel graphic: 'The AI ROI Problem'",
+    "description": "Design a 5-slide LinkedIn carousel visual. Slide 1: '60% of AI Projects Fail'. Slide 2: 'Data Silos = Hidden Costs'. Slide 3: 'Skills Gaps = Wasted Budget'. Slide 4: 'The Fresh Run Demo Solution'. Slide 5: '25% ROI in 90 Days — Guaranteed'. Use clean, professional design with data visualization elements. Include Fresh Run Demo branding.",
+    "type": "image"
+  },
+  {
+    "asset": "Blog hero image: 'AI Simplification Campaign'",
+    "description": "Create a 1200x628px hero image for the blog post. Show a medium-sized office environment with abstract data connections being simplified into clear pathways. Use Fresh Run Demo brand colors. Include subtle ROI calculator iconography. Text overlay: 'AI Without the Jargon'.",
+    "type": "image"
+  },
+  {
+    "asset": "LinkedIn post image: '25% ROI in 90 Days'",
+    "description": "Design a single-image LinkedIn post graphic (1200x627px). Feature a bold headline: '25% ROI in 90 Days or Your Investment Is Ours'. Include a small chart/graphic showing ROI progression. Add Fresh Run Demo logo and tagline 'AI Simplification' at bottom. Use high-contrast design for mobile readability.",
+    "type": "image"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "69fcda11b09adb1530133953",
+      "reason": "Missing ROI Calculator asset: Strategy specifies an interactive ROI Calculator as a key conversion tool (Section 4, Landing Pages), but the plan includes it only as 'ROI Calculator Landing Page' without specifying the interactive calculator widget itself needs to be built as a separate asset. The calculator widget should be a standalone deliverable before being embedded in the landing page."
+    }
+  ]
+}

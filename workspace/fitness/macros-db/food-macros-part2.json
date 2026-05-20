@@ -1,0 +1,67 @@
+{
+  "collection": "food_macros_part2",
+  "description": "Additional nutritional macro data for fitness meal planning",
+  "last_updated": "2026-05-10",
+  "notes": "Items requiring manual input: arepa (varies by recipe), vegetables (varies by type/portion), local market cheese (needs specific brand/product)",
+  "items": [
+    {
+      "id": 24,
+      "name": "Arepa (small, 1 unit)",
+      "unit": "1 small",
+      "calories": 115,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 20,
+      "fiber_g": 1,
+      "source": "estimated",
+      "notes": "Values vary by recipe (cornmeal, cheese, butter). Adjust based on actual preparation."
+    },
+    {
+      "id": 25,
+      "name": "Vegetables (mixed, large portion)",
+      "unit": "large mixed",
+      "calories": 50,
+      "protein_g": 2,
+      "fat_g": 0.5,
+      "carbs_g": 10,
+      "fiber_g": 3,
+      "source": "estimated",
+      "notes": "Estimate for mixed salad vegetables (lettuce, tomatoes, cucumbers, peppers). Adjust based on actual mix."
+    },
+    {
+      "id": 26,
+      "name": "Salad (large)",
+      "unit": "large",
+      "calories": 30,
+      "protein_g": 1,
+      "fat_g": 0.5,
+      "carbs_g": 6,
+      "fiber_g": 2,
+      "source": "estimated",
+      "notes": "Estimate for basic green salad without dressing."
+    },
+    {
+      "id": 27,
+      "name": "Cheese (local market - placeholder)",
+      "unit": "100g",
+      "calories": 0,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 0,
+      "fiber_g": 0,
+      "source": "pending_input",
+      "notes": "NEEDS MANUAL INPUT - Values vary by cheese type (cheddar, mozzarella, etc.). Add specific local product data here."
+    },
+    {
+      "id": 28,
+      "name": "Eggs (2 whole)",
+      "unit": "2 whole",
+      "calories": 143,
+      "protein_g": 12.8,
+      "fat_g": 10.4,
+      "carbs_g": 0.7,
+      "fiber_g": 0,
+      "source": "eatthismuch.com"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "asset": "Blog Post: Why 62% of Medium Businesses Fail at AI",
+    "description": "Write a 1,500-word blog post targeting SEO keywords 'AI implementation for SMBs', 'AI for medium businesses', 'AI adoption challenges'. Position AI First Solutions as the implementation partner that delivers working solutions. Include CTA to download AI Implementation Checklist.",
+    "type": "text"
+  },
+  {
+    "asset": "Blog Post: AI ROI Calculator Guide",
+    "description": "Create a 1,200-word guide around the AI ROI Calculator tool. Explain how businesses can calculate time and cost savings from AI implementation. Target keywords: 'AI ROI calculator', 'AI business value', 'AI cost benefit analysis'. CTA: Get Free ROI Estimate.",
+    "type": "text"
+  },
+  {
+    "asset": "Case Study: $45M Manufacturing Company",
+    "description": "Write a 1,000-word case study detailing how a $45M manufacturing company saved 200 hours weekly with AI implementation. Include specific pain points, solution deployed, measurable outcomes, and implementation timeline. Target keywords: 'AI case study manufacturing', 'AI time savings', 'AI implementation success'. CTA: See What AI Can Do for Your Business.",
+    "type": "text"
+  },
+  {
+    "asset": "Webinar: AI Without the Hype",
+    "description": "Create webinar outline and promotion copy for 60-minute session on practical AI implementation for medium businesses. Include agenda, key topics (integration challenges, ROI measurement, avoiding common pitfalls), speaker bios, and registration CTA. Target keywords: 'AI implementation webinar', 'AI for business', 'AI workshop SMB'.",
+    "type": "text"
+  },
+  {
+    "asset": "Lead Magnet: 12-Step AI Implementation Checklist",
+    "description": "Create a downloadable PDF checklist covering 12 critical steps for AI readiness and implementation. Include assessment questions, common pitfalls, and a scoring mechanism. Position as essential prep before vendor selection. CTA: Download Free Checklist.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page: AI Made Simple",
+    "description": "Write landing page copy for demo-request form with headline 'Enterprise AI Power Without Enterprise Complexity'. Include subheadline, value proposition, trust indicators, and form field copy. Optimize for conversion of medium businesses seeking AI help.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page: ROI Calculator",
+    "description": "Create landing page copy for interactive ROI calculator tool. Headline: 'See Exactly How Much AI Will Save Your Business'. Include explanation of calculator value, expected outcomes, and CTA 'Start Your Free ROI Analysis'.",
+    "type": "text"
+  },
+  {
+    "asset": "Landing Page: AI Implementation Checklist",
+    "description": "Write landing page copy for checklist download with headline 'Is Your Business Ready for AI?'. Include subheadline, value proposition about avoiding implementation mistakes, and CTA 'Download Free Checklist'.",
+    "type": "text"
+  },
+  {
+    "asset": "Demo Request Form Copy",
+    "description": "Write form field labels, placeholder text, and success message for Implementation Consultation form (first_name, email, company_size). Include confirmation page copy and email sequence triggers.",
+    "type": "text"
+  },
+  {
+    "asset": "ROI Analysis Form Copy",
+    "description": "Create form copy for ROI Calculator Access (email, company_name). Include success message with redirect copy and follow-up email triggers.",
+    "type": "text"
+  },
+  {
+    "asset": "Checklist Download Form Copy",
+    "description": "Write form field copy for AI Readiness Checklist (first_name, email). Include success message with redirect copy and email sequence triggers.",
+    "type": "text"
+  },
+  {
+    "asset": "Webinar Registration Form Copy",
+    "description": "Create form copy for webinar registration (first_name, email, company_size, industry). Include success message, calendar invite copy, and email sequence triggers for attendees.",
+    "type": "text"
+  },
+  {
+    "asset": "Top-Funnel Email Sequence: Checklist Download",
+    "description": "Write 5-email nurture sequence (immediate, 3 days, 5 days, 7 days, 10 days) for checklist downloaders. Subjects: deliver value, educate on pitfalls, social proof, engagement, urgency close. Include CTA to demo request.",
+    "type": "text"
+  },
+  {
+    "asset": "Demo Request Nurture Email Sequence",
+    "description": "Write 5-email sequence (immediate, 2 days, 4 days, 6 days, 9 days) for demo requesters. Focus on setting expectations, differentiation, qualification, social proof, re-engagement. Include case study reference.",
+    "type": "text"
+  },
+  {
+    "asset": "Webinar Attendee Nurture Email Sequence",
+    "description": "Write 5-email sequence (immediate, 1 day, 3 days, 5 days, 7 days) for webinar attendees. Include recording delivery, key takeaways, personalized social proof, free strategy session offer, re-engagement.",
+    "type": "text"
+  },
+  {
+    "asset": "ROI Calculator Users Email Sequence",
+    "description": "Write 5-email sequence (immediate, 2 days, 4 days, 7 days, 10 days) for calculator users. Include personalized ROI delivery, conversion ask with projected savings, social proof, support questions, final close offer.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Awareness Phase Posts (Month 1-2)",
+    "description": "Create 8 LinkedIn posts for awareness phase targeting medium businesses. Topics: AI myths, implementation reality, common mistakes, quick wins. Include carousel copy, text posts, and CTA to blog/checklist.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Consideration Phase Posts (Month 3-4)",
+    "description": "Create 8 LinkedIn posts for consideration phase. Topics: case study highlights, ROI examples, webinar promotion, checklist tips. Include engaging questions and demo CTA.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Conversion Phase Posts (Month 5-6)",
+    "description": "Create 8 LinkedIn posts for conversion phase. Topics: urgency around ROI, testimonials, limited-time offers, webinar registration, demo booking. Focus on closing with strong CTAs.",
+    "type": "text"
+  },
+  {
+    "asset": "Social Media Hero Graphics",
+    "description": "Create 5 hero images for social media and blog. Visuals: 'AI Without the Hype', 'ROI in 90 Days', 'Implementation Over Installation', '200 Hours Saved Weekly', 'No PhD Required'. Use clean, professional style matching brand.",
+    "type": "image"
+  },
+  {
+    "asset": "Social Media Infographics",
+    "description": "Create 4 infographics for LinkedIn: '12 Steps to AI Success', 'ROI Calculator How-To', 'Common AI Implementation Mistakes', 'AI vs Traditional Software Comparison'. Infographic style, clear data visualization.",
+    "type": "image"
+  },
+  {
+    "asset": "Blog Post Hero Images",
+    "description": "Create 6 hero images for blog posts. Match each article topic with relevant illustration: AI failure reasons, ROI calculator, case study manufacturing, webinar announcement, checklist guide, LinkedIn post series. Professional business tech style.",
+    "type": "image"
+  },
+  {
+    "asset": "Landing Page Hero Images",
+    "description": "Create 3 hero images for landing pages: AI Made Simple (hero), ROI Calculator (calculator interface mockup), Checklist Download (checklist preview). Clean, conversion-focused design.",
+    "type": "image"
+  },
+  {
+    "asset": "Webinar Promotion Graphics",
+    "description": "Create 4 webinar graphics: Title banner, registration card, reminder graphic, thank-you slide. Include date/time, registration CTA, QR code placeholder. Professional event design.",
+    "type": "image"
+  },
+  {
+    "asset": "Email Header Graphics",
+    "description": "Create 4 email header images for nurture sequences: Checklist download, demo reminder, webinar follow-up, ROI results. Branded, on-brand colors, mobile-optimized dimensions.",
+    "type": "image"
+  },
+  {
+    "asset": "Social Media Carousel Templates",
+    "description": "Create 8 carousel slide templates for LinkedIn posts. Consistent design system with AI First Solutions branding, professional color scheme, clear hierarchy. Each template includes 3-5 slides for different topics.",
+    "type": "image"
+  },
+  {
+    "asset": "Case Study Graphics",
+    "description": "Create 4 graphics for case study support: Before/after metrics, 200 hours saved visualization, client logo testimonial, implementation timeline graphic. Professional infographics style.",
+    "type": "image"
+  },
+  {
+    "asset": "ROI Calculator UI Mockups",
+    "description": "Create 3 mockup images showing calculator interface: Input screen, results display, recommendation summary. High-fidelity mockups for blog and social promotion.",
+    "type": "image"
+  },
+  {
+    "asset": "Checklist Download Cover Graphic",
+    "description": "Create 1 cover image for downloadable PDF checklist. Professional design with checklist preview, 'Download Free' CTA, AI First Solutions branding. 1080x1350px vertical format.",
+    "type": "image"
+  },
+  {
+    "asset": "Lead Scoring Infographic",
+    "description": "Create 1 infographic explaining lead scoring criteria. Visual breakdown of point system, what actions move leads toward SQA, routing rules. Educational content for prospects.",
+    "type": "image"
+  }
+]

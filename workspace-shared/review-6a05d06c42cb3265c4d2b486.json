@@ -1,0 +1,33 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "Cold Email Sequence and LinkedIn InMail Template deliverables violate strategic boundaries. Strategy defines nurture approach as trigger-based sequences (website→demo, download→checklist, webinar→demo) with 4–7 email structures, but Task Planner must not write specific email copy, hooks, or CTAs at strategy review stage. These should be derived from the campaign contentThemes and keyMessages without pre-specifying exact wording. Replace with guidance: 'Phase 1 nurture: 5-email sequence aligned to AI Adoption Roadmap contentThemes (The Real Cost of Manual Logistics Operations, 5 Signs Your AI Strategy Is Stuck in Pilot Purgatory), following 3:1 value-before-ask rule.'"
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "LinkedIn InMail Template asset incorrectly frames outreach as 'cold' when strategy defines LinkedIn as the primary awareness and consideration channel. Strategy's conversionPaths specify LinkedIn → blog → nurture → webinar → demo for secondary path. Task Planner must clarify whether this asset serves outbound cold outreach (not in strategy) or LinkedIn-native connection requests for existing network expansion. Strategy only authorizes LinkedIn organic and paid content, not cold direct messaging."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "Paid Ad Copy asset violates strategic boundary of defining direction only. Strategy specifies Phase 1 awareness content as carousels and data-driven infographics on LinkedIn, but Task Planner must not write exact headlines, subheads, benefit bullets, or CTA copy. Instead, Task Planner should align ad creative to campaign contentThemes (e.g., 'The Real Cost of Manual Logistics Operations' carousel, '5 Signs Your AI Strategy Is Stuck in Pilot Purgatory' checklist) using keyMessages ('Stop guessing on routes. Start saving', 'AI that works with your legacy systems, not against them') as guidance, not specifications."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "Phone Script: Discovery Call asset is a sales enablement deliverable, not marketing strategy. Strategy defines sales handoff process (SDR handles initial contact within 24 hours for SQLs, 1 hour for hot leads) but does not prescribe specific call scripts or objection handlers. Task Planner should derive scripts from leadQualification signals and salesHandoff requiredContext, not pre-write the conversation flow. Replace with guidance: 'Phase 1 sales enablement: SDR discovery script aligned to lead scoring signals (ICP match, intent behavior, timing triggers) and required context (pain point priorities, timeline, budget).'"
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "Partnership Outreach Email asset is not part of the approved strategy. Strategy defines campaigns, funnel infrastructure, nurture approach, lead qualification, and sales handoff — no partner/channel partner outreach is mentioned. Task Planner must either (a) align this to an explicit channel expansion strategy or (b) defer to a future partnership enablement sprint. If partnerships are out of scope, remove this asset from this plan."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "Missing alignment to campaign-specific audience and positioning. Strategy defines three distinct campaigns with precise target audiences. Task Planner must specify which campaign(s) each outbound asset serves: Cold Email Sequence (AI Adoption Roadmap or Route Optimization Vertical?), LinkedIn InMail (which campaign?), Paid Ad Copy (which Phase 1 campaign?), Phone Script (which campaign's conversion path?), Partnership Outreach (not in strategy)."
+    },
+    {
+      "processInstanceId": "6a05d06c42cb3265c4d2b486",
+      "reason": "LinkedIn InMail Template specifies 'under 250 characters' which conflicts with strategy's content format guidance. Strategy defines LinkedIn Articles and Native Document Ads as the appropriate native formats for LinkedIn, not InMail outreach. Task Planner should align to approved channel guidelines (LinkedIn organic posts, LinkedIn Articles, Native Document Ads, LinkedIn Sponsored Content) rather than creating deliverables outside the approved channel strategy."
+    }
+  ]
+}

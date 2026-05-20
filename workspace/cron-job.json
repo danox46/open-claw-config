@@ -1,0 +1,14 @@
+{
+  "name": "Finance Review",
+  "description": "Finance Review - Check pending transactions every 30 minutes, only notify if there are items to classify",
+  "schedule": {
+    "kind": "every",
+    "everyMs": 1800000
+  },
+  "payload": {
+    "kind": "agentTurn",
+    "message": "Check finance/pending-review.json for unclassified transactions. If empty, do not notify. If items exist, classify them and run enrichment."
+  },
+  "sessionTarget": "isolated",
+  "enabled": true
+}

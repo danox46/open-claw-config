@@ -1,0 +1,139 @@
+{
+  "campaigns": [
+    {
+      "id": "ai-outcomes-campaign",
+      "name": "AI Outcomes, Not Tools",
+      "objective": "Position AI First Solutions as the outcome-focused partner for mid-market companies stuck on AI adoption, driving 20% increase in qualified demo requests within 90 days",
+      "targetAudience": "Mid-market companies (50–500 employees) frustrated by failed or stalled AI initiatives, CTOs and ops leaders who need practical implementation without IT complexity",
+      "positioning": "We don't install AI. We make it work.",
+      "keyMessages": [
+        "We don't sell software. We deliver measurable business outcomes.",
+        "AI implementation doesn't require an enterprise IT team.",
+        "See how real companies saved 200+ hours/week with our framework."
+      ],
+      "channels": [
+        "linkedin",
+        "blog",
+        "email"
+      ],
+      "contentThemes": [
+        "Case studies showing before/after metrics from real mid-market implementations",
+        "ROI calculators and implementation checklists that demystify AI adoption",
+        "Behind-the-scenes how-tos on navigating AI complexity without technical overhead"
+      ],
+      "phases": [
+        "Phase 1: Awareness — establish presence and top-funnel capture via LinkedIn thought leadership and SEO-optimized blog posts",
+        "Phase 2: Consideration — nurture with ROI tools, implementation guides, and social proof",
+        "Phase 3: Conversion — demo requests and SQL handoff triggered by high-intent behaviors"
+      ],
+      "currentPhase": "Phase 1: Awareness — establish presence and top-funnel capture",
+      "successMetrics": [
+        "3–5% landing page conversion rate",
+        "20% increase in qualified demo requests",
+        "50+ new leads/month from organic and social channels"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "landingPages": [
+      {
+        "slug": "/ai-readiness-assessment",
+        "headline": "See How [Company] Saved 200+ Hours/Week with AI",
+        "subheadline": "Get a free readiness assessment — no obligation, no sales pitch.",
+        "valueProposition": "We don't install AI. We make it work. Discover your AI implementation gap in 15 minutes.",
+        "cta": "Get My Free Assessment",
+        "formId": "form-readiness-assessment"
+      },
+      {
+        "slug": "/roi-calculator",
+        "headline": "Calculate Your AI ROI Before You Invest",
+        "subheadline": "A practical tool for leaders who need proof, not promises.",
+        "valueProposition": "Most AI projects fail because they skip the basics. Find out if yours is ready to deliver real results.",
+        "cta": "Run the Calculator",
+        "formId": "form-roi-calculation"
+      },
+      {
+        "slug": "/implementation-checklist",
+        "headline": "The 7-Step AI Implementation Checklist for Mid-Market",
+        "subheadline": "Free download. No gatekeeping. Just practical steps that work.",
+        "valueProposition": "Stop wasting money on AI tools that don't integrate. Follow the framework that delivered results for 50+ companies.",
+        "cta": "Download Checklist",
+        "formId": "form-checklist-download"
+      }
+    ],
+    "forms": [
+      {
+        "id": "form-readiness-assessment",
+        "name": "AI Readiness Assessment",
+        "purpose": "demo request",
+        "fields": ["email", "company_name"],
+        "successAction": "trigger:readiness-assessment-sequence"
+      },
+      {
+        "id": "form-roi-calculation",
+        "name": "ROI Calculator Lead Capture",
+        "purpose": "content download",
+        "fields": ["email", "company_name", "company_size", "current_ai_tools"],
+        "successAction": "trigger:roi-nurture-sequence"
+      },
+      {
+        "id": "form-checklist-download",
+        "name": "Implementation Checklist Download",
+        "purpose": "content download",
+        "fields": ["email", "company_name"],
+        "successAction": "trigger:checklist-nurture-sequence"
+      }
+    ],
+    "emailSequences": [
+      {
+        "name": "Readiness Assessment Nurture",
+        "trigger": "form:form-readiness-assessment",
+        "steps": [
+          { "delay": "immediate", "subject": "Your AI readiness assessment is ready — here's what we found", "purpose": "Deliver assessment results and set up discovery call" },
+          { "delay": "3 days", "subject": "The 3 AI projects that failed in 2024 — and why", "purpose": "Educate on common pitfalls and position expertise" },
+          { "delay": "2 days", "subject": "See how [similar company] cut ops time by 40%", "purpose": "Social proof and outcome validation" },
+          { "delay": "2 days", "subject": "Your next step: a 15-min conversation about outcomes", "purpose": "Nudge to book demo or assessment follow-up" }
+        ]
+      },
+      {
+        "name": "ROI Calculator Nurture",
+        "trigger": "form:form-roi-calculation",
+        "steps": [
+          { "delay": "immediate", "subject": "Your AI ROI estimate — plus 3 ways to hit it", "purpose": "Share calculation results and strategic recommendations" },
+          { "delay": "2 days", "subject": "Why 70% of AI projects miss their ROI target", "purpose": "Educate on implementation complexity" },
+          { "delay": "3 days", "subject": "The checklist that delivers ROI — download it here", "purpose": "Offer complementary content" },
+          { "delay": "2 days", "subject": "Let's talk about your specific AI use case", "purpose": "Invite to demo or consultation" }
+        ]
+      },
+      {
+        "name": "Checklist Download Nurture",
+        "trigger": "form:form-checklist-download",
+        "steps": [
+          { "delay": "immediate", "subject": "Your AI implementation checklist — plus where you're likely stuck", "purpose": "Personalize checklist and identify gaps" },
+          { "delay": "2 days", "subject": "How to integrate AI without an IT team", "purpose": "Address integration friction pain point" },
+          { "delay": "3 days", "subject": "Case study: 200 hrs/week saved — here's how", "purpose": "Social proof with metrics" },
+          { "delay": "2 days", "subject": "Let's walk through your checklist together", "purpose": "Nudge to demo or assessment" }
+        ]
+      }
+    ],
+    "leadRules": {
+      "scoringCriteria": [
+        { "action": "Visited pricing page", "points": 15 },
+        { "action": "Opened email", "points": 5 },
+        { "action": "Booked demo", "points": 40 },
+        { "action": "Used ROI calculator", "points": 20 },
+        { "action": "Repeated blog visits", "points": 5 }
+      ],
+      "routingRules": [
+        { "condition": "score >= 65 AND company_size >= 50", "action": "trigger:high-intent-sequence" },
+        { "condition": "score >= 80 AND demo_booked == true", "action": "assign to AE" }
+      ]
+    },
+    "salesQualifiedHandoff": {
+      "sqaThreshold": "score >= 65 AND company_size >= 50",
+      "handoffProcess": "Lead card enriched with company name, industry, team size, specific AI use case, current tech stack pain points. Slack notification to #sales-qualified with priority level (high if score >= 80, standard if 65-79). AE contacted within 1 hour for high-intent, 4 hours for standard.",
+      "notificationChannel": "Slack #sales-qualified",
+      "requiredData": ["company_name", "industry", "team_size", "ai_use_case", "current_tech_stack"]
+    }
+  }
+}

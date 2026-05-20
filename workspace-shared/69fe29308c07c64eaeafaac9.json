@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "Cold Email Sequence (5 emails)",
+    "description": "Create a 5-email cold outreach sequence for mid-market CTOs/CIOs frustrated with stalled AI initiatives. Use key messages: 'Most AI vendors sell software; we sell measurable business outcomes', 'No IT team required — we handle implementation complexity', 'Transparent ROI: see how similar companies saved 200+ hours/week'. Include subject lines, body copy, and CTAs aligned with Phase 1 Awareness. Email 1: 'Why 68% of AI projects stall' (problem-awareness), Email 2: 'How Company X saved 200 hrs/week (and you can too)', Email 3: 'The 3 AI mistakes killing your implementation', Email 4: 'No IT team? Here's our 7-step checklist', Email 5: 'Let's show you the numbers'. All emails must feel conversational, non-technical, and outcome-focused.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn InMail Outreach Template",
+    "description": "Create a 3-variant LinkedIn InMail template for direct outreach to mid-market decision-makers (50-500 employees). Variants: A) Problem-focused ('AI stalled? Here's why 72% of mid-market fails'), B) Outcome-focused ('We don't sell software — we deliver 200+ hours/week savings'), C) ROI-focused ('See how similar companies cut costs 30% with AI'). Include personalized opener, value proposition using key messages, social proof hook, and soft CTA to LinkedIn comment or calendar link. Tone: helpful peer, not salesy. Max 300 words per variant.",
+    "type": "text"
+  },
+  {
+    "asset": "Paid Ad Copy (LinkedIn + Google)",
+    "description": "Create 3 ad copies for LinkedIn and Google Search targeting mid-market AI adoption. LinkedIn: headline 'AI Implementation Without the IT Headache', body 'Most AI vendors sell software. We sell outcomes. See how mid-market companies saved 200+ hours/week. No IT team required.', CTA 'See How It Works'. Google Search: headline variants 'AI for Mid-Market Without IT Team', 'Calculate Your AI ROI Before You Invest', 'AI Outcomes Not Just Software'. All ads must emphasize 'No IT team required', 'measurable outcomes', and '200+ hours/week savings'. Include ad extensions with keywords: 'AI implementation', 'AI ROI calculator', 'AI for SMB'.",
+    "type": "text"
+  },
+  {
+    "asset": "Call Script for Outreach",
+    "description": "Create a 3-minute cold call script for outbound sales team reaching mid-market CTOs/CIOs. Structure: 1) 30-second personalized opener referencing their industry and stalled AI challenges, 2) 60-second value hook using 'We don't install AI. We make it work. We sell outcomes, not software.', 3) 60-second social proof ('See how Company X saved 200+ hours/week'), 4) 60-second soft CTA ('Can I send you our 7-minute implementation checklist?'). Include objection handling for 'We already have an AI vendor' and 'Not ready yet'. Tone: consultative, not pushy.",
+    "type": "text"
+  },
+  {
+    "asset": "Partnership Outreach Email",
+    "description": "Create a partnership outreach email template for AI tool vendors, data providers, and consulting firms. Subject: 'Partnership opportunity: AI outcomes for mid-market'. Body should explain AI First Solutions' positioning ('We sell outcomes, not software'), propose collaboration angles (referral fees, joint webinars, co-hosted workshops), and include CTA to schedule 15-min discovery call. Include placeholders for partner name, company, and specific collaboration idea. Tone: collaborative, mutually beneficial.",
+    "type": "text"
+  },
+  {
+    "asset": "LinkedIn Content Calendar (Week 1)",
+    "description": "Create a 5-post LinkedIn content plan for Week 1 of AI Outcomes campaign awareness phase. Post 1: Thought leadership on 'Why AI fails in mid-market (and how to fix it)' with carousel graphic prompt. Post 2: Case study teaser 'How Company X saved 200+ hours/week' with image mockup. Post 3: Behind-the-scenes '3 things we check before implementing AI'. Post 4: Educational 'No IT team? Here's our implementation checklist'. Post 5: CTA post 'Ready to see your AI ROI? Take our 5-minute assessment'. Include captions, hashtags (#AIforSMB #AITransformation), and image/visual prompts for each post.",
+    "type": "text"
+  }
+]

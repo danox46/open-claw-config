@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "jobs": {
+    "29ea3cbe-190f-4893-acdd-b0ac008ce3b2": {
+      "updatedAtMs": 1779267838752,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 19 * * 0\",\"tz\":\"America/Bogota\"}}",
+      "state": {
+        "nextRunAtMs": 1779667200000,
+        "lastRunAtMs": 1779220227145,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 115589,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0,
+        "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
+        "lastDiagnostics": {
+          "summary": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
+          "entries": [
+            {
+              "ts": 1779220342732,
+              "source": "tool",
+              "severity": "error",
+              "message": "⚠️ ✉️ Message failed"
+            },
+            {
+              "ts": 1779220342733,
+              "source": "delivery",
+              "severity": "error",
+              "message": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs."
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs."
+      }
+    },
+    "f0ee9382-a062-4e86-8825-ede7d1950b58": {
+      "updatedAtMs": 1779283384024,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"tz\":\"America/Bogota\"}}",
+      "state": {
+        "nextRunAtMs": 1779368400000,
+        "lastRunAtMs": 1779283000952,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 383072,
+        "consecutiveErrors": 0,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      }
+    },
+    "f7b086bd-f820-4041-9992-231e6c8a139e": {
+      "updatedAtMs": 1779285648444,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 9 * * *\",\"tz\":\"America/Bogota\"}}",
+      "state": {
+        "nextRunAtMs": 1779372000000,
+        "lastRunAtMs": 1779285600044,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 48400,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      }
+    },
+    "c0043d8f-f44e-47ea-8764-724821d5870b": {
+      "updatedAtMs": 1779305433152,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"*/30 * * * *\",\"tz\":\"America/Bogota\"}}",
+      "state": {
+        "lastRunAtMs": 1779305400042,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 33110,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "nextRunAtMs": 1779307200000,
+        "lastDelivered": false
+      }
+    }
+  }
+}

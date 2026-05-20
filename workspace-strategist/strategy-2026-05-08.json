@@ -1,0 +1,152 @@
+{
+  "campaign": {
+    "name": "Unify & Accelerate",
+    "objective": "Generate 150 qualified demo bookings from mid-market engineering teams within 90 days",
+    "targetAudience": "Engineering managers and DevOps leads at 50–500 employee organizations managing 50+ SaaS tools, prioritizing cost optimization and developer time protection",
+    "positioning": "The only unified observability platform that automatically correlates signals across your entire tech stack, eliminating tool fragmentation while accelerating debugging by 3x",
+    "keyMessages": [
+      "Stop drowning in tool fragmentation—one pane replaces 305+ separate applications",
+      "Reclaim developer time: auto-correlation cuts mean-time-to-resolution by 60%",
+      "Security-first observability: 99.9% uptime with built-in threat detection"
+    ],
+    "primaryChannel": "LinkedIn + targeted technical content distribution",
+    "timeline": "90 days starting June 15, 2026"
+  },
+  "contentPlan": [
+    {
+      "type": "Blog Post",
+      "title": "The Hidden Cost of Tool Fragmentation: How Engineering Teams Wasted 17 Hours/Week in 2026",
+      "purpose": "Educate on pain point #1 (tool fragmentation) and establish authority",
+      "targetKeywords": ["tool fragmentation", "engineering efficiency", "SaaS tool management"],
+      "channel": "Company blog",
+      "callToAction": "Download the 2026 Tool Fragmentation Report"
+    },
+    {
+      "type": "Blog Post",
+      "title": "From Chaos to Clarity: Our 5-Step Method for Unifying Your Observability Stack",
+      "purpose": "Showcase methodology and platform capabilities",
+      "targetKeywords": ["unified observability", "observability stack", "engineering tooling"],
+      "channel": "Company blog",
+      "callToAction": "See how we unified a Fortune 500 stack"
+    },
+    {
+      "type": "Case Study",
+      "title": "How Mid-Market FinTech Reduced MTTR by 60% Without Adding Headcount",
+      "purpose": "Social proof near CTAs (+84–270% conversions)",
+      "targetKeywords": ["MTTR reduction", "engineering efficiency", "cost optimization"],
+      "channel": "LinkedIn + email nurture",
+      "callToAction": "Book a custom demo"
+    },
+    {
+      "type": "Webinar",
+      "title": "Stop Fragmenting Your Stack: The 2026 Unified Observability Playbook",
+      "purpose": "Lead capture with high-intent audience",
+      "targetKeywords": ["unified observability", "2026 tech strategy", "DevOps optimization"],
+      "channel": "LinkedIn events + email",
+      "callToAction": "Register for live session"
+    }
+  ],
+  "landingPages": [
+    {
+      "slug": "/unify-stack",
+      "headline": "One Platform. Every Signal. No More Tool Fragmentation.",
+      "subheadline": "Automatically correlate data across 300+ SaaS tools. Reclaim 17+ hours/week of engineering time.",
+      "valueProposition": "Unify your fragmented observability stack without rewriting code or replacing existing tools. Our platform automatically correlates signals, reduces MTTR by 60%, and costs less than your current tool sprawl.",
+      "cta": "Start Your Free Trial",
+      "formId": "trial-signup"
+    },
+    {
+      "slug": "/demo-request",
+      "headline": "See How Top Engineering Teams Unified Their Observability",
+      "subheadline": "Book a personalized demo. Our platform cut MTTR by 60% for teams like yours.",
+      "valueProposition": "Watch a 10-minute demo showing real engineering teams reducing debugging time by 60% and eliminating tool sprawl.",
+      "cta": "Schedule Demo",
+      "formId": "demo-booking"
+    },
+    {
+      "slug": "/fragmentation-report",
+      "headline": "Download: The 2026 Tool Fragmentation Report",
+      "subheadline": "Discover how engineering teams are wasting 17+ hours/week managing 305+ separate SaaS tools.",
+      "valueProposition": "Get data-driven insights into the hidden costs of tool fragmentation, including benchmarks, ROI calculations, and a 5-step unification roadmap.",
+      "cta": "Get the Report",
+      "formId": "content-download"
+    }
+  ],
+  "forms": [
+    {
+      "id": "trial-signup",
+      "name": "Free Trial Registration",
+      "purpose": "trial-signup",
+      "fields": ["first_name", "email"],
+      "successAction": "trigger:onboarding-sequence"
+    },
+    {
+      "id": "demo-booking",
+      "name": "Product Demo Request",
+      "purpose": "demo request",
+      "fields": ["first_name", "email", "company_name"],
+      "successAction": "trigger:demo-booking-sequence"
+    },
+    {
+      "id": "content-download",
+      "name": "Report Download",
+      "purpose": "content download",
+      "fields": ["email"],
+      "successAction": "redirect:/report-download/69fde1faf30d92e3659b36b6"
+    }
+  ],
+  "emailSequences": [
+    {
+      "name": "Trial Onboarding",
+      "trigger": "form:trial-signup",
+      "steps": [
+        { "delay": "immediate", "subject": "Welcome! Here's your Smoke Test Co trial access", "purpose": "Confirm signup and provide login credentials" },
+        { "delay": "2 days", "subject": "3 ways to get value from your trial", "purpose": "Highlight key features and use cases" },
+        { "delay": "5 days", "subject": "Still exploring? See how others unified their stack", "purpose": "Social proof and case study" },
+        { "delay": "10 days", "subject": "Last chance: Your trial expires soon", "purpose": "Urgency and demo upsell" }
+      ]
+    },
+    {
+      "name": "Demo Follow-Up",
+      "trigger": "form:demo-booking",
+      "steps": [
+        { "delay": "immediate", "subject": "Your demo is confirmed! Here's the agenda", "purpose": "Confirm booking and set expectations" },
+        { "delay": "1 day", "subject": "Quick question before your demo", "purpose": "Gather additional context for demo preparation" },
+        { "delay": "3 days", "subject": "Missed you at the demo? Want to reschedule?", "purpose": "Re-engagement for no-shows" }
+      ]
+    },
+    {
+      "name": "Content Nurturer",
+      "trigger": "form:content-download",
+      "steps": [
+        { "delay": "immediate", "subject": "Your report is attached + bonus: 2026 benchmarks", "purpose": "Deliver promised content and provide value" },
+        { "delay": "3 days", "subject": "One finding from the report you might have missed", "purpose": "Educational nurture" },
+        { "delay": "7 days", "subject": "Implementing the 5-step unification roadmap", "purpose": "Showcase methodology" },
+        { "delay": "14 days", "subject": "Want to see this in action? Book a demo", "purpose": "Soft conversion to demo" }
+      ]
+    }
+  ],
+  "leadRules": {
+    "scoringCriteria": [
+      { "action": "Visited /unify-stack landing page", "points": 5 },
+      { "action": "Opened trial onboarding email", "points": 3 },
+      { "action": "Downloaded fragmentation report", "points": 10 },
+      { "action": "Clicked trial CTA", "points": 15 },
+      { "action": "Requested demo", "points": 30 },
+      { "action": "Attended demo", "points": 25 },
+      { "action": "Visited pricing page", "points": 10 },
+      { "action": "Booked demo", "points": 30 }
+    ],
+    "routingRules": [
+      { "condition": "score >= 60 AND demo_booked == true", "action": "assign to AE" },
+      { "condition": "score >= 40 AND trial_signup == true", "action": "trigger:onboarding-nurture" },
+      { "condition": "score >= 20", "action": "trigger:high-intent-sequence" }
+    ]
+  },
+  "salesQualifiedHandoff": {
+    "sqaThreshold": "score >= 60 AND demo booked AND company_size >= 50",
+    "handoffProcess": "1. Automated Slack alert to #sales-alerts channel with lead details. 2. SDR reviews lead within 5 minutes. 3. SDR calls within 15 minutes of alert. 4. AE assignment based on territory if score >= 80. 5. CRM auto-creation with all form + behavioral data.",
+    "notificationChannel": "Slack #sales-alerts",
+    "requiredData": ["company_name", "use_case", "budget_range", "timeline"]
+  }
+}

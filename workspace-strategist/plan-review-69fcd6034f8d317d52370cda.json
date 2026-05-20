@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "processInstanceId": "69fcd6034f8d317d52370cda",
+      "reason": "Strategy explicitly defines primary channel as LinkedIn organic + targeted content distribution, NOT cold outreach or paid ads. The outbound-campaign plan includes 12 outbound assets (cold emails, cold outreach, ads, direct mail) that contradict the inbound/content-distribution strategy. Remove all cold outreach, paid advertising, and direct mail assets. Focus only on organic LinkedIn content distribution and webinar promotion as defined in the strategy."
+    }
+  ]
+}

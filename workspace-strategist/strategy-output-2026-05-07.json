@@ -1,0 +1,191 @@
+{
+  "campaign": {
+    "name": "SMB Simplified",
+    "objective": "Drive 30% increase in demo requests and 50% increase in signups among SMB owners within 3 months by positioning Acme Corp as the enterprise-capable yet simple logistics platform",
+    "targetAudience": "SMB owners (early-stage to Series A) who are technologists, data scientists, or marketers with 80%+ decision power, managing logistics operations with limited time (<10 hours/week) and budget constraints",
+    "positioning": "Enterprise capabilities without enterprise complexity - the only logistics platform that gives you scale features without the bloat, pricing traps, or implementation headaches",
+    "keyMessages": [
+      "Get enterprise-grade features in 30 days or less, not months",
+      "One platform. One predictable price. No hidden AI fees",
+      "Works with your existing stack - not against it",
+      "Built by SMB owners, for SMB owners - no corporate fluff"
+    ],
+    "primaryChannel": "Email Nurture",
+    "timeline": "3 months: Month 1 - awareness + lead capture, Month 2 - nurturing + demo requests, Month 3 - conversion + testimonials"
+  },
+  "contentPlan": [
+    {
+      "type": "Blog Post",
+      "title": "The Real Cost of Manual Logistics Operations",
+      "purpose": "Top-of-funnel awareness highlighting pain points of tool fragmentation and time waste",
+      "targetKeywords": ["logistics operations", "SMB logistics software", "manual logistics cost"],
+      "channel": "Company blog",
+      "callToAction": "Download the free Tech Stack Audit Checklist"
+    },
+    {
+      "type": "Blog Post",
+      "title": "How Mid-Size Logistics Companies Are Cutting Costs 25%",
+      "purpose": "Middle-of-funnel consideration with ROI-focused case study framing",
+      "targetKeywords": ["reduce logistics costs", "logistics ROI", "SaaS cost reduction"],
+      "channel": "Company blog",
+      "callToAction": "Get Your Free ROI Calculator"
+    },
+    {
+      "type": "Blog Post",
+      "title": "Tool Fragmentation: The Silent Killer of SMB Growth",
+      "purpose": "Build topical authority on integration complexity pain point",
+      "targetKeywords": ["logistics software integration", "SMB tech stack", "tool fragmentation"],
+      "channel": "Company blog",
+      "callToAction": "See How We Connect Your Tools"
+    },
+    {
+      "type": "Case Study (Short-Form)",
+      "title": "[Similar Company] Reduced Costs 30% in 6 Months",
+      "purpose": "Bottom-of-funnel proof with specific metrics and timeline",
+      "targetKeywords": ["logistics case study", "SMB logistics success", "ROI example"],
+      "channel": "Email + LinkedIn",
+      "callToAction": "Request Your Custom ROI Analysis"
+    },
+    {
+      "type": "Lead Magnet",
+      "title": "SMB Tech Stack Audit Checklist",
+      "purpose": "Low-friction lead capture (1-2 fields) for progressive profiling",
+      "targetKeywords": ["tech stack audit", "logistics software checklist", "SMB efficiency"],
+      "channel": "Blog, Email, LinkedIn",
+      "callToAction": "Download Checklist (Free)"
+    },
+    {
+      "type": "Webinar",
+      "title": "Stop Losing Money on Manual Logistics",
+      "purpose": "High-intent engagement with technical deep dive on ROI tracking",
+      "targetKeywords": ["logistics webinar", "inventory management", "route optimization"],
+      "channel": "Email nurture sequence",
+      "callToAction": "Register for Free Webinar"
+    }
+  ],
+  "landingPages": [
+    {
+      "slug": "/simplify-logistics",
+      "headline": "Enterprise Features Without Enterprise Complexity",
+      "subheadline": "The logistics platform built for mid-size companies - live in 30 days or less",
+      "valueProposition": "Get the scale and reliability of enterprise logistics software without the bloat, hidden fees, or months of implementation. Trusted by 50+ logistics companies.",
+      "cta": "Request Demo",
+      "formId": "demo-request-form"
+    },
+    {
+      "slug": "/roi-calculator",
+      "headline": "See Your Potential Savings in 60 Seconds",
+      "subheadline": "Free ROI calculator showing real cost reduction benchmarks for SMBs",
+      "valueProposition": "Most SMBs waste 10+ hours/week on manual logistics. Calculate how much time and money you're losing - and what you could save.",
+      "cta": "Get Free Analysis",
+      "formId": "roi-calculator-form"
+    },
+    {
+      "slug": "/inventory-management",
+      "headline": "Inventory That Moves. Not Dead Stock.",
+      "subheadline": "Predictive forecasting that reduces stockouts by 40%",
+      "valueProposition": "Stop guessing on inventory. Our AI-driven forecasting predicts demand spikes before they happen, reducing stockouts and excess inventory.",
+      "cta": "Get Inventory Audit",
+      "formId": "inventory-audit-form"
+    },
+    {
+      "slug": "/integrations",
+      "headline": "Works With Your Existing Tools. Not Against Them.",
+      "subheadline": "Connect to Excel, SAP, Oracle, and 100+ apps in one click",
+      "valueProposition": "No more data silos. Our integration-first approach means your logistics software works with your current stack, not forcing you to replace everything.",
+      "cta": "View Integration Map",
+      "formId": "integration-guide-form"
+    }
+  ],
+  "forms": [
+    {
+      "id": "demo-request-form",
+      "name": "Demo Request",
+      "purpose": "demo request",
+      "fields": ["email"],
+      "successAction": "trigger:onboarding-sequence"
+    },
+    {
+      "id": "roi-calculator-form",
+      "name": "ROI Calculator Download",
+      "purpose": "content download",
+      "fields": ["email", "company"],
+      "successAction": "trigger:roi-nurture-sequence"
+    },
+    {
+      "id": "inventory-audit-form",
+      "name": "Inventory Audit Request",
+      "purpose": "content download",
+      "fields": ["email", "company"],
+      "successAction": "trigger:inventory-nurture-sequence"
+    },
+    {
+      "id": "webinar-registration-form",
+      "name": "Webinar Registration",
+      "purpose": "webinar registration",
+      "fields": ["email", "first_name", "company", "job_title"],
+      "successAction": "trigger:webinar-nurture-sequence"
+    }
+  ],
+  "emailSequences": [
+    {
+      "name": "Lead Nurture (Top-Funnel)",
+      "trigger": "form:roi-calculator-form OR form:inventory-audit-form",
+      "steps": [
+        { "delay": "immediate", "subject": "Here's your ROI snapshot + 3 ways to cut logistics costs", "purpose": "Deliver asset + establish value" },
+        { "delay": "2 days", "subject": "Most SMBs make this logistics mistake (and how to fix it)", "purpose": "Educate on pain point" },
+        { "delay": "4 days", "subject": "Real numbers: How [Similar Company] saved 30% in 6 months", "purpose": "Social proof" },
+        { "delay": "7 days", "subject": "Quick question: What's your biggest logistics bottleneck?", "purpose": "Engagement + qualification" },
+        { "delay": "10 days", "subject": "Free logistics audit for 5 companies this week (including yours?)", "purpose": "Urgency + demo push" }
+      ]
+    },
+    {
+      "name": "Webinar Nurture",
+      "trigger": "form:webinar-registration-form",
+      "steps": [
+        { "delay": "immediate", "subject": "Confirming your webinar invite + prep checklist inside", "purpose": "Confirmation + reduce no-shows" },
+        { "delay": "2 days", "subject": "3 things I wish I knew before attending this webinar", "purpose": "Build anticipation" },
+        { "delay": "4 days", "subject": "Registration closed - but here's what we covered", "purpose": "Value recap for registrants" },
+        { "delay": "7 days", "subject": "Missed the webinar? Watch the replay + grab the slides", "purpose": "Catchup + nurture" },
+        { "delay": "14 days", "subject": "Still looking for a logistics solution? Let's chat", "purpose": "Demo request push" }
+      ]
+    },
+    {
+      "name": "Demo Follow-Up",
+      "trigger": "form:demo-request-form",
+      "steps": [
+        { "delay": "immediate", "subject": "Thanks for requesting a demo - here's what to expect", "purpose": "Set expectations" },
+        { "delay": "1 hour", "subject": "Quick question: What's your main logistics challenge right now?", "purpose": "Engage before call" },
+        { "delay": "3 days", "subject": "Demo prep: 3 questions we'll cover with your team", "purpose": "Reinforce value" },
+        { "delay": "5 days", "subject": "Last reminder: Your demo is scheduled. Need to reschedule?", "purpose": "Urgency" },
+        { "delay": "7 days", "subject": "Still on the fence? Here's what our customers say about ROI", "purpose": "Social proof" }
+      ]
+    }
+  ],
+  "leadRules": {
+    "scoringCriteria": [
+      { "action": "Visited pricing page", "points": 10 },
+      { "action": "Opened email", "points": 5 },
+      { "action": "Clicked email link", "points": 5 },
+      { "action": "Downloaded ROI calculator", "points": 20 },
+      { "action": "Requested demo", "points": 30 },
+      { "action": "Attended webinar", "points": 15 },
+      { "action": "Requested inventory audit", "points": 15 },
+      { "action": "Visited 3+ pages in session", "points": 5 },
+      { "action": "Job title: Founder/CEO", "points": 10 },
+      { "action": "Company size: 50-200 employees", "points": 10 }
+    ],
+    "routingRules": [
+      { "condition": "score >= 50 AND demo_booked == true", "action": "assign to AE" },
+      { "condition": "score >= 30 AND score < 50", "action": "trigger:mid-funnel-sequence" },
+      { "condition": "score >= 10 AND score < 30", "action": "trigger:top-funnel-nurture" },
+      { "condition": "score < 10", "action": "mark as cold" }
+    ]
+  },
+  "salesQualifiedHandoff": {
+    "sqaThreshold": "score >= 60 AND demo_booked == true AND email_verified == true",
+    "handoffProcess": "1) Lead marked as SQA in CRM 2) Slack notification to #sales-alerts channel 3) AE receives lead within 15 minutes 4) AE reviews lead data (company, use case, budget, timeline) 5) AE calls within 1 hour 6) Sales rep logs call notes and updates lead status",
+    "notificationChannel": "Slack #sales-alerts",
+    "requiredData": ["email", "company", "job_title", "use_case", "budget_range", "timeline"]
+  }
+}

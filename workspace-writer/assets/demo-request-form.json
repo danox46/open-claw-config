@@ -1,0 +1,50 @@
+{
+  "form": {
+    "id": "demo-request-form",
+    "name": "Demo Request",
+    "description": "Request a product demonstration",
+    "fields": [
+      {
+        "id": "first_name",
+        "label": "First Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your first name"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address",
+        "validation": {
+          "type": "email",
+          "message": "Please enter a valid email address"
+        }
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your company name"
+      },
+      {
+        "id": "job_title",
+        "label": "Job Title",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your job title"
+      }
+    ],
+    "successAction": {
+      "type": "sequence",
+      "trigger": "demo-qualification",
+      "description": "Triggers demo qualification sequence"
+    },
+    "validation": {
+      "emailFormat": true,
+      "requiredFields": ["first_name", "email", "company", "job_title"]
+    }
+  }
+}
