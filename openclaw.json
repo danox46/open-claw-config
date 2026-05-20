@@ -307,6 +307,9 @@
       },
       "discord": {
         "enabled": true
+      },
+      "whatsapp": {
+        "enabled": true
       }
     }
   },
