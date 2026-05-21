@@ -356,9 +356,31 @@
     "whatsapp": {
       "enabled": true,
       "dmPolicy": "pairing",
-      "groupPolicy": "disabled",
+      "groupPolicy": "allowlist",
       "debounceMs": 0,
-      "mediaMaxMb": 50
+      "mediaMaxMb": 50,
+      "groups": {
+        "120363425831492550@g.us": { "tools": { "deny": ["message"] } },
+        "120363425318016657@g.us": { "tools": { "deny": ["message"] } },
+        "120363424134512490@g.us": { "tools": { "deny": ["message"] } },
+        "120363423398148663@g.us": { "tools": { "deny": ["message"] } },
+        "120363422828678010@g.us": { "tools": { "deny": ["message"] } },
+        "120363422381122821@g.us": { "tools": { "deny": ["message"] } },
+        "120363421962468748@g.us": { "tools": { "deny": ["message"] } },
+        "120363421946345165@g.us": { "tools": { "deny": ["message"] } },
+        "120363421638970944@g.us": { "tools": { "deny": ["message"] } },
+        "120363420516409431@g.us": { "tools": { "deny": ["message"] } },
+        "120363420109251708@g.us": { "tools": { "deny": ["message"] } },
+        "120363419076770274@g.us": { "tools": { "deny": ["message"] } },
+        "120363418338758908@g.us": { "tools": { "deny": ["message"] } },
+        "120363418313965457@g.us": { "tools": { "deny": ["message"] } },
+        "120363417933477205@g.us": { "tools": { "deny": ["message"] } },
+        "120363416921154530@g.us": { "tools": { "deny": ["message"] } },
+        "120363414526498711@g.us": { "tools": { "deny": ["message"] } },
+        "120363410617472290@g.us": { "tools": { "deny": ["message"] } },
+        "120363407161814257@g.us": { "tools": { "deny": ["message"] } },
+        "120363405814793032@g.us": { "tools": { "deny": ["message"] } }
+      }
     },
     "googlechat": {
       "enabled": true,
