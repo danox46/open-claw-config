@@ -374,7 +374,7 @@
       "enabled": true,
       "dmPolicy": "pairing",
       "token": "${DISCORD_BOT_TOKEN}",
-      "groupPolicy": "allowlist",
+      "groupPolicy": "disabled",
       "guilds": {}
     }
   }
